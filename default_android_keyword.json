@@ -1,4 +1,4 @@
-{"configVer":1,
+{"configVer":2,
 	"list": [{
 		"name": "admob",
 		"filePathList": ["com/google/android/gms/ads/reward/RewardedVideoAd.smali"],
