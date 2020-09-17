@@ -1,4 +1,4 @@
-{"configVer":3,
+{"configVer":4,
 	"list": [{
 		"name": "admob",
 		"filePathList": ["com/google/android/gms/ads/reward/RewardedVideoAd.smali"],
@@ -37,7 +37,7 @@
 		"isUserAdded": false
 	}, {
 		"name": "unityads",
-		"filePathList": ["com/unity3d/ads/BuildConfig.smali","com/unity3d/ads/UnityAds.smali","com/unity3d/ads"],
+		"filePathList": ["com/unity3d/ads/BuildConfig.smali","com/unity3d/ads/UnityAds.smali"],
 		"versionPathList": ["com/unity3d/ads/BuildConfig.smali"],
 		"scanType": "FILE_SEARCH",
 		"adType": "VALID_AD",
