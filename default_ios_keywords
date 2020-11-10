@@ -1,5 +1,5 @@
 {
-  "configVer": 9,
+  "configVer": 10,
   "list": [
     {
       "name": "MoPubSDK",
@@ -842,7 +842,7 @@
       ],
       "adType": "VALID_AD",
       "isExisted": false,
-      "versionTag": "MLModelInterpreter",
+      "versionTag": "MLModelInterpreter__miaotao__MLModelInterpreter",
       "isUserAdded": true
     }
   ]
