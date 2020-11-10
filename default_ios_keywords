@@ -1,5 +1,5 @@
 {
-  "configVer": 11,
+  "configVer": 12,
   "list": [
     {
       "name": "MoPubSDK",
@@ -10,7 +10,7 @@
       ],
       "adType": "VALID_AD",
       "isExisted": false,
-      "versionTag": "MoPub SDK requires iOS 9 and up__miaotao__Failed to initialize Chartboost SDK: missing appId. Make sure you have a valid appId entered on the MoPub dashboard.__miaotao__Failed to load Chartboost interstitial: this location is already in use",
+      "versionTag": "Initialized Facebook Audience Network__miaotao__MoPub SDK requires iOS 9 and up__miaotao__Failed to initialize Chartboost SDK: missing appId. Make sure you have a valid appId entered on the MoPub dashboard.__miaotao__Failed to load Chartboost interstitial: this location is already in use",
       "isUserAdded": false
     },
     {
