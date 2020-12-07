@@ -789,7 +789,75 @@
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
       "isUserAdded": true
+    },
+    {
+      "name": "Upltv关键字",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "upltv"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "isUserAdded": true
+    },
+    {
+      "name": "CSSDK",
+      "filePathList": [
+        "com/css/sdk/BuildConfig.smali"
+      ],
+      "versionPathList": [
+        "com/css/sdk/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "isUserAdded": true
+    },
+    {
+      "name": "Pangle",
+      "filePathList": [
+        "com/pgl"
+      ],
+      "versionPathList": [
+        "com/bytedances/sdk/openadsdk/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "isUserAdded": true
+    },
+    {
+      "name": "ASSDK",
+      "filePathList": [
+        "com/aas/sdk/account/BuildCoinfig.smali"
+      ],
+      "versionPathList": [
+        "com/aas/sdk/account/BuildCoinfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "isUserAdded": true
     }
   ],
-  "configVer": 6
+  "configVer": 7
 }
