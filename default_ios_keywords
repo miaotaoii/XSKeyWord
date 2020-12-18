@@ -1,5 +1,5 @@
 {
-  "configVer": 13,
+  "configVer": 14,
   "list": [
     {
       "name": "MoPubSDK",
@@ -552,16 +552,6 @@
       "isUserAdded": false
     },
     {
-      "name": "UPSDK",
-      "content": [
-        "UPRewardWrapper"
-      ],
-      "adType": "INVALID_AD",
-      "isExisted": false,
-      "versionTag": "",
-      "isUserAdded": false
-    },
-    {
       "name": "Kochava sdk",
       "content": [
         "KochavaCore",
@@ -774,7 +764,6 @@
       "versionTag": "FBSDKCoreKit__miaotao__fbapp_pres__miaotao__logging_token__miaotao__auth_type",
       "isUserAdded": true
     },
-    
     {
       "name": "TASDK",
       "content": [
@@ -842,7 +831,17 @@
       ],
       "adType": "VALID_AD",
       "isExisted": false,
-      "versionTag": "MLModelInterprete__miaotao__MLModelInterpreter",
+      "versionTag": "MLModelInterprete__miaotao__MLModelInterpreter__miaotao__triggeredEvent",
+      "isUserAdded": true
+    },
+    {
+      "name": "UPSDK",
+      "content": [
+        "UPRewardWrapper"
+      ],
+      "adType": "INVALID_AD",
+      "isExisted": false,
+      "versionTag": "",
       "isUserAdded": true
     }
   ]
