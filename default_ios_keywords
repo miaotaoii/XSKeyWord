@@ -1,5 +1,5 @@
 {
-  "configVer": 14,
+  "configVer": 15,
   "list": [
     {
       "name": "MoPubSDK",
@@ -761,7 +761,7 @@
       ],
       "adType": "VALID_AD",
       "isExisted": false,
-      "versionTag": "FBSDKCoreKit__miaotao__fbapp_pres__miaotao__logging_token__miaotao__auth_type",
+      "versionTag": "FBSDKCoreKit__miaotao__fbapp_pres__miaotao__logging_token__miaotao__auth_type__miaotao__FBSDKAppLink fetchDeferredAppLink:",
       "isUserAdded": true
     },
     {
