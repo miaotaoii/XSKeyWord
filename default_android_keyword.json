@@ -844,10 +844,10 @@
     {
       "name": "ASSDK",
       "filePathList": [
-        "com/aas/sdk/account/BuildCoinfig.smali"
+        "com/aas/sdk/account/BuildConfig.smali"
       ],
       "versionPathList": [
-        "com/aas/sdk/account/BuildCoinfig.smali"
+        "com/aas/sdk/account/BuildConfig.smali"
       ],
       "scanType": "FILE_SEARCH",
       "adType": "VALID_AD",
@@ -859,5 +859,5 @@
       "isUserAdded": true
     }
   ],
-  "configVer": 7
+  "configVer": 8
 }
