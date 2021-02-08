@@ -1,5 +1,5 @@
 {
-  "configVer": 15,
+  "configVer": 16,
   "list": [
     {
       "name": "MoPubSDK",
@@ -21,6 +21,7 @@
       "adType": "VALID_AD",
       "isExisted": false,
       "versionTag": "",
+      "versionTag": "StatisticalSDKUserId",
       "isUserAdded": false
     },
     {
