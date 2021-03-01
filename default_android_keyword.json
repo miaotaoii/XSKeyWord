@@ -109,6 +109,19 @@
       "isIgnoreAdLib": false,
       "isIgnoreSystemLib": false,
       "isUserAdded": false
+    },{
+      "name": "GoogleBillLib",
+      "filePathList": [
+        "com/android/billingclient/BuildConfig.smali"
+      ],
+      "versionPathList": [
+        "com/android/billingclient/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "isUserAdded": false
     },
     {
       "name": "ironsource",
@@ -415,7 +428,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": false
+      "isUserAdded": false,
+      "InvalidType":"KEYWORD"
     },
     {
       "name": "IMEI",
@@ -427,7 +441,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": false
+      "isUserAdded": false,
+      "InvalidType":"KEYWORD"
     },
     {
       "name": "Mac地址",
@@ -440,6 +455,8 @@
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
       "isUserAdded": false
+      ,
+      "InvalidType":"KEYWORD"
     },
     {
       "name": "UP素材代码",
@@ -459,6 +476,8 @@
       "isIgnoreAdLib": false,
       "isIgnoreSystemLib": false,
       "isUserAdded": false
+      ,
+      "InvalidType":"KEYWORD"
     },
     {
       "name": "Mintegral危险代码",
@@ -470,7 +489,8 @@
       "adType": "NOT_AD",
       "isIgnoreAdLib": false,
       "isIgnoreSystemLib": false,
-      "isUserAdded": false
+      "isUserAdded": false,
+      "InvalidType":"KEYWORD"
     },
     {
       "name": "analysis",
@@ -501,7 +521,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": false
+      "isUserAdded": false,
+      "InvalidType":"PERMISSION"
     },
     {
       "name": "悬浮窗权限",
@@ -519,7 +540,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": false
+      "isUserAdded": false,
+      "InvalidType":"PERMISSION"
     },
     {
       "name": "appsflyer",
@@ -530,7 +552,7 @@
         "com/appsflyer/BuildConfig.smali"
       ],
       "scanType": "FILE_SEARCH",
-      "adType": "VALID_AD",
+      "adType": "NOT_AD",
       "content": [
         ""
       ],
@@ -681,7 +703,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": false
+      "isUserAdded": false,
+      "InvalidType":"PERMISSION"
     },
     {
       "name": "写入外部存储权限",
@@ -698,7 +721,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": false
+      "isUserAdded": false,
+      "InvalidType":"PERMISSION"
     },
     {
       "name": "读取外部存储权限",
@@ -715,7 +739,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": false
+      "isUserAdded": false,
+      "InvalidType":"PERMISSION"
     },
     {
       "name": "BACKGROUND_LOCATION权限",
@@ -732,7 +757,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": true
+      "isUserAdded": true,
+      "InvalidType":"PERMISSION"
     },
     {
       "name": "ICCID",
@@ -745,7 +771,8 @@
       ],
       "isIgnoreAdLib": false,
       "isIgnoreSystemLib": true,
-      "isUserAdded": true
+      "isUserAdded": true,
+      "InvalidType":"KEYWORD"
     },
     {
       "name": "UmengSDK",
@@ -805,7 +832,8 @@
       ],
       "isIgnoreAdLib": true,
       "isIgnoreSystemLib": true,
-      "isUserAdded": true
+      "isUserAdded": true,
+      "InvalidType":"KEYWORD"
     },
     {
       "name": "CSSDK",
@@ -816,7 +844,7 @@
         "com/css/sdk/BuildConfig.smali"
       ],
       "scanType": "FILE_SEARCH",
-      "adType": "VALID_AD",
+      "adType": "NOT_AD",
       "content": [
         ""
       ],
@@ -842,7 +870,7 @@
       "isUserAdded": true
     },
     {
-      "name": "ASSDK",
+      "name": "AASDK",
       "filePathList": [
         "com/aas/sdk/account/BuildConfig.smali"
       ],
@@ -850,7 +878,7 @@
         "com/aas/sdk/account/BuildConfig.smali"
       ],
       "scanType": "FILE_SEARCH",
-      "adType": "VALID_AD",
+      "adType": "NOT_AD",
       "content": [
         ""
       ],
@@ -859,5 +887,5 @@
       "isUserAdded": true
     }
   ],
-  "configVer": 8
+  "configVer": 9
 }
