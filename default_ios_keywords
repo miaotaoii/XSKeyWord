@@ -1,5 +1,5 @@
 {
-	"configVer": 22,
+	"configVer": 23,
 	"list": [{
 			"name": "MoPubSDK",
 			"content": [
@@ -867,7 +867,9 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "pr-SIOS-%@-%@",
-			"isUserAdded": true
+			"isUserAdded": true,
+			"podName":"InMobiSDK"
+
 		},
 		{
 			"name": "PangleADK",
