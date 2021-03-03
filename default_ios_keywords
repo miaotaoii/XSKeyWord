@@ -1,5 +1,5 @@
 {
-	"configVer": 21,
+	"configVer": 22,
 	"list": [{
 			"name": "MoPubSDK",
 			"content": [
@@ -10,7 +10,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "Chartboost\u0027s initialization skipped__miaotao__Initialized Facebook Audience Network__miaotao__MoPub SDK requires iOS 9 and up__miaotao__Failed to initialize Chartboost SDK: missing appId. Make sure you have a valid appId entered on the MoPub dashboard.__miaotao__Failed to load Chartboost interstitial: this location is already in use",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"mopub-ios-sdk"
 		},
 		{
 			"name": "MSSDK",
@@ -20,7 +21,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "StatisticalSDKUserId",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"MSSDK"
 		},
 		{
 			"name": "AdColony",
@@ -40,7 +42,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "Attempting to initialize the AdColony SDK with",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"AdColony"
 		},
 		{
 			"name": "IronSource ",
@@ -58,7 +61,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "ironsource has rw true__miaotao__ironsource idfa__miaotao__IronSourceEvents__miaotao__Initializing IronSource with appkey__miaotao__ISAdapterLoggerProxy__miaotao__Initializing IronSource with appkey",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"IronSourceSDK"
 		},
 		{
 			"name": "Chartboost",
@@ -82,7 +86,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "Block was nil in executeBlockOnSchedulerQueue so nothing was queued.",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"ChartboostSDK"
 		},
 		{
 			"name": "GDT",
@@ -122,7 +127,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "CoreMotion__miaotao__LocalAuthentication__miaotao__FBAdBidPayload_miaotao_Initialized Facebook Audience Network__miaotao__-[ISFacebookAdapter getRewardedVideoBiddingDataWithAdapterConfig:]",
-			"isUserAdded": true
+			"isUserAdded": true,
+			"podName":"FBAudienceNetwork"
 		},
 		{
 			"name": "Unity",
@@ -143,7 +149,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "https://config.unityads.unity3d.com/webview/__miaotao__com.mopub.mopub-ios-sdk.mopub-unity-adapters",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"UnityAds"
 		},
 		{
 			"name": "Mintegral",
@@ -165,7 +172,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "%fx%f",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"UnityAds"
 		},
 		{
 			"name": "Applovin",
@@ -184,7 +192,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "appodeal",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"AppLovinSDK"
 		},
 		{
 			"name": "Admob",
@@ -205,7 +214,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "Admob",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"Google-Mobile-Ads-SDK"
 		},
 		{
 			"name": "Baidu",
@@ -236,7 +246,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "Vungle\u0027s SDK",
-			"isUserAdded": false
+			"isUserAdded": false,
+			"podName":"VungleSDK-iOSK"
 		},
 		{
 			"name": "危险字过滤3",
@@ -647,7 +658,8 @@
 			"adType": "NOT_AD",
 			"isExisted": false,
 			"versionTag": "Could not determine size of multipart mime file__miaotao__Crashlytics] Running on",
-			"isUserAdded": true
+			"isUserAdded": true,
+			"podName":"FirebaseCrashlytics"
 		},
 		{
 			"name": "IronSourceAdapters",
@@ -664,6 +676,7 @@
 			"isExisted": false,
 			"versionTag": "",
 			"isUserAdded": true
+
 		},
 		{
 			"name": "ApplovinAdapters",
@@ -751,7 +764,8 @@
 			"adType": "NOT_AD",
 			"isExisted": false,
 			"versionTag": "-[AppsFlyerLib setIsDebug:]__miaotao__dev_key",
-			"isUserAdded": true
+			"isUserAdded": true,
+			"podName":"AppsFlyerFramework"
 		},
 		{
 			"name": "FacebookSDK(core)",
@@ -761,7 +775,8 @@
 			"adType": "NOT_AD",
 			"isExisted": false,
 			"versionTag": "FBSDKCoreKit__miaotao__fbapp_pres__miaotao__logging_token__miaotao__auth_type__miaotao__FBSDKAppLink fetchDeferredAppLink:",
-			"isUserAdded": true
+			"isUserAdded": true,
+			"podName":"FBSDKCoreKit"
 		},
 		{
 			"name": "TASDK",
@@ -824,14 +839,15 @@
 			"isUserAdded": true
 		},
 		{
-			"name": "FirebaseSDK",
+			"name": "Firebase/Analytics",
 			"content": [
 				"Firebase"
 			],
 			"adType": "NOT_AD",
 			"isExisted": false,
 			"versionTag": "MLModelInterprete__miaotao__MLModelInterpreter__miaotao__triggeredEvent",
-			"isUserAdded": true
+			"isUserAdded": true,
+			"podName":"Firebase/Analytics"
 		},
 		{
 			"name": "UPSDK",
@@ -861,7 +877,8 @@
 			"adType": "VALID_AD",
 			"isExisted": false,
 			"versionTag": "%@(value:%zd)",
-			"isUserAdded": true
+			"isUserAdded": true,
+			"podName":"Bytedance-UnionAD"
 		}
 	]
 }
