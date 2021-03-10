@@ -1,886 +1,572 @@
 {
-	"configVer": 23,
+	"configVer": 24,
 	"list": [{
-			"name": "MoPubSDK",
-			"content": [
-				"-[MPRewardedVideo init]",
-				"MoPub SDK requires iOS 9 and up",
-				"MPRewardedVideo"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "Chartboost\u0027s initialization skipped__miaotao__Initialized Facebook Audience Network__miaotao__MoPub SDK requires iOS 9 and up__miaotao__Failed to initialize Chartboost SDK: missing appId. Make sure you have a valid appId entered on the MoPub dashboard.__miaotao__Failed to load Chartboost interstitial: this location is already in use",
-			"isUserAdded": false,
-			"podName":"mopub-ios-sdk"
-		},
-		{
-			"name": "MSSDK",
-			"content": [
-				"[MSSDK] MSSDK has been initialized, please do not repeat initialization"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "StatisticalSDKUserId",
-			"isUserAdded": false,
-			"podName":"MSSDK"
-		},
-		{
-			"name": "AdColony",
-			"content": [
-				"-[ADCController loadWithCompletion:]",
-				"-[ADCController decryptControllerSource:controllerConfig:]",
-				"-[ADCController getInitialConfigAndDataWithCompletionHandler:]",
-				"-[ADCController downloadControllerConfigWithCompletionHandler:]",
-				"ADCStaticContainer",
-				"AdColony_AvidStateWatcher",
-				"AdColony_InternalAvidDisplayAdSession",
-				"ADCInterstitialAdSession",
-				"ADCStoreProductViewController",
-				"ADCWebViewModuleDelegate:",
-				"AdColonyUserMetadata"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "Attempting to initialize the AdColony SDK with",
-			"isUserAdded": false,
-			"podName":"AdColony"
-		},
-		{
-			"name": "IronSource ",
-			"content": [
-				"ISBannerManager loadBannerWithViewController",
-				"ISPlacementCappingManager",
-				"ISRewardedVideoDelegateWrapper",
-				"ISSupersonicAdsConfiguration",
-				"ISSupersonicAdsAdapter:initRewardedVideoWithApplicationKey",
-				"ISSupersonicAdsAdapter:showOfferWallWithApplicationKey:",
-				"ISSupersonicAdsAdapter:setMediationState:adUnit:",
-				"ironSourceOnChangedDeviceOrientation:",
-				"validateIronSourceOptionalfGADSearchBannerViewParams"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "ironsource has rw true__miaotao__ironsource idfa__miaotao__IronSourceEvents__miaotao__Initializing IronSource with appkey__miaotao__ISAdapterLoggerProxy__miaotao__Initializing IronSource with appkey",
-			"isUserAdded": false,
-			"podName":"IronSourceSDK"
-		},
-		{
-			"name": "Chartboost",
-			"content": [
-				"+[CBAnalytics trackLevelInfo:eventField:mainLevel:subLevel:description:]",
-				"+[CBAnalytics trackInAppPurchaseEvent:product:]",
-				"CBResponseSerializationErrorDomain",
-				"[ChartboostSDK requestPrefetch]",
-				"CHBAdUnitBuilder",
-				"setChartboostWrapperVersion",
-				"CHBExternalAdTrackerManager",
-				"CHBDisplayLifeCycleDelegate",
-				"CHBMOATWebViewAdTracker",
-				"trackInAppPurchaseEventWithString:productTitle:productDescription:productPrice:productCurrency:productIdentifier:",
-				"trackVideoPrefetchDownloadFailure:withFilename:withTime:withError:",
-				"trackWebviewCriticalError:withEvent:withData:withMeta:forAdUnit:",
-				"trackEventInternal:withKingdom:withPhylum:withClass:withFamily:withGenus:withMeta:trackingLevel:",
-				"handleChartboostViewError:forImpression:",
-				"handleChartboostViewError:forImpressionType:atLocation:"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "Block was nil in executeBlockOnSchedulerQueue so nothing was queued.",
-			"isUserAdded": false,
-			"podName":"ChartboostSDK"
-		},
-		{
-			"name": "GDT",
-			"content": [
-				"GDTOrientationObserver",
-				"GDTAdWKWebView",
-				"GDTInterstitialLifeCycleStateListener",
-				"GDTVideoStoreViewControllerDelegate",
-				"GDTShowRewardVideoAdHandler",
-				"GDTWebViewControllerDelegate",
-				"GDTAdRuleCheckerBaseProtocol",
-				"GDTResourceLoadingRequestWorkerDelegate"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Facebook_AD",
-			"content": [
-				"FBAdDSLFullScreenAdViewControllerDelegate",
-				"FBAdJSBridgedInterfaceProtocol",
-				"FBAdPlayableViewController",
-				"FBAdBidPayload",
-				"FBAdViewInternal",
-				"FBAdGenericHeight50View",
-				"FBAdGenericHeight300View",
-				"FBInterstitialNativeAdInternal",
-				"FBInterstitialAdToolbarViewDelegate",
-				"FBInterstitialAdMediaView",
-				"FBNativeAdTemplateView",
-				"FBNativeAdTableViewAdProvider",
-				"FBNativeAdCollectionViewAdProvider",
-				"FBMediaViewVideoRenderer"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "CoreMotion__miaotao__LocalAuthentication__miaotao__FBAdBidPayload_miaotao_Initialized Facebook Audience Network__miaotao__-[ISFacebookAdapter getRewardedVideoBiddingDataWithAdapterConfig:]",
-			"isUserAdded": true,
-			"podName":"FBAudienceNetwork"
-		},
-		{
-			"name": "Unity",
-			"content": [
-				"unityAdsPurchasingGetPurchasingVersion",
-				"unityAdsPurchasingGetPurchasingVersion",
-				"UADSBannerModuleConfiguration",
-				"+[USRVApiSdk WebViewExposed_",
-				"[UnityAdsBanner handleShowError:message:]",
-				"-[UADSBannerView setViewFrame:x:y:width:height:]",
-				"UADSAdsModuleConfiguration",
-				"UANAAnalyticsModuleConfiguration",
-				"UADSAdUnitViewHandler",
-				"unityServicesDidError:withMessage:",
-				"[UnityAdsBanner loadBanner:]",
-				"unityAdsPurchasingDidInitiatePurchasingCommand:"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "https://config.unityads.unity3d.com/webview/__miaotao__com.mopub.mopub-ios-sdk.mopub-unity-adapters",
-			"isUserAdded": false,
-			"podName":"UnityAds"
-		},
-		{
-			"name": "Mintegral",
-			"content": [
-				"mtg_addConstraintWithAttr:toItem:attr:offset:",
-				"MTGAF_sMTGAFeImageWithData:",
-				"MTGYYWebImageWeakProxy",
-				"MTGVideoDownloadManager",
-				"MTGVideoBaseViewController",
-				"MTGBaseBridgeWebView",
-				"MTGRewardAdInfo",
-				"MTGMediaStoreKitFullScreenViewController",
-				"MTGNativeAdRequest",
-				"MTGAdWebViewController",
-				"MTGAFNetworkReachabilityManager",
-				"MTGNativeAdManagerDelegate",
-				"MTGMediaVideoBaseViewController"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "%fx%f",
-			"isUserAdded": false,
-			"podName":"UnityAds"
-		},
-		{
-			"name": "Applovin",
-			"content": [
-				"ALAppLovinMediationAdapter",
-				"ALAdViewControllerObserverDelegate",
-				"ALExtendedAdLoadDelegate",
-				"ALAdHiddenCallbackTimeoutManagerDelegate",
-				"appLovinAdResponse",
-				"ALPreloadMergeInitializationTasksBanner",
-				"ALVideoButtonProperties",
-				"ALAdLoadState",
-				"ALIncentivizedDelegateProxy",
-				"ALDelegateCallbackUnrepeatableInvoker"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "appodeal",
-			"isUserAdded": false,
-			"podName":"AppLovinSDK"
-		},
-		{
-			"name": "Admob",
-			"content": [
-				"GADSearchBannerView",
-				"GADMediatedNativeContentAd",
-				"GADRootViewControllerProvider",
-				"GADMRewardBasedVideoAdNetworkAdapter",
-				"DFPCustomRenderedBannerViewDelegate",
-				"DFPBannerViewOptions",
-				"GADNativeAdViewOverlayProtocol",
-				"DFPNBannerViewOptions",
-				"GADNOctagonSearchBannerView",
-				"DFPNOctagonBannerView adView:didReceiveAppEvent:withInfo:",
-				"GADNMediationRewardedAdRenderer",
-				"GADNMRewardBasedVideoAdNetworkConnector"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "Admob",
-			"isUserAdded": false,
-			"podName":"Google-Mobile-Ads-SDK"
-		},
-		{
-			"name": "Baidu",
-			"content": [
-				"baiduMobAdsWidth",
-				"BaiduMobAdH5Bridge",
-				"BaiduMobAdBannerSlot",
-				"BaiduMobAdInterstitialView",
-				"BaiduMobAdNativeVideoBaseView",
-				"BaiduMobAdRewardVideoViewControllerDelegate"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Vungle",
-			"content": [
-				"vungleCreative:readyForPlacement:",
-				"vungleVideoPlayerDidFinish:",
-				"vungleMRAIDController:",
-				"vungleNetworkResponseWithNSHTTPURLResponse:",
-				"VungleAdRequestBodyBuilder",
-				"initWithVungleAdLegacy:networkManager:cacheManager:",
-				"vungleAdWithBody:error:"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "Vungle\u0027s SDK",
-			"isUserAdded": false,
-			"podName":"VungleSDK-iOSK"
-		},
-		{
-			"name": "危险字过滤3",
-			"content": [
-				"requestSigmobAds:adSlotType:completed:",
-				"SigmobADReachabilityNotificationStatusItem",
-				"SigmobCompanionEndcard",
-				"SigmobStrategyResponse",
-				"SigmobBidResponse",
-				"Wind_GPBCodedInputStreamUnderlyingErrorKey",
-				"Wind_GPBCodedInputStreamException",
-				"SigmobSDK startWithAppId:appKey:error:"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "危险字过滤2",
-			"content": [
-				"GDTResourceLoadingRequestWorkerDelegate",
-				"GDTOrientationObserver",
-				"GDTAdWKWebView",
-				"GDTInterstitialLifeCycleStateListener",
-				"GDTVideoStoreViewControllerDelegate",
-				"GDTShowRewardVideoAdHandler",
-				"GDTWebViewControllerDelegate",
-				"GDTAdRuleCheckerBaseProtocol"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "危险关键字4",
-			"content": [
-				"ADALY"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Amazon",
-			"content": [
-				"AMATInterstitialAdViewController",
-				"AMATInterstitialAdViewController",
-				"AMAPublisherAsinsAdvancedOption",
-				"AMAWebRequestDelegate",
-				"AMAWeblabManager",
-				"AMReachability",
-				"AMATBaseAdController",
-				"AMATAdContainerDelegate",
-				"AMATModelessInterstitialController",
-				"AMAResponseReader",
-				"AMAWebRequest",
-				"AMASlotsAdvancedOption",
-				"AMAModelessInterstitialAdManager"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Youlan",
-			"content": [
-				"YLBrowserViewController",
-				"YCustomWebViewDelegate",
-				"YLReachability",
-				"YLUserSetting",
-				"YLCacheUtil",
-				"YLBrowserViewController",
-				"YLAdInitResponseEntity",
-				"YLStringUtils",
-				"YLWebviewProgressLine",
-				"YLAdResponseEntity",
-				"YLSdkManager",
-				"YLCustomAVVideoPlayer",
-				"YLRewardedVideoViewController",
-				"YLUAGenerator",
-				"YLAESUtil",
-				"YLDeviceUtil"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Tapjoy",
-			"content": [
-				"TJMessageContentTracker",
-				"TJContentTracker",
-				"TJAdUnitJSBridge",
-				"TJWebViewDelegate",
-				"TJCNetReachability",
-				"TJSplitWebView",
-				"TJMRAIDFragmentManager",
-				"TJFLAnimatedImageView",
-				"TJPlacementDelegateCpp",
-				"TJMRAIDJavascriptBridge",
-				"TJMRAIDAVPlayerLoadingView",
-				"TJMRAIDFragmentMagagerDelegate",
-				"TJNativeContentTracker",
-				"TJMRAIDWebBrowserViewController",
-				"TJUsageTracking",
-				"TJSplitViewUtil"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Appnext",
-			"content": [
-				"AppnextSettingsManager",
-				"AppnextSDKCoreApi",
-				"AppnextBase64",
-				"AppnextNetworkRequestManager",
-				"AppnextAFSecurityPolicy",
-				"AppnextResourceLoaderDelegate",
-				"AppnextAdsContainerDelegate",
-				"AppnextAFHTTPRequestSerializer",
-				"AppnextAFStreamingMultipartFormData",
-				"AppnextIADownloadOperation",
-				"AppnextAFURLConnectionOperation",
-				"AppnextAppStoreRedirectResolver",
-				"AppnextUIViewControllerDelegate",
-				"AppnextIADownloadManager",
-				"AppnextScriptLoader",
-				"AppnextAFJSONResponseSerializer"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "BatMobi",
-			"content": [
-				"ZZAdFetchTask4DSPNative",
-				"ZZAdFetchTask4BAT",
-				"ZZStrategyConfig",
-				"ZZWebViewAbstraceAgent",
-				"ZZWKWebViewResourceInterceptor",
-				"ZZAdHardwares",
-				"ZZAdSDKMD5",
-				"ZZAdNativeAd",
-				"ZZNativeAdapter4BAT",
-				"ZZHostSDKVersionProperty",
-				"ZZNetworkReachabilityManager",
-				"ZZAdPreloadChecker",
-				"ZZStrategyManagerDelegate",
-				"ZZDSPControModel",
-				"ZZDSPBannerManager",
-				"ZZJSMessageHandler"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Maio",
-			"content": [
-				"MaioDownloadManager",
-				"MaioZoneStatusManager",
-				"MaioCoverVerticalAnimator",
-				"MaioAdDisplayManager",
-				"MaioLockedCampaignManager",
-				"MaioDirectoryManager",
-				"MaioTrackerDelegate",
-				"MaioAdWebViewDelegate",
-				"MaioAdWebView",
-				"MaioAdLoaderManager",
-				"MaioViewLogManager"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Nend",
-			"content": [
-				"NADVideoInterstitialData",
-				"NADInterstitialViewControllerDelegate",
-				"NADNativePlaceholderTableViewCell",
-				"NADNativeImpressionTracker",
-				"NADVideoRewardResponseSerializer",
-				"NADVideoInterstitialResponseSerializer",
-				"NADNaAppTargetingAdDetailCondition",
-				"NADNativeTableViewHelper",
-				"NADNativeViewRendering",
-				"NADInterstitialViewController"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Oneway",
-			"content": [
-				"OneWayPortUrlScheme",
-				"OWAppSheetViewController",
-				"OneWayPortNetwork",
-				"OneWayPortPlayer",
-				"OneWayPortMonitor",
-				"OneWayPortMobileInfo",
-				"OWWebViewGetCampaignOperation",
-				"[OWWebViewMethodInvokeOperation main]",
-				"[OWWebViewMethodInvokeOperation callback:]",
-				"[OWURLProtocol handleInvocation:]",
-				"-[OWAVPlayer onPrepareTimeoutListener:]",
-				"-[OWAVPlayer prepare:initialVolume:]",
-				"[OWURLProtocol actOnJSONResults:invocationType:]",
-				"+[OWAdsBase handle:error:message:]",
-				"+[OWAdsBase show:adType:fullScreen:tag:]",
-				"+[OWAdsBase initWithDelegate:type:]"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "VK(MyTarget)",
-			"content": [
-				"MTRGAdViewNativeImageView",
-				"MTRGNativeAdVideoEngineDelegate",
-				"MTRGInstreamAdPlayerDelegate",
-				"MTRGInstreamAudioAdPlayerDelegate",
-				"MTRGNativeAppwallBanner",
-				"MTRGInterstitialSliderAd",
-				"MTRGNative300x250Engine",
-				"MTRGAdViewNativeView",
-				"MTRGAdViewWebEngine",
-				"MTRGTapGestureRecognizer",
-				"MTRGInstreamAudioAdSection"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Playable",
-			"content": [
-				"VGPlayableAdsLog",
-				"VGPlayGameController",
-				"VGPlayGameRewardDelegate",
-				"VGVideoPlayerDelegate",
-				"VGPlayGameInterstitialDelegate",
-				"VGPGStoreProductViewController",
-				"playableAdsInterstitialDidPlayComplete:",
-				"playVideoWithVideoModel:view:filePath:scenceNum:handle:"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Sigmob",
-			"content": [
-				"SigmobADReachabilityNotificationStatusItem",
-				"SigmobCompanionEndcard",
-				"SigmobStrategyResponse",
-				"SigmobBidResponse",
-				"Wind_GPBCodedInputStreamUnderlyingErrorKey",
-				"Wind_GPBCodedInputStreamException",
-				"SigmobSDK startWithAppId:appKey:error:",
-				"requestSigmobAds:adSlotType:completed:"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Toutiao",
-			"content": [
-				"window.ToutiaoJSBridge",
-				"#import \u003cWMAdSDK/WM",
-				"-[WMBannerAdView initWithSlotID:size:",
-				"WMBaseRequest startWithCompletionBlockWithSuccess:failure:",
-				"WMDeviceHelper isScreenWidthLarge320",
-				"requestWithURL:httpHeaderDict:cachePolicy:timeoutInterval:",
-				"initViewControllerWithAd:withRootViewController:",
-				"initWithIdentifier:rootViewController:adSize:withShowPosition:WithIsSupportDeepLink:interval:"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "OpenUpSDK",
-			"content": [
-				"+[OpenUpSDK initSDK]",
-				"OpenUpRewardWrapper"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": false
-		},
-		{
-			"name": "Kochava sdk",
-			"content": [
-				"KochavaCore",
-				"KochavaTracker"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "NilErrorIdentifierString",
-			"isUserAdded": true
-		},
-		{
-			"name": "TenjinSDK",
-			"content": [
-				"TenjinSDK",
-				"TenjinPreferences"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "TenjinPreferences",
-			"isUserAdded": true
-		},
-		{
-			"name": "Branch SDK",
-			"content": [
-				"kCSSearchableItemActivityIdentifier",
-				"BranchEvent"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "kCSSearchableItemActivityIdentifier",
-			"isUserAdded": true
-		},
-		{
-			"name": "Localytics",
-			"content": [
-				"Localytics",
-				"LLRegion"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "Singular SDK",
-			"content": [
-				"SingularConfig",
-				"SingularLinkParams"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "Tune SDK",
-			"content": [
-				"TuneConstants",
-				"TuneEventItem"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "Tapstream SDK",
-			"content": [
-				"TapstreamIOS",
-				"TSApi"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "adjust",
-			"content": [
-				"ADJUserDefaults",
-				"ADJConfig"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "AdjustUniversalScheme",
-			"isUserAdded": true
-		},
-		{
-			"name": "Firebase Crashlytics SDK",
-			"content": [
-				"FIRCrashlytics",
-				"FIRCLSAsyncOperation"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "Could not determine size of multipart mime file__miaotao__Crashlytics] Running on",
-			"isUserAdded": true,
-			"podName":"FirebaseCrashlytics"
-		},
-		{
-			"name": "IronSourceAdapters",
-			"content": [
-				"ISAdColonyAdapter",
-				"ISAdMobAdapter",
-				"ISAppLovinAdapter",
-				"ISChartboostAdapter",
-				"ISFacebookAdapter",
-				"ISUnityAdsAdapter",
-				"ISVungleAdapter"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-
-		},
-		{
-			"name": "ApplovinAdapters",
-			"content": [
-				"AppLovinMediationChartboostAdapter",
-				"AppLovinMediationFacebookAdapter",
-				"AppLovinMediationGoogleAdapter",
-				"AppLovinMediationIronSourceAdapter",
-				"AppLovinMediationUnityAdsAdapter",
-				"AppLovinMediationVungleAdapter"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "UmengSDK",
-			"content": [
-				"UMCommon",
-				"UMConfigure",
-				"MobClick"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "setAfId",
-			"content": [
-				"setAppsFlyerId:"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "setCustomerUserID",
-			"content": [
-				"setCustomerUserID:"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "setAppsFlyerId:]",
-			"content": [
-				"setAppsFlyerId:]"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "setCustomerUserID:]",
-			"content": [
-				"setCustomerUserID:]"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "MTGInvocationBoxing",
-			"content": [
-				"MTGInvocationBoxing"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "AppsFlyerSDK",
-			"content": [
-				"-[AppsFlyerLib getConversionData]",
-				"AppsFlyerLibDelegate"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "-[AppsFlyerLib setIsDebug:]__miaotao__dev_key",
-			"isUserAdded": true,
-			"podName":"AppsFlyerFramework"
-		},
-		{
-			"name": "FacebookSDK(core)",
-			"content": [
-				"FacebookAutoLogAppEventsEnabled"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "FBSDKCoreKit__miaotao__fbapp_pres__miaotao__logging_token__miaotao__auth_type__miaotao__FBSDKAppLink fetchDeferredAppLink:",
-			"isUserAdded": true,
-			"podName":"FBSDKCoreKit"
-		},
-		{
-			"name": "TASDK",
-			"content": [
-				"TraceAnalysisDebug"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "pid is nil__miaotao__pid is nil__miaotao__TRACE_STATISTICAL_ID",
-			"isUserAdded": true
-		},
-		{
-			"name": "CSSDK",
-			"content": [
-				"CServiceSDK"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "%@, identifier: %@, displayName: %@__miaotao__C,N,V_displayName__miaotao__-[QMUIEmotionPageView handleTapGestureRecognizer:]",
-			"isUserAdded": true
-		},
-		{
-			"name": "AASDK",
-			"content": [
-				"AASAccountSDK"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "TASDK_VERSION",
-			"content": [
-				"TASDK_VERSION_"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "AASDK_VERSION",
-			"content": [
-				"AASDK_VERSION_"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "CSSDK_VERSION",
-			"content": [
-				"CSSDK_VERSION_"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "Firebase/Analytics",
-			"content": [
-				"Firebase"
-			],
-			"adType": "NOT_AD",
-			"isExisted": false,
-			"versionTag": "MLModelInterprete__miaotao__MLModelInterpreter__miaotao__triggeredEvent",
-			"isUserAdded": true,
-			"podName":"Firebase/Analytics"
-		},
-		{
-			"name": "UPSDK",
-			"content": [
-				"UPRewardWrapper"
-			],
-			"adType": "INVALID_AD",
-			"isExisted": false,
-			"versionTag": "",
-			"isUserAdded": true
-		},
-		{
-			"name": "InMobiSDK",
-			"content": [
-				"InMobiSDK"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "pr-SIOS-%@-%@",
-			"isUserAdded": true,
-			"podName":"InMobiSDK"
-
-		},
-		{
-			"name": "PangleADK",
-			"content": [
-				"BUAdSDK"
-			],
-			"adType": "VALID_AD",
-			"isExisted": false,
-			"versionTag": "%@(value:%zd)",
-			"isUserAdded": true,
-			"podName":"Bytedance-UnionAD"
-		}
-	]
+		"name": "MoPubSDK",
+		"content": ["-[MPRewardedVideo init]", "MoPub SDK requires iOS 9 and up", "MPRewardedVideo"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "Chartboost\u0027s initialization skipped__miaotao__Initialized Facebook Audience Network__miaotao__MoPub SDK requires iOS 9 and up__miaotao__Failed to initialize Chartboost SDK: missing appId. Make sure you have a valid appId entered on the MoPub dashboard.__miaotao__Failed to load Chartboost interstitial: this location is already in use",
+		"isUserAdded": false,
+		"podName": "mopub-ios-sdk",
+		"isVerFromLockFile": false,
+		"code": 112326
+	}, {
+		"name": "MSSDK",
+		"content": ["[MSSDK] MSSDK has been initialized, please do not repeat initialization"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "StatisticalSDKUserId",
+		"isUserAdded": false,
+		"podName": "MSSDK",
+		"isVerFromLockFile": false,
+		"code": 111323
+	}, {
+		"name": "AdColony",
+		"content": ["-[ADCController loadWithCompletion:]", "-[ADCController decryptControllerSource:controllerConfig:]", "-[ADCController getInitialConfigAndDataWithCompletionHandler:]", "-[ADCController downloadControllerConfigWithCompletionHandler:]", "ADCStaticContainer", "AdColony_AvidStateWatcher", "AdColony_InternalAvidDisplayAdSession", "ADCInterstitialAdSession", "ADCStoreProductViewController", "ADCWebViewModuleDelegate:", "AdColonyUserMetadata"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "Attempting to initialize the AdColony SDK with",
+		"isUserAdded": false,
+		"podName": "AdColony",
+		"isVerFromLockFile": false,
+		"code": 122324
+	}, {
+		"name": "IronSource ",
+		"content": ["ISBannerManager loadBannerWithViewController", "ISPlacementCappingManager", "ISRewardedVideoDelegateWrapper", "ISSupersonicAdsConfiguration", "ISSupersonicAdsAdapter:initRewardedVideoWithApplicationKey", "ISSupersonicAdsAdapter:showOfferWallWithApplicationKey:", "ISSupersonicAdsAdapter:setMediationState:adUnit:", "ironSourceOnChangedDeviceOrientation:", "validateIronSourceOptionalfGADSearchBannerViewParams"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "ironsource has rw true__miaotao__ironsource idfa__miaotao__IronSourceEvents__miaotao__Initializing IronSource with appkey__miaotao__ISAdapterLoggerProxy__miaotao__Initializing IronSource with appkey",
+		"isUserAdded": false,
+		"podName": "IronSourceSDK",
+		"isVerFromLockFile": false,
+		"code": 112325
+	}, {
+		"name": "Chartboost",
+		"content": ["+[CBAnalytics trackLevelInfo:eventField:mainLevel:subLevel:description:]", "+[CBAnalytics trackInAppPurchaseEvent:product:]", "CBResponseSerializationErrorDomain", "[ChartboostSDK requestPrefetch]", "CHBAdUnitBuilder", "setChartboostWrapperVersion", "CHBExternalAdTrackerManager", "CHBDisplayLifeCycleDelegate", "CHBMOATWebViewAdTracker", "trackInAppPurchaseEventWithString:productTitle:productDescription:productPrice:productCurrency:productIdentifier:", "trackVideoPrefetchDownloadFailure:withFilename:withTime:withError:", "trackWebviewCriticalError:withEvent:withData:withMeta:forAdUnit:", "trackEventInternal:withKingdom:withPhylum:withClass:withFamily:withGenus:withMeta:trackingLevel:", "handleChartboostViewError:forImpression:", "handleChartboostViewError:forImpressionType:atLocation:"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "Block was nil in executeBlockOnSchedulerQueue so nothing was queued.",
+		"isUserAdded": false,
+		"podName": "ChartboostSDK",
+		"isVerFromLockFile": false,
+		"code": 122326
+	}, {
+		"name": "GDT",
+		"content": ["GDTOrientationObserver", "GDTAdWKWebView", "GDTInterstitialLifeCycleStateListener", "GDTVideoStoreViewControllerDelegate", "GDTShowRewardVideoAdHandler", "GDTWebViewControllerDelegate", "GDTAdRuleCheckerBaseProtocol", "GDTResourceLoadingRequestWorkerDelegate"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101143
+	}, {
+		"name": "Facebook_AD",
+		"content": ["FBAdDSLFullScreenAdViewControllerDelegate", "FBAdJSBridgedInterfaceProtocol", "FBAdPlayableViewController", "FBAdBidPayload", "FBAdViewInternal", "FBAdGenericHeight50View", "FBAdGenericHeight300View", "FBInterstitialNativeAdInternal", "FBInterstitialAdToolbarViewDelegate", "FBInterstitialAdMediaView", "FBNativeAdTemplateView", "FBNativeAdTableViewAdProvider", "FBNativeAdCollectionViewAdProvider", "FBMediaViewVideoRenderer"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "CoreMotion__miaotao__LocalAuthentication__miaotao__FBAdBidPayload_miaotao_Initialized Facebook Audience Network__miaotao__-[ISFacebookAdapter getRewardedVideoBiddingDataWithAdapterConfig:]",
+		"isUserAdded": true,
+		"podName": "FBAudienceNetwork",
+		"isVerFromLockFile": false,
+		"code": 122327
+	}, {
+		"name": "Unity",
+		"content": ["unityAdsPurchasingGetPurchasingVersion", "unityAdsPurchasingGetPurchasingVersion", "UADSBannerModuleConfiguration", "+[USRVApiSdk WebViewExposed_", "[UnityAdsBanner handleShowError:message:]", "-[UADSBannerView setViewFrame:x:y:width:height:]", "UADSAdsModuleConfiguration", "UANAAnalyticsModuleConfiguration", "UADSAdUnitViewHandler", "unityServicesDidError:withMessage:", "[UnityAdsBanner loadBanner:]", "unityAdsPurchasingDidInitiatePurchasingCommand:"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "https://config.unityads.unity3d.com/webview/__miaotao__com.mopub.mopub-ios-sdk.mopub-unity-adapters",
+		"isUserAdded": false,
+		"podName": "UnityAds",
+		"isVerFromLockFile": false,
+		"code": 122328
+	}, {
+		"name": "Mintegral",
+		"content": ["mtg_addConstraintWithAttr:toItem:attr:offset:", "MTGAF_sMTGAFeImageWithData:", "MTGYYWebImageWeakProxy", "MTGVideoDownloadManager", "MTGVideoBaseViewController", "MTGBaseBridgeWebView", "MTGRewardAdInfo", "MTGMediaStoreKitFullScreenViewController", "MTGNativeAdRequest", "MTGAdWebViewController", "MTGAFNetworkReachabilityManager", "MTGNativeAdManagerDelegate", "MTGMediaVideoBaseViewController"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "%fx%f",
+		"isUserAdded": false,
+		"podName": "UnityAds",
+		"isVerFromLockFile": false,
+		"code": 122329
+	}, {
+		"name": "Applovin",
+		"content": ["ALAppLovinMediationAdapter", "ALAdViewControllerObserverDelegate", "ALExtendedAdLoadDelegate", "ALAdHiddenCallbackTimeoutManagerDelegate", "appLovinAdResponse", "ALPreloadMergeInitializationTasksBanner", "ALVideoButtonProperties", "ALAdLoadState", "ALIncentivizedDelegateProxy", "ALDelegateCallbackUnrepeatableInvoker"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "appodeal",
+		"isUserAdded": false,
+		"podName": "AppLovinSDK",
+		"isVerFromLockFile": false,
+		"code": 112324
+	}, {
+		"name": "Admob",
+		"content": ["GADSearchBannerView", "GADMediatedNativeContentAd", "GADRootViewControllerProvider", "GADMRewardBasedVideoAdNetworkAdapter", "DFPCustomRenderedBannerViewDelegate", "DFPBannerViewOptions", "GADNativeAdViewOverlayProtocol", "DFPNBannerViewOptions", "GADNOctagonSearchBannerView", "DFPNOctagonBannerView adView:didReceiveAppEvent:withInfo:", "GADNMediationRewardedAdRenderer", "GADNMRewardBasedVideoAdNetworkConnector"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "Admob",
+		"isUserAdded": false,
+		"podName": "Google-Mobile-Ads-SDK",
+		"isVerFromLockFile": false,
+		"code": 122331
+	}, {
+		"name": "Baidu",
+		"content": ["baiduMobAdsWidth", "BaiduMobAdH5Bridge", "BaiduMobAdBannerSlot", "BaiduMobAdInterstitialView", "BaiduMobAdNativeVideoBaseView", "BaiduMobAdRewardVideoViewControllerDelegate"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101144
+	}, {
+		"name": "Vungle",
+		"content": ["vungleCreative:readyForPlacement:", "vungleVideoPlayerDidFinish:", "vungleMRAIDController:", "vungleNetworkResponseWithNSHTTPURLResponse:", "VungleAdRequestBodyBuilder", "initWithVungleAdLegacy:networkManager:cacheManager:", "vungleAdWithBody:error:"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "Vungle\u0027s SDK",
+		"isUserAdded": false,
+		"podName": "VungleSDK-iOSK",
+		"isVerFromLockFile": false,
+		"code": 122332
+	}, {
+		"name": "Sigmob危险字",
+		"content": ["requestSigmobAds:adSlotType:completed:", "SigmobADReachabilityNotificationStatusItem", "SigmobCompanionEndcard", "SigmobStrategyResponse", "SigmobBidResponse", "Wind_GPBCodedInputStreamUnderlyingErrorKey", "Wind_GPBCodedInputStreamException", "SigmobSDK startWithAppId:appKey:error:"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "KEYWORD",
+		"code": 351146
+	}, {
+		"name": "GDT危险字",
+		"content": ["GDTResourceLoadingRequestWorkerDelegate", "GDTOrientationObserver", "GDTAdWKWebView", "GDTInterstitialLifeCycleStateListener", "GDTVideoStoreViewControllerDelegate", "GDTShowRewardVideoAdHandler", "GDTWebViewControllerDelegate", "GDTAdRuleCheckerBaseProtocol"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "KEYWORD",
+		"code": 351145
+	}, {
+		"name": "ADALY危险字",
+		"content": ["ADALY"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "KEYWORD",
+		"code": 351147
+	}, {
+		"name": "Amazon",
+		"content": ["AMATInterstitialAdViewController", "AMATInterstitialAdViewController", "AMAPublisherAsinsAdvancedOption", "AMAWebRequestDelegate", "AMAWeblabManager", "AMReachability", "AMATBaseAdController", "AMATAdContainerDelegate", "AMATModelessInterstitialController", "AMAResponseReader", "AMAWebRequest", "AMASlotsAdvancedOption", "AMAModelessInterstitialAdManager"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101148
+	}, {
+		"name": "Youlan",
+		"content": ["YLBrowserViewController", "YCustomWebViewDelegate", "YLReachability", "YLUserSetting", "YLCacheUtil", "YLBrowserViewController", "YLAdInitResponseEntity", "YLStringUtils", "YLWebviewProgressLine", "YLAdResponseEntity", "YLSdkManager", "YLCustomAVVideoPlayer", "YLRewardedVideoViewController", "YLUAGenerator", "YLAESUtil", "YLDeviceUtil"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101149
+	}, {
+		"name": "Tapjoy",
+		"content": ["TJMessageContentTracker", "TJContentTracker", "TJAdUnitJSBridge", "TJWebViewDelegate", "TJCNetReachability", "TJSplitWebView", "TJMRAIDFragmentManager", "TJFLAnimatedImageView", "TJPlacementDelegateCpp", "TJMRAIDJavascriptBridge", "TJMRAIDAVPlayerLoadingView", "TJMRAIDFragmentMagagerDelegate", "TJNativeContentTracker", "TJMRAIDWebBrowserViewController", "TJUsageTracking", "TJSplitViewUtil"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101150
+	}, {
+		"name": "Appnext",
+		"content": ["AppnextSettingsManager", "AppnextSDKCoreApi", "AppnextBase64", "AppnextNetworkRequestManager", "AppnextAFSecurityPolicy", "AppnextResourceLoaderDelegate", "AppnextAdsContainerDelegate", "AppnextAFHTTPRequestSerializer", "AppnextAFStreamingMultipartFormData", "AppnextIADownloadOperation", "AppnextAFURLConnectionOperation", "AppnextAppStoreRedirectResolver", "AppnextUIViewControllerDelegate", "AppnextIADownloadManager", "AppnextScriptLoader", "AppnextAFJSONResponseSerializer"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101151
+	}, {
+		"name": "BatMobi",
+		"content": ["ZZAdFetchTask4DSPNative", "ZZAdFetchTask4BAT", "ZZStrategyConfig", "ZZWebViewAbstraceAgent", "ZZWKWebViewResourceInterceptor", "ZZAdHardwares", "ZZAdSDKMD5", "ZZAdNativeAd", "ZZNativeAdapter4BAT", "ZZHostSDKVersionProperty", "ZZNetworkReachabilityManager", "ZZAdPreloadChecker", "ZZStrategyManagerDelegate", "ZZDSPControModel", "ZZDSPBannerManager", "ZZJSMessageHandler"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101152
+	}, {
+		"name": "Maio",
+		"content": ["MaioDownloadManager", "MaioZoneStatusManager", "MaioCoverVerticalAnimator", "MaioAdDisplayManager", "MaioLockedCampaignManager", "MaioDirectoryManager", "MaioTrackerDelegate", "MaioAdWebViewDelegate", "MaioAdWebView", "MaioAdLoaderManager", "MaioViewLogManager"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101153
+	}, {
+		"name": "Nend",
+		"content": ["NADVideoInterstitialData", "NADInterstitialViewControllerDelegate", "NADNativePlaceholderTableViewCell", "NADNativeImpressionTracker", "NADVideoRewardResponseSerializer", "NADVideoInterstitialResponseSerializer", "NADNaAppTargetingAdDetailCondition", "NADNativeTableViewHelper", "NADNativeViewRendering", "NADInterstitialViewController"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101154
+	}, {
+		"name": "Oneway",
+		"content": ["OneWayPortUrlScheme", "OWAppSheetViewController", "OneWayPortNetwork", "OneWayPortPlayer", "OneWayPortMonitor", "OneWayPortMobileInfo", "OWWebViewGetCampaignOperation", "[OWWebViewMethodInvokeOperation main]", "[OWWebViewMethodInvokeOperation callback:]", "[OWURLProtocol handleInvocation:]", "-[OWAVPlayer onPrepareTimeoutListener:]", "-[OWAVPlayer prepare:initialVolume:]", "[OWURLProtocol actOnJSONResults:invocationType:]", "+[OWAdsBase handle:error:message:]", "+[OWAdsBase show:adType:fullScreen:tag:]", "+[OWAdsBase initWithDelegate:type:]"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101155
+	}, {
+		"name": "VK(MyTarget)",
+		"content": ["MTRGAdViewNativeImageView", "MTRGNativeAdVideoEngineDelegate", "MTRGInstreamAdPlayerDelegate", "MTRGInstreamAudioAdPlayerDelegate", "MTRGNativeAppwallBanner", "MTRGInterstitialSliderAd", "MTRGNative300x250Engine", "MTRGAdViewNativeView", "MTRGAdViewWebEngine", "MTRGTapGestureRecognizer", "MTRGInstreamAudioAdSection"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101156
+	}, {
+		"name": "Playable",
+		"content": ["VGPlayableAdsLog", "VGPlayGameController", "VGPlayGameRewardDelegate", "VGVideoPlayerDelegate", "VGPlayGameInterstitialDelegate", "VGPGStoreProductViewController", "playableAdsInterstitialDidPlayComplete:", "playVideoWithVideoModel:view:filePath:scenceNum:handle:"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101157
+	}, {
+		"name": "Sigmob",
+		"content": ["SigmobADReachabilityNotificationStatusItem", "SigmobCompanionEndcard", "SigmobStrategyResponse", "SigmobBidResponse", "Wind_GPBCodedInputStreamUnderlyingErrorKey", "Wind_GPBCodedInputStreamException", "SigmobSDK startWithAppId:appKey:error:", "requestSigmobAds:adSlotType:completed:"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101158
+	}, {
+		"name": "Toutiao",
+		"content": ["window.ToutiaoJSBridge", "#import \u003cWMAdSDK/WM", "-[WMBannerAdView initWithSlotID:size:", "WMBaseRequest startWithCompletionBlockWithSuccess:failure:", "WMDeviceHelper isScreenWidthLarge320", "requestWithURL:httpHeaderDict:cachePolicy:timeoutInterval:", "initViewControllerWithAd:withRootViewController:", "initWithIdentifier:rootViewController:adSize:withShowPosition:WithIsSupportDeepLink:interval:"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 101159
+	}, {
+		"name": "OpenUpSDK",
+		"content": ["+[OpenUpSDK initSDK]", "OpenUpRewardWrapper"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 111160
+	}, {
+		"name": "Kochava sdk",
+		"content": ["KochavaCore", "KochavaTracker"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "NilErrorIdentifierString",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121161
+	}, {
+		"name": "TenjinSDK",
+		"content": ["TenjinSDK", "TenjinPreferences"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "TenjinPreferences",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121162
+	}, {
+		"name": "Branch SDK",
+		"content": ["kCSSearchableItemActivityIdentifier", "BranchEvent"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "kCSSearchableItemActivityIdentifier",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121163
+	}, {
+		"name": "Localytics",
+		"content": ["Localytics", "LLRegion"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121164
+	}, {
+		"name": "Singular SDK",
+		"content": ["SingularConfig", "SingularLinkParams"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121165
+	}, {
+		"name": "Tune SDK",
+		"content": ["TuneConstants", "TuneEventItem"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121166
+	}, {
+		"name": "Tapstream SDK",
+		"content": ["TapstreamIOS", "TSApi"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121167
+	}, {
+		"name": "adjust",
+		"content": ["ADJUserDefaults", "ADJConfig"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "AdjustUniversalScheme",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121168
+	}, {
+		"name": "Firebase Crashlytics SDK",
+		"content": ["FIRCrashlytics", "FIRCLSAsyncOperation"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "Could not determine size of multipart mime file__miaotao__Crashlytics] Running on",
+		"isUserAdded": true,
+		"podName": "FirebaseCrashlytics",
+		"isVerFromLockFile": false,
+		"code": 222333
+	}, {
+		"name": "IronSourceAdapters",
+		"content": ["ISAdColonyAdapter", "ISAdMobAdapter", "ISAppLovinAdapter", "ISChartboostAdapter", "ISFacebookAdapter", "ISUnityAdsAdapter", "ISVungleAdapter"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "ApplovinAdapters",
+		"content": ["AppLovinMediationChartboostAdapter", "AppLovinMediationFacebookAdapter", "AppLovinMediationGoogleAdapter", "AppLovinMediationIronSourceAdapter", "AppLovinMediationUnityAdsAdapter", "AppLovinMediationVungleAdapter"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "UmengSDK",
+		"content": ["UMCommon", "UMConfigure", "MobClick"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "SDK",
+		"code": 121169
+	}, {
+		"name": "setAfId",
+		"content": ["setAppsFlyerId:"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "setCustomerUserID",
+		"content": ["setCustomerUserID:"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "setAppsFlyerId:]",
+		"content": ["setAppsFlyerId:]"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "setCustomerUserID:]",
+		"content": ["setCustomerUserID:]"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "MTGInvocationBoxing",
+		"content": ["MTGInvocationBoxing"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "KEYWORD",
+		"code": 351170
+	}, {
+		"name": "AppsFlyerSDK",
+		"content": ["-[AppsFlyerLib getConversionData]", "AppsFlyerLibDelegate"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "-[AppsFlyerLib setIsDebug:]__miaotao__dev_key",
+		"isUserAdded": true,
+		"podName": "AppsFlyerFramework",
+		"isVerFromLockFile": false,
+		"code": 222334
+	}, {
+		"name": "FacebookSDK(core)",
+		"content": ["FacebookAutoLogAppEventsEnabled"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "FBSDKCoreKit__miaotao__fbapp_pres__miaotao__logging_token__miaotao__auth_type__miaotao__FBSDKAppLink fetchDeferredAppLink:",
+		"isUserAdded": true,
+		"podName": "FBSDKCoreKit",
+		"isVerFromLockFile": false,
+		"code": 222335
+	}, {
+		"name": "TASDK",
+		"content": ["TraceAnalysisDebug"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "pid is nil__miaotao__pid is nil__miaotao__TRACE_STATISTICAL_ID",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 222336
+	}, {
+		"name": "CSSDK",
+		"content": ["CServiceSDK"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "%@, identifier: %@, displayName: %@__miaotao__C,N,V_displayName__miaotao__-[QMUIEmotionPageView handleTapGestureRecognizer:]",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 222337
+	}, {
+		"name": "AASDK",
+		"content": ["AASAccountSDK"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 222338
+	}, {
+		"name": "TASDK_VERSION",
+		"content": ["TASDK_VERSION_"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "AASDK_VERSION",
+		"content": ["AASDK_VERSION_"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "CSSDK_VERSION",
+		"content": ["CSSDK_VERSION_"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"code": 0
+	}, {
+		"name": "Firebase/Analytics",
+		"content": ["Firebase"],
+		"adType": "NOT_AD",
+		"isExisted": false,
+		"versionTag": "MLModelInterprete__miaotao__MLModelInterpreter__miaotao__triggeredEvent",
+		"isUserAdded": true,
+		"podName": "Firebase/Analytics",
+		"isVerFromLockFile": false,
+		"code": 222339
+	}, {
+		"name": "UPSDK",
+		"content": ["UPRewardWrapper"],
+		"adType": "INVALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": true,
+		"isVerFromLockFile": false,
+		"invalidType": "KEYWORD",
+		"code": 341171
+	}, {
+		"name": "InMobiSDK",
+		"content": ["InMobiSDK"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "pr-SIOS-%@-%@",
+		"isUserAdded": true,
+		"podName": "InMobiSDK",
+		"isVerFromLockFile": false,
+		"code": 122340
+	}, {
+		"name": "PangleADK",
+		"content": ["BUAdSDK"],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "%@(value:%zd)",
+		"isUserAdded": true,
+		"podName": "Bytedance-UnionAD",
+		"isVerFromLockFile": false,
+		"code": 122341
+	}]
 }
