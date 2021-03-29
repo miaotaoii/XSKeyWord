@@ -2,7 +2,7 @@
   "list": [{
     "name": "admob",
     "filePathList": ["com/google/android/gms/ads/reward/RewardedVideoAd.smali"],
-    "versionPathList": [],
+    "versionPathList": ["unknown/play-services-ads-base.properties"],
     "scanType": "FILE_SEARCH",
     "adType": "VALID_AD",
     "isIgnoreAdLib": false,
@@ -660,5 +660,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 10
+  "configVer": 11
 }
