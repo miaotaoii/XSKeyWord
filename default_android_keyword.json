@@ -420,8 +420,8 @@
     "versionPathList": [""],
     "scanType": "CONTENT_SEARCH",
     "adType": "NOT_AD",
-    "content": ["getInstalledPackages", "aandroid.permission.QUERY_ALL_PACKAGES"],
-    "isIgnoreAdLib": true,
+    "content": ["getInstalledPackages", "aandroid.permission.QUERY_ALL_PACKAGES","getInstalledApplications"],
+    "isIgnoreAdLib": false,
     "isIgnoreSystemLib": true,
     "InvalidType": "PERMISSION",
     "code": 230175,
@@ -434,7 +434,7 @@
     "scanType": "CONTENT_SEARCH",
     "adType": "NOT_AD",
     "content": ["MANAGE_EXTERNAL_STORAGE"],
-    "isIgnoreAdLib": true,
+    "isIgnoreAdLib": false,
     "isIgnoreSystemLib": true,
     "InvalidType": "PERMISSION",
     "code": 230176,
@@ -687,5 +687,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 12
+  "configVer": 13
 }
