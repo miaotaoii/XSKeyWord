@@ -390,18 +390,6 @@
     "code": 221315,
     "isUserAdded": false
   }, {
-    "name": "唤醒权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["android.permission.WAKE_LOCK"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230126,
-    "isUserAdded": false
-  }, {
     "name": "悬浮窗权限",
     "filePathList": [""],
     "versionPathList": [""],
@@ -560,18 +548,6 @@
     "code": 230136,
     "isUserAdded": false
   }, {
-    "name": "写入外部存储权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["android.permission.WRITE_EXTERNAL_STORAGE"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230137,
-    "isUserAdded": false
-  }, {
     "name": "读取外部存储权限",
     "filePathList": [""],
     "versionPathList": [""],
@@ -687,5 +663,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 13
+  "configVer": 14
 }
