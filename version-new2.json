@@ -1,5 +1,6 @@
 {
   "androidVesion": 13,
   "iOSVersion": 26,
-  "mainJarVersion": "2.2.9"
+  "mainJarVersion": "2.2.10",
+  "skAdVersion":1
 }
