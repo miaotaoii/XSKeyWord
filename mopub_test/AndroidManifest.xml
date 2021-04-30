@@ -1,0 +1,15 @@
+ 
+         <activity android:name="com.miaotao.mopub_android_demo.actys.MTDebugActivity" android:theme="@style/MTAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.miaotao.mopub_android_demo.actys.MTAdUnionActivity" android:theme="@style/MTAppTheme"/>
+ 
+
+         <activity android:name="com.miaotao.mopub_android_demo.actys.MTCheckInfoActivity" android:theme="@style/MTAppTheme"/>
+		<activity android:name="com.miaotao.mopub_android_demo.actys.MTBannerActivity" android:theme="@style/MTAppTheme"/>
+        <activity android:name="com.miaotao.mopub_android_demo.actys.MTTestGameUnitActivity" android:theme="@style/MTAppTheme"/>
+        
