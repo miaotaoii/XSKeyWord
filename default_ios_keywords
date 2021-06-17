@@ -1,5 +1,5 @@
 {
-	"configVer": 27,
+	"configVer": 28,
 	"list": [{
 		"name": "MoPubSDK",
 		"content": ["-[MPRewardedVideo init]", "MoPub SDK requires iOS 9 and up", "MPRewardedVideo"],
@@ -391,8 +391,8 @@
 		"code": 0
 	}, {
 		"name": "ApplovinAdapters",
-		"content": ["AppLovinMediationChartboostAdapter", "AppLovinMediationFacebookAdapter", "AppLovinMediationGoogleAdapter", "AppLovinMediationIronSourceAdapter", "AppLovinMediationUnityAdsAdapter", "AppLovinMediationVungleAdapter","ALFacebookMediationAdapter","ALGoogleAdManagerMediationAdapter",
-		"ALInMobiMediationAdapter","ALIronSourceMediationAdapter","ALChartboostMediationAdapter","ALUnityAdsMediationAdapter","ALVungleMediationAdapter"],
+		"content": ["AppLovinMediationChartboostAdapter", "AppLovinMediationFacebookAdapter", "AppLovinMediationGoogleAdapter", "AppLovinMediationIronSourceAdapter", "AppLovinMediationUnityAdsAdapter", "AppLovinMediationVungleAdapter","ALFacebookMediationAdapterRouter","ALGoogleAdManagerMediationAdapterRouter",
+		"ALInMobiMediationAdapterRouterr","ALIronSourceMediationAdapterRouter","ALChartboostMediationAdapterRouter","ALUnityAdsMediationAdapterRouter","ALVungleMediationAdapterRouter"],
 		"adType": "VALID_AD",
 		"isExisted": false,
 		"versionTag": "",
