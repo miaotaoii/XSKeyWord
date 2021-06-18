@@ -83,7 +83,7 @@
   }, {
     "name": "GoogleBillLib",
     "filePathList": ["com/android/billingclient/BuildConfig.smali"],
-    "versionPathList": ["com/android/billingclient/BuildConfig.smali"],
+    "versionPathList": ["unknown/billing.properties"],
     "scanType": "FILE_SEARCH",
     "adType": "NOT_AD",
     "isIgnoreAdLib": false,
@@ -409,7 +409,7 @@
     "versionPathList": [""],
     "scanType": "CONTENT_SEARCH",
     "adType": "NOT_AD",
-    "content": ["getInstalledPackages", "aandroid.permission.QUERY_ALL_PACKAGES","getInstalledApplications"],
+    "content": ["getInstalledPackages", "android.permission.QUERY_ALL_PACKAGES","getInstalledApplications","getInstallerPackageName"],
     "isIgnoreAdLib": false,
     "isIgnoreSystemLib": true,
     "InvalidType": "PERMISSION",
@@ -664,5 +664,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 15
+  "configVer": 17
 }
