@@ -82,7 +82,7 @@
     "isUserAdded": false
   }, {
     "name": "GoogleBillLib",
-    "filePathList": ["com/android/billingclient/BuildConfig.smali"],
+    "filePathList": ["com/android/billingclient/BuildConfig.smali","billing.properties"],
     "versionPathList": ["unknown/billing.properties"],
     "scanType": "FILE_SEARCH",
     "adType": "NOT_AD",
@@ -664,5 +664,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 17
+  "configVer": 18
 }
