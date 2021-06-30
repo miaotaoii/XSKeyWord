@@ -410,7 +410,7 @@
     "scanType": "CONTENT_SEARCH",
     "adType": "NOT_AD",
     "content": ["getInstalledPackages", "android.permission.QUERY_ALL_PACKAGES","getInstalledApplications","getInstallerPackageName"],
-    "isIgnoreAdLib": false,
+    "isIgnoreAdLib": true,
     "isIgnoreSystemLib": true,
     "InvalidType": "PERMISSION",
     "code": 230175,
@@ -664,5 +664,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 18
+  "configVer": 19
 }
