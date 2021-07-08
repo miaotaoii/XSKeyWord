@@ -1,5 +1,5 @@
 {
-	"configVer": 28,
+	"configVer": 29,
 	"list": [{
 		"name": "MoPubSDK",
 		"content": ["-[MPRewardedVideo init]", "MoPub SDK requires iOS 9 and up", "MPRewardedVideo"],
@@ -483,7 +483,7 @@
 		"versionTag": "pid is nil__miaotao__pid is nil__miaotao__TRACE_STATISTICAL_ID",
 		"isUserAdded": true,
 		"isVerFromLockFile": false,
-		"code": 222336
+		"code": 221336
 	}, {
 		"name": "CSSDK",
 		"content": ["CServiceSDK"],
