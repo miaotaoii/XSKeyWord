@@ -1,5 +1,5 @@
 {
-	"configVer": 29,
+	"configVer": 31,
 	"list": [{
 		"name": "MoPubSDK",
 		"content": ["-[MPRewardedVideo init]", "MoPub SDK requires iOS 9 and up", "MPRewardedVideo"],
@@ -17,7 +17,7 @@
 		"isExisted": false,
 		"versionTag": "StatisticalSDKUserId",
 		"isUserAdded": false,
-		"podName": "MSSDK",
+		"podName": "MSSDK__sprite__MSSDK-Unity",
 		"isVerFromLockFile": false,
 		"code": 111323
 	}, {
@@ -460,9 +460,9 @@
 		"content": ["-[AppsFlyerLib getConversionData]", "AppsFlyerLibDelegate"],
 		"adType": "NOT_AD",
 		"isExisted": false,
-		"versionTag": "-[AppsFlyerLib setIsDebug:]__miaotao__dev_key",
+		"versionTag": "-[AppsFlyerLib setIsDebug:]__miaotao__dev_key__miaotao__-[AppsFlyerHTTPClient backgroundCallWithRequest:]",
 		"isUserAdded": true,
-		"podName": "AppsFlyerFramework",
+		"podName": "AppsFlyerFramework__sprite__Beta-AppsFlyerFramework",
 		"isVerFromLockFile": false,
 		"code": 222334
 	}, {
@@ -495,7 +495,7 @@
 		"code": 222337
 	}, {
 		"name": "AASDK",
-		"content": ["AASAccountSDK"],
+		"content": ["AASAccountLoginModel"],
 		"adType": "NOT_AD",
 		"isExisted": false,
 		"versionTag": "",
