@@ -243,12 +243,26 @@
   }, {
     "name": "Inmobi",
     "filePathList": ["com/inmobi/ads"],
+    "versionPathList": ["com/mopub/mobileads/inmobi/BuildConfig.smali"],
+
     "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
+    "adType": "VALID_AD",
     "isIgnoreAdLib": false,
     "isIgnoreSystemLib": false,
     "InvalidType": "SDK",
-    "code": 100112,
+    "code": 122344,
+    "isUserAdded": false
+  },{
+    "name": "fyber",
+    "filePathList": ["com/fyber"],
+    "versionPathList": ["com/mopub/mobileads/fyber/BuildConfig.smali"],
+
+    "scanType": "FILE_SEARCH",
+    "adType": "VALID_AD",
+    "isIgnoreAdLib": false,
+    "isIgnoreSystemLib": false,
+    "InvalidType": "SDK",
+    "code": 122345,
     "isUserAdded": false
   }, {
     "name": "Mobpower",
@@ -664,5 +678,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 20
+  "configVer": 21
 }
