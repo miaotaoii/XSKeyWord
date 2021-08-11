@@ -1,5 +1,5 @@
 {
-	"configVer": 31,
+	"configVer": 32,
 	"list": [{
 		"name": "MoPubSDK",
 		"content": ["-[MPRewardedVideo init]", "MoPub SDK requires iOS 9 and up", "MPRewardedVideo"],
@@ -40,7 +40,20 @@
 		"podName": "IronSourceSDK",
 		"isVerFromLockFile": false,
 		"code": 112325
-	}, {
+	},
+
+{
+		"name": "Fyber ",
+		"content": ["IAVideoContentController", "IAVideoContentModel" ],
+		"adType": "VALID_AD",
+		"isExisted": false,
+		"versionTag": "",
+		"isUserAdded": false,
+		"podName": "Fyber_Marketplace_SDK",
+		"isVerFromLockFile": false,
+		"code": 122346
+	},
+	 {
 		"name": "Chartboost",
 		"content": ["+[CBAnalytics trackLevelInfo:eventField:mainLevel:subLevel:description:]", "+[CBAnalytics trackInAppPurchaseEvent:product:]", "CBResponseSerializationErrorDomain", "[ChartboostSDK requestPrefetch]", "CHBAdUnitBuilder", "setChartboostWrapperVersion", "CHBExternalAdTrackerManager", "CHBDisplayLifeCycleDelegate", "CHBMOATWebViewAdTracker", "trackInAppPurchaseEventWithString:productTitle:productDescription:productPrice:productCurrency:productIdentifier:", "trackVideoPrefetchDownloadFailure:withFilename:withTime:withError:", "trackWebviewCriticalError:withEvent:withData:withMeta:forAdUnit:", "trackEventInternal:withKingdom:withPhylum:withClass:withFamily:withGenus:withMeta:trackingLevel:", "handleChartboostViewError:forImpression:", "handleChartboostViewError:forImpressionType:atLocation:"],
 		"adType": "VALID_AD",
@@ -551,12 +564,12 @@
 		"code": 341171
 	}, {
 		"name": "InMobiSDK",
-		"content": ["InMobiSDK"],
+		"content": ["IMBannerPreloadManager","IMInterstitialPreloadManager"],
 		"adType": "VALID_AD",
 		"isExisted": false,
 		"versionTag": "pr-SIOS-%@-%@",
 		"isUserAdded": true,
-		"podName": "InMobiSDK",
+		"podName": "InMobiSDK/Core",
 		"isVerFromLockFile": false,
 		"code": 122340
 	}, {
