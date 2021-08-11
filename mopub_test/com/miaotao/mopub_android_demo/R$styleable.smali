@@ -2101,6 +2101,10 @@
 
 .field public static final Toolbar_titleTextColor:I = 0x1d
 
+.field public static final VastVideoGradientStripWidget:[I
+
+.field public static final VastVideoGradientStripWidget_gradientOrientation:I = 0x0
+
 .field public static final VideoView:[I
 
 .field public static final VideoView_enableControlView:I = 0x0
@@ -2144,7 +2148,7 @@
 .method static constructor <clinit>()V
     .locals 14
 
-    .line 9577
+    .line 9530
     const/16 v0, 0x1d
 
     new-array v0, v0, [I
@@ -2153,7 +2157,7 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/R$styleable;->ActionBar:[I
 
-    .line 10009
+    .line 9962
     const/4 v0, 0x1
 
     new-array v1, v0, [I
@@ -2166,7 +2170,7 @@
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->ActionBarLayout:[I
 
-    .line 10052
+    .line 10005
     new-array v1, v0, [I
 
     const v3, 0x101013f
@@ -2175,12 +2179,12 @@
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->ActionMenuItemView:[I
 
-    .line 10068
+    .line 10021
     new-array v1, v2, [I
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->ActionMenuView:[I
 
-    .line 10091
+    .line 10044
     const/4 v1, 0x6
 
     new-array v3, v1, [I
@@ -2189,7 +2193,7 @@
 
     sput-object v3, Lcom/miaotao/mopub_android_demo/R$styleable;->ActionMode:[I
 
-    .line 10190
+    .line 10143
     const/4 v3, 0x2
 
     new-array v4, v3, [I
@@ -2198,7 +2202,7 @@
 
     sput-object v4, Lcom/miaotao/mopub_android_demo/R$styleable;->ActivityChooserView:[I
 
-    .line 10236
+    .line 10189
     const/4 v4, 0x3
 
     new-array v5, v4, [I
@@ -2207,7 +2211,7 @@
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->AdsAttrs:[I
 
-    .line 10294
+    .line 10247
     const/16 v5, 0x8
 
     new-array v6, v5, [I
@@ -2216,21 +2220,21 @@
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->AlertDialog:[I
 
-    .line 10414
+    .line 10367
     new-array v6, v1, [I
 
     fill-array-data v6, :array_5
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->AnimatedStateListDrawableCompat:[I
 
-    .line 10505
+    .line 10458
     new-array v6, v3, [I
 
     fill-array-data v6, :array_6
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->AnimatedStateListDrawableItem:[I
 
-    .line 10552
+    .line 10505
     const/4 v6, 0x4
 
     new-array v7, v6, [I
@@ -2239,42 +2243,42 @@
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->AnimatedStateListDrawableTransition:[I
 
-    .line 10632
+    .line 10585
     new-array v7, v5, [I
 
     fill-array-data v7, :array_8
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->AppBarLayout:[I
 
-    .line 10762
+    .line 10715
     new-array v7, v6, [I
 
     fill-array-data v7, :array_9
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->AppBarLayoutStates:[I
 
-    .line 10826
+    .line 10779
     new-array v7, v3, [I
 
     fill-array-data v7, :array_a
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->AppBarLayout_Layout:[I
 
-    .line 10893
+    .line 10846
     new-array v7, v6, [I
 
     fill-array-data v7, :array_b
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->AppCompatImageView:[I
 
-    .line 10981
+    .line 10934
     new-array v7, v6, [I
 
     fill-array-data v7, :array_c
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->AppCompatSeekBar:[I
 
-    .line 11071
+    .line 11024
     const/4 v7, 0x7
 
     new-array v8, v7, [I
@@ -2283,7 +2287,7 @@
 
     sput-object v8, Lcom/miaotao/mopub_android_demo/R$styleable;->AppCompatTextHelper:[I
 
-    .line 11232
+    .line 11185
     const/16 v8, 0x15
 
     new-array v9, v8, [I
@@ -2292,7 +2296,7 @@
 
     sput-object v9, Lcom/miaotao/mopub_android_demo/R$styleable;->AppCompatTextView:[I
 
-    .line 11817
+    .line 11770
     const/16 v9, 0x7d
 
     new-array v9, v9, [I
@@ -2301,7 +2305,7 @@
 
     sput-object v9, Lcom/miaotao/mopub_android_demo/R$styleable;->AppCompatTheme:[I
 
-    .line 13565
+    .line 13518
     const/4 v9, 0x5
 
     new-array v10, v9, [I
@@ -2310,14 +2314,14 @@
 
     sput-object v10, Lcom/miaotao/mopub_android_demo/R$styleable;->Badge:[I
 
-    .line 13653
+    .line 13606
     new-array v10, v5, [I
 
     fill-array-data v10, :array_11
 
     sput-object v10, Lcom/miaotao/mopub_android_demo/R$styleable;->BottomAppBar:[I
 
-    .line 13806
+    .line 13759
     const/16 v10, 0xc
 
     new-array v11, v10, [I
@@ -2326,7 +2330,7 @@
 
     sput-object v11, Lcom/miaotao/mopub_android_demo/R$styleable;->BottomNavigationView:[I
 
-    .line 14017
+    .line 13970
     const/16 v11, 0xb
 
     new-array v11, v11, [I
@@ -2335,7 +2339,7 @@
 
     sput-object v11, Lcom/miaotao/mopub_android_demo/R$styleable;->BottomSheetBehavior_Layout:[I
 
-    .line 14201
+    .line 14154
     new-array v11, v0, [I
 
     const v12, 0x7f04002a
@@ -2344,7 +2348,7 @@
 
     sput-object v11, Lcom/miaotao/mopub_android_demo/R$styleable;->ButtonBarLayout:[I
 
-    .line 14251
+    .line 14204
     const/16 v11, 0xd
 
     new-array v11, v11, [I
@@ -2353,14 +2357,14 @@
 
     sput-object v11, Lcom/miaotao/mopub_android_demo/R$styleable;->CardView:[I
 
-    .line 14444
+    .line 14397
     new-array v11, v3, [I
 
     fill-array-data v11, :array_15
 
     sput-object v11, Lcom/miaotao/mopub_android_demo/R$styleable;->ChartboostBanner:[I
 
-    .line 14564
+    .line 14517
     const/16 v11, 0x28
 
     new-array v11, v11, [I
@@ -2369,14 +2373,14 @@
 
     sput-object v11, Lcom/miaotao/mopub_android_demo/R$styleable;->Chip:[I
 
-    .line 15122
+    .line 15075
     new-array v11, v1, [I
 
     fill-array-data v11, :array_17
 
     sput-object v11, Lcom/miaotao/mopub_android_demo/R$styleable;->ChipGroup:[I
 
-    .line 15254
+    .line 15207
     const/16 v11, 0x10
 
     new-array v12, v11, [I
@@ -2385,28 +2389,28 @@
 
     sput-object v12, Lcom/miaotao/mopub_android_demo/R$styleable;->CollapsingToolbarLayout:[I
 
-    .line 15517
+    .line 15470
     new-array v12, v3, [I
 
     fill-array-data v12, :array_19
 
     sput-object v12, Lcom/miaotao/mopub_android_demo/R$styleable;->CollapsingToolbarLayout_Layout:[I
 
-    .line 15565
+    .line 15518
     new-array v12, v4, [I
 
     fill-array-data v12, :array_1a
 
     sput-object v12, Lcom/miaotao/mopub_android_demo/R$styleable;->ColorStateListItem:[I
 
-    .line 15616
+    .line 15569
     new-array v12, v6, [I
 
     fill-array-data v12, :array_1b
 
     sput-object v12, Lcom/miaotao/mopub_android_demo/R$styleable;->CompoundButton:[I
 
-    .line 15812
+    .line 15765
     const/16 v12, 0x3c
 
     new-array v12, v12, [I
@@ -2415,14 +2419,14 @@
 
     sput-object v12, Lcom/miaotao/mopub_android_demo/R$styleable;->ConstraintLayout_Layout:[I
 
-    .line 16714
+    .line 16667
     new-array v12, v3, [I
 
     fill-array-data v12, :array_1d
 
     sput-object v12, Lcom/miaotao/mopub_android_demo/R$styleable;->ConstraintLayout_placeholder:[I
 
-    .line 16915
+    .line 16868
     const/16 v12, 0x50
 
     new-array v12, v12, [I
@@ -2431,49 +2435,49 @@
 
     sput-object v12, Lcom/miaotao/mopub_android_demo/R$styleable;->ConstraintSet:[I
 
-    .line 18075
+    .line 18028
     new-array v12, v3, [I
 
     fill-array-data v12, :array_1f
 
     sput-object v12, Lcom/miaotao/mopub_android_demo/R$styleable;->CoordinatorLayout:[I
 
-    .line 18137
+    .line 18090
     new-array v7, v7, [I
 
     fill-array-data v7, :array_20
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->CoordinatorLayout_Layout:[I
 
-    .line 18317
+    .line 18270
     new-array v5, v5, [I
 
     fill-array-data v5, :array_21
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->DrawerArrowToggle:[I
 
-    .line 18447
+    .line 18400
     new-array v5, v9, [I
 
     fill-array-data v5, :array_22
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->ExtendedFloatingActionButton:[I
 
-    .line 18530
+    .line 18483
     new-array v5, v3, [I
 
     fill-array-data v5, :array_23
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->ExtendedFloatingActionButton_Behavior_Layout:[I
 
-    .line 18596
+    .line 18549
     new-array v5, v11, [I
 
     fill-array-data v5, :array_24
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->FloatingActionButton:[I
 
-    .line 18843
+    .line 18796
     new-array v5, v0, [I
 
     const v7, 0x7f040048
@@ -2482,21 +2486,21 @@
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->FloatingActionButton_Behavior_Layout:[I
 
-    .line 18870
+    .line 18823
     new-array v5, v3, [I
 
     fill-array-data v5, :array_25
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->FlowLayout:[I
 
-    .line 18922
+    .line 18875
     new-array v5, v1, [I
 
     fill-array-data v5, :array_26
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->FontFamily:[I
 
-    .line 19058
+    .line 19011
     const/16 v5, 0xa
 
     new-array v7, v5, [I
@@ -2505,28 +2509,28 @@
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->FontFamilyFont:[I
 
-    .line 19209
+    .line 19162
     new-array v7, v4, [I
 
     fill-array-data v7, :array_28
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->ForegroundLinearLayout:[I
 
-    .line 19297
+    .line 19250
     new-array v7, v10, [I
 
     fill-array-data v7, :array_29
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->GradientColor:[I
 
-    .line 19481
+    .line 19434
     new-array v7, v3, [I
 
     fill-array-data v7, :array_2a
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->GradientColorItem:[I
 
-    .line 19518
+    .line 19471
     new-array v7, v0, [I
 
     const v12, 0x10100c4
@@ -2535,7 +2539,7 @@
 
     sput-object v7, Lcom/miaotao/mopub_android_demo/R$styleable;->LinearConstraintLayout:[I
 
-    .line 19566
+    .line 19519
     const/16 v7, 0x9
 
     new-array v13, v7, [I
@@ -2544,42 +2548,42 @@
 
     sput-object v13, Lcom/miaotao/mopub_android_demo/R$styleable;->LinearLayoutCompat:[I
 
-    .line 19736
+    .line 19689
     new-array v13, v6, [I
 
     fill-array-data v13, :array_2c
 
     sput-object v13, Lcom/miaotao/mopub_android_demo/R$styleable;->LinearLayoutCompat_Layout:[I
 
-    .line 19836
+    .line 19789
     new-array v13, v3, [I
 
     fill-array-data v13, :array_2d
 
     sput-object v13, Lcom/miaotao/mopub_android_demo/R$styleable;->ListPopupWindow:[I
 
-    .line 19882
+    .line 19835
     new-array v13, v4, [I
 
     fill-array-data v13, :array_2e
 
     sput-object v13, Lcom/miaotao/mopub_android_demo/R$styleable;->LoadingImageView:[I
 
-    .line 19939
+    .line 19892
     new-array v6, v6, [I
 
     fill-array-data v6, :array_2f
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialAlertDialog:[I
 
-    .line 20013
+    .line 19966
     new-array v6, v9, [I
 
     fill-array-data v6, :array_30
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialAlertDialogTheme:[I
 
-    .line 20126
+    .line 20079
     const/16 v6, 0x14
 
     new-array v6, v6, [I
@@ -2588,79 +2592,79 @@
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialButton:[I
 
-    .line 20463
+    .line 20416
     new-array v6, v3, [I
 
     fill-array-data v6, :array_32
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialButtonToggleGroup:[I
 
-    .line 20519
+    .line 20472
     new-array v6, v7, [I
 
     fill-array-data v6, :array_33
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialCalendar:[I
 
-    .line 20658
+    .line 20611
     new-array v6, v5, [I
 
     fill-array-data v6, :array_34
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialCalendarItem:[I
 
-    .line 20830
+    .line 20783
     new-array v6, v5, [I
 
     fill-array-data v6, :array_35
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialCardView:[I
 
-    .line 20975
+    .line 20928
     new-array v6, v3, [I
 
     fill-array-data v6, :array_36
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialCheckBox:[I
 
-    .line 21015
+    .line 20968
     new-array v6, v0, [I
 
-    const v13, 0x7f04029c
+    const v13, 0x7f04029d
 
     aput v13, v6, v2
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialRadioButton:[I
 
-    .line 21045
+    .line 20998
     new-array v6, v3, [I
 
     fill-array-data v6, :array_37
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialShape:[I
 
-    .line 21087
+    .line 21040
     new-array v6, v3, [I
 
     fill-array-data v6, :array_38
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialTextAppearance:[I
 
-    .line 21135
+    .line 21088
     new-array v6, v4, [I
 
     fill-array-data v6, :array_39
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MaterialTextView:[I
 
-    .line 21199
+    .line 21152
     new-array v6, v1, [I
 
     fill-array-data v6, :array_3a
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MenuGroup:[I
 
-    .line 21346
+    .line 21299
     const/16 v6, 0x17
 
     new-array v6, v6, [I
@@ -2669,69 +2673,69 @@
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MenuItem:[I
 
-    .line 21723
+    .line 21676
     new-array v6, v7, [I
 
     fill-array-data v6, :array_3c
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MenuView:[I
 
-    .line 21857
+    .line 21810
     new-array v6, v0, [I
 
-    const v7, 0x7f0401e0
+    const v7, 0x7f0401e1
 
     aput v7, v6, v2
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->MoPubView:[I
 
-    .line 21931
+    .line 21884
     new-array v6, v8, [I
 
     fill-array-data v6, :array_3d
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->NavigationView:[I
 
-    .line 22236
+    .line 22189
     new-array v6, v4, [I
 
     fill-array-data v6, :array_3e
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->PopupWindow:[I
 
-    .line 22288
+    .line 22241
     new-array v6, v0, [I
 
-    const v7, 0x7f04022e
+    const v7, 0x7f04022f
 
     aput v7, v6, v2
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->PopupWindowBackgroundState:[I
 
-    .line 22315
+    .line 22268
     new-array v6, v3, [I
 
     fill-array-data v6, :array_3f
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->RecycleListView:[I
 
-    .line 22379
+    .line 22332
     new-array v6, v10, [I
 
     fill-array-data v6, :array_40
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->RecyclerView:[I
 
-    .line 22546
+    .line 22499
     new-array v6, v0, [I
 
-    const v7, 0x7f040153
+    const v7, 0x7f040154
 
     aput v7, v6, v2
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->ScrimInsetsFrameLayout:[I
 
-    .line 22575
+    .line 22528
     new-array v6, v0, [I
 
     const v7, 0x7f04004e
@@ -2740,7 +2744,7 @@
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->ScrollingViewBehavior_Layout:[I
 
-    .line 22636
+    .line 22589
     const/16 v6, 0x11
 
     new-array v6, v6, [I
@@ -2749,49 +2753,49 @@
 
     sput-object v6, Lcom/miaotao/mopub_android_demo/R$styleable;->SearchView:[I
 
-    .line 22950
+    .line 22903
     new-array v5, v5, [I
 
     fill-array-data v5, :array_42
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->ShapeAppearance:[I
 
-    .line 23150
+    .line 23103
     new-array v5, v4, [I
 
     fill-array-data v5, :array_43
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->SignInButton:[I
 
-    .line 23224
+    .line 23177
     new-array v5, v3, [I
 
     fill-array-data v5, :array_44
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->Snackbar:[I
 
-    .line 23275
+    .line 23228
     new-array v5, v1, [I
 
     fill-array-data v5, :array_45
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->SnackbarLayout:[I
 
-    .line 23378
+    .line 23331
     new-array v5, v9, [I
 
     fill-array-data v5, :array_46
 
     sput-object v5, Lcom/miaotao/mopub_android_demo/R$styleable;->Spinner:[I
 
-    .line 23482
+    .line 23435
     new-array v1, v1, [I
 
     fill-array-data v1, :array_47
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->StateListDrawable:[I
 
-    .line 23571
+    .line 23524
     new-array v1, v0, [I
 
     const v5, 0x1010199
@@ -2800,7 +2804,7 @@
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->StateListDrawableItem:[I
 
-    .line 23625
+    .line 23578
     const/16 v1, 0xe
 
     new-array v1, v1, [I
@@ -2809,23 +2813,23 @@
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->SwitchCompat:[I
 
-    .line 23845
+    .line 23798
     new-array v1, v0, [I
 
-    const v5, 0x7f04029c
+    const v5, 0x7f04029d
 
     aput v5, v1, v2
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->SwitchMaterial:[I
 
-    .line 23877
+    .line 23830
     new-array v1, v4, [I
 
     fill-array-data v1, :array_49
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->TabItem:[I
 
-    .line 23982
+    .line 23935
     const/16 v1, 0x19
 
     new-array v1, v1, [I
@@ -2834,14 +2838,14 @@
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->TabLayout:[I
 
-    .line 24391
+    .line 24344
     new-array v1, v11, [I
 
     fill-array-data v1, :array_4b
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->TextAppearance:[I
 
-    .line 24713
+    .line 24666
     const/16 v1, 0x32
 
     new-array v1, v1, [I
@@ -2850,14 +2854,14 @@
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->TextInputLayout:[I
 
-    .line 25447
+    .line 25400
     new-array v1, v4, [I
 
     fill-array-data v1, :array_4d
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->ThemeEnforcement:[I
 
-    .line 25569
+    .line 25522
     const/16 v1, 0x1e
 
     new-array v1, v1, [I
@@ -2866,35 +2870,44 @@
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->Toolbar:[I
 
-    .line 26021
+    .line 25972
+    new-array v1, v0, [I
+
+    const v5, 0x7f040135
+
+    aput v5, v1, v2
+
+    sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->VastVideoGradientStripWidget:[I
+
+    .line 26011
     new-array v1, v3, [I
 
     fill-array-data v1, :array_4f
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->VideoView:[I
 
-    .line 26072
+    .line 26062
     new-array v1, v9, [I
 
     fill-array-data v1, :array_50
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->View:[I
 
-    .line 26171
+    .line 26161
     new-array v1, v4, [I
 
     fill-array-data v1, :array_51
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/R$styleable;->ViewBackgroundHelper:[I
 
-    .line 26239
+    .line 26229
     new-array v0, v0, [I
 
     aput v12, v0, v2
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/R$styleable;->ViewPager2:[I
 
-    .line 26274
+    .line 26264
     new-array v0, v4, [I
 
     fill-array-data v0, :array_52
@@ -2902,6 +2915,8 @@
     sput-object v0, Lcom/miaotao/mopub_android_demo/R$styleable;->ViewStubCompat:[I
 
     return-void
+
+    nop
 
     :array_0
     .array-data 4
@@ -2918,22 +2933,22 @@
         0x7f0400e6
         0x7f0400e7
         0x7f0400fa
-        0x7f040136
-        0x7f04013c
-        0x7f040142
+        0x7f040137
+        0x7f04013d
         0x7f040143
-        0x7f040145
-        0x7f040151
-        0x7f04015e
-        0x7f0401c3
-        0x7f0401e4
-        0x7f0401f7
-        0x7f0401fb
+        0x7f040144
+        0x7f040146
+        0x7f040152
+        0x7f04015f
+        0x7f0401c4
+        0x7f0401e5
+        0x7f0401f8
         0x7f0401fc
-        0x7f04023b
-        0x7f04023e
-        0x7f040286
-        0x7f040290
+        0x7f0401fd
+        0x7f04023c
+        0x7f04023f
+        0x7f040287
+        0x7f040291
     .end array-data
 
     :array_1
@@ -2941,15 +2956,15 @@
         0x7f040037
         0x7f04003e
         0x7f04009d
-        0x7f040136
-        0x7f04023e
-        0x7f040290
+        0x7f040137
+        0x7f04023f
+        0x7f040291
     .end array-data
 
     :array_2
     .array-data 4
         0x7f04010e
-        0x7f040152
+        0x7f040153
     .end array-data
 
     :array_3
@@ -2964,11 +2979,11 @@
         0x10100f2
         0x7f040069
         0x7f04006a
-        0x7f0401b7
         0x7f0401b8
-        0x7f0401e1
-        0x7f04021a
-        0x7f04021c
+        0x7f0401b9
+        0x7f0401e2
+        0x7f04021b
+        0x7f04021d
     .end array-data
 
     :array_5
@@ -3002,39 +3017,39 @@
         0x1010540
         0x7f0400fa
         0x7f04010f
-        0x7f0401af
         0x7f0401b0
-        0x7f040235
+        0x7f0401b1
+        0x7f040236
     .end array-data
 
     :array_9
     .array-data 4
-        0x7f04022f
         0x7f040230
-        0x7f040232
+        0x7f040231
         0x7f040233
+        0x7f040234
     .end array-data
 
     :array_a
     .array-data 4
-        0x7f0401ad
         0x7f0401ae
+        0x7f0401af
     .end array-data
 
     :array_b
     .array-data 4
         0x1010119
-        0x7f040227
-        0x7f040284
+        0x7f040228
         0x7f040285
+        0x7f040286
     .end array-data
 
     :array_c
     .array-data 4
         0x1010142
-        0x7f040281
         0x7f040282
         0x7f040283
+        0x7f040284
     .end array-data
 
     :array_d
@@ -3067,10 +3082,10 @@
         0x7f040125
         0x7f040128
         0x7f040130
-        0x7f040170
-        0x7f0401b1
-        0x7f04025e
-        0x7f040279
+        0x7f040171
+        0x7f0401b2
+        0x7f04025f
+        0x7f04027a
     .end array-data
 
     :array_f
@@ -3144,13 +3159,12 @@
         0x7f0400f7
         0x7f0400f8
         0x7f0400f9
-        0x7f040142
-        0x7f040150
-        0x7f0401b3
+        0x7f040143
+        0x7f040151
         0x7f0401b4
         0x7f0401b5
         0x7f0401b6
-        0x7f0401b9
+        0x7f0401b7
         0x7f0401ba
         0x7f0401bb
         0x7f0401bc
@@ -3159,38 +3173,38 @@
         0x7f0401bf
         0x7f0401c0
         0x7f0401c1
-        0x7f0401ed
+        0x7f0401c2
         0x7f0401ee
         0x7f0401ef
-        0x7f0401f6
-        0x7f0401f8
-        0x7f0401ff
-        0x7f040201
+        0x7f0401f0
+        0x7f0401f7
+        0x7f0401f9
+        0x7f040200
         0x7f040202
         0x7f040203
-        0x7f04020d
+        0x7f040204
         0x7f04020e
         0x7f04020f
         0x7f040210
-        0x7f040224
+        0x7f040211
         0x7f040225
-        0x7f040242
-        0x7f040269
-        0x7f04026b
+        0x7f040226
+        0x7f040243
+        0x7f04026a
         0x7f04026c
         0x7f04026d
-        0x7f04026f
+        0x7f04026e
         0x7f040270
         0x7f040271
         0x7f040272
-        0x7f040275
+        0x7f040273
         0x7f040276
-        0x7f040292
+        0x7f040277
         0x7f040293
         0x7f040294
         0x7f040295
-        0x7f04029d
-        0x7f0402a0
+        0x7f040296
+        0x7f04029e
         0x7f0402a1
         0x7f0402a2
         0x7f0402a3
@@ -3200,6 +3214,7 @@
         0x7f0402a7
         0x7f0402a8
         0x7f0402a9
+        0x7f0402aa
     .end array-data
 
     :array_10
@@ -3207,8 +3222,8 @@
         0x7f040038
         0x7f040042
         0x7f040044
-        0x7f0401db
-        0x7f0401e6
+        0x7f0401dc
+        0x7f0401e7
     .end array-data
 
     :array_11
@@ -3220,23 +3235,23 @@
         0x7f04011b
         0x7f04011c
         0x7f04011d
-        0x7f04013d
+        0x7f04013e
     .end array-data
 
     :array_12
     .array-data 4
         0x7f040040
         0x7f0400fa
-        0x7f040156
-        0x7f040159
-        0x7f04015b
+        0x7f040157
+        0x7f04015a
         0x7f04015c
-        0x7f04015f
-        0x7f04016b
+        0x7f04015d
+        0x7f040160
         0x7f04016c
         0x7f04016d
-        0x7f04016f
-        0x7f0401de
+        0x7f04016e
+        0x7f040170
+        0x7f0401df
     .end array-data
 
     :array_13
@@ -3250,8 +3265,8 @@
         0x7f04004f
         0x7f040050
         0x7f040051
-        0x7f040211
-        0x7f040214
+        0x7f040212
+        0x7f040215
     .end array-data
 
     :array_14
@@ -3273,8 +3288,8 @@
 
     :array_15
     .array-data 4
-        0x7f0401c2
-        0x7f04021f
+        0x7f0401c3
+        0x7f040220
     .end array-data
 
     :array_16
@@ -3310,15 +3325,15 @@
         0x7f04009b
         0x7f04009c
         0x7f040107
-        0x7f04013b
-        0x7f040146
-        0x7f04014a
-        0x7f040206
-        0x7f040211
-        0x7f040214
-        0x7f040218
-        0x7f040277
-        0x7f04027a
+        0x7f04013c
+        0x7f040147
+        0x7f04014b
+        0x7f040207
+        0x7f040212
+        0x7f040215
+        0x7f040219
+        0x7f040278
+        0x7f04027b
     .end array-data
 
     :array_17
@@ -3327,8 +3342,8 @@
         0x7f04008c
         0x7f04008d
         0x7f04008e
-        0x7f04021d
         0x7f04021e
+        0x7f04021f
     .end array-data
 
     :array_18
@@ -3343,18 +3358,18 @@
         0x7f040114
         0x7f040115
         0x7f040116
-        0x7f040208
-        0x7f04020a
-        0x7f040236
-        0x7f040286
+        0x7f040209
+        0x7f04020b
+        0x7f040237
         0x7f040287
-        0x7f040291
+        0x7f040288
+        0x7f040292
     .end array-data
 
     :array_19
     .array-data 4
-        0x7f040176
         0x7f040177
+        0x7f040178
     .end array-data
 
     :array_1a
@@ -3384,7 +3399,6 @@
         0x7f040078
         0x7f0400ba
         0x7f0400bb
-        0x7f040178
         0x7f040179
         0x7f04017a
         0x7f04017b
@@ -3425,7 +3439,7 @@
         0x7f04019e
         0x7f04019f
         0x7f0401a0
-        0x7f0401a2
+        0x7f0401a1
         0x7f0401a3
         0x7f0401a4
         0x7f0401a5
@@ -3433,7 +3447,8 @@
         0x7f0401a7
         0x7f0401a8
         0x7f0401a9
-        0x7f0401ac
+        0x7f0401aa
+        0x7f0401ad
     .end array-data
 
     :array_1d
@@ -3475,7 +3490,6 @@
         0x7f040047
         0x7f040078
         0x7f0400bb
-        0x7f040178
         0x7f040179
         0x7f04017a
         0x7f04017b
@@ -3516,7 +3530,7 @@
         0x7f04019e
         0x7f04019f
         0x7f0401a0
-        0x7f0401a2
+        0x7f0401a1
         0x7f0401a3
         0x7f0401a4
         0x7f0401a5
@@ -3524,23 +3538,24 @@
         0x7f0401a7
         0x7f0401a8
         0x7f0401a9
+        0x7f0401aa
     .end array-data
 
     :array_1f
     .array-data 4
-        0x7f04016e
-        0x7f040234
+        0x7f04016f
+        0x7f040235
     .end array-data
 
     :array_20
     .array-data 4
         0x10100b3
-        0x7f040173
         0x7f040174
         0x7f040175
-        0x7f0401a1
-        0x7f0401aa
+        0x7f040176
+        0x7f0401a2
         0x7f0401ab
+        0x7f0401ac
     .end array-data
 
     :array_21
@@ -3551,17 +3566,17 @@
         0x7f0400a2
         0x7f0400ef
         0x7f040133
-        0x7f040223
-        0x7f04027d
+        0x7f040224
+        0x7f04027e
     .end array-data
 
     :array_22
     .array-data 4
         0x7f0400fa
         0x7f040117
-        0x7f04013b
-        0x7f040218
-        0x7f04021b
+        0x7f04013c
+        0x7f040219
+        0x7f04021c
     .end array-data
 
     :array_23
@@ -3579,21 +3594,21 @@
         0x7f040107
         0x7f04011e
         0x7f04011f
-        0x7f04013b
-        0x7f040144
-        0x7f0401dc
-        0x7f0401fa
-        0x7f040206
-        0x7f040211
-        0x7f040214
-        0x7f040218
-        0x7f04029b
+        0x7f04013c
+        0x7f040145
+        0x7f0401dd
+        0x7f0401fb
+        0x7f040207
+        0x7f040212
+        0x7f040215
+        0x7f040219
+        0x7f04029c
     .end array-data
 
     :array_25
     .array-data 4
-        0x7f040167
-        0x7f0401b2
+        0x7f040168
+        0x7f0401b3
     .end array-data
 
     :array_26
@@ -3617,7 +3632,7 @@
         0x7f04012f
         0x7f040130
         0x7f040131
-        0x7f04029a
+        0x7f04029b
     .end array-data
 
     :array_28
@@ -3658,8 +3673,8 @@
         0x1010128
         0x7f0400e7
         0x7f0400e9
-        0x7f0401dd
-        0x7f040217
+        0x7f0401de
+        0x7f040218
     .end array-data
 
     :array_2c
@@ -3679,8 +3694,8 @@
     :array_2e
     .array-data 4
         0x7f040095
-        0x7f04014e
         0x7f04014f
+        0x7f040150
     .end array-data
 
     :array_2f
@@ -3693,11 +3708,11 @@
 
     :array_30
     .array-data 4
-        0x7f0401c5
         0x7f0401c6
         0x7f0401c7
         0x7f0401c8
         0x7f0401c9
+        0x7f0401ca
     .end array-data
 
     :array_31
@@ -3711,23 +3726,23 @@
         0x7f040041
         0x7f0400d1
         0x7f0400fa
-        0x7f040145
-        0x7f040147
+        0x7f040146
         0x7f040148
         0x7f040149
-        0x7f04014b
+        0x7f04014a
         0x7f04014c
-        0x7f040206
-        0x7f040211
-        0x7f040214
-        0x7f040237
+        0x7f04014d
+        0x7f040207
+        0x7f040212
+        0x7f040215
         0x7f040238
+        0x7f040239
     .end array-data
 
     :array_32
     .array-data 4
         0x7f04007a
-        0x7f04021e
+        0x7f04021f
     .end array-data
 
     :array_33
@@ -3737,10 +3752,10 @@
         0x7f0400df
         0x7f0400e0
         0x7f0400e1
-        0x7f040200
-        0x7f0402aa
+        0x7f040201
         0x7f0402ab
         0x7f0402ac
+        0x7f0402ad
     .end array-data
 
     :array_34
@@ -3749,12 +3764,12 @@
         0x10101b8
         0x10101b9
         0x10101ba
-        0x7f040157
-        0x7f040160
+        0x7f040158
         0x7f040161
-        0x7f040168
+        0x7f040162
         0x7f040169
-        0x7f04016d
+        0x7f04016a
+        0x7f04016e
     .end array-data
 
     :array_35
@@ -3763,37 +3778,37 @@
         0x7f040073
         0x7f04007c
         0x7f04007e
-        0x7f040206
-        0x7f040211
-        0x7f040214
-        0x7f040231
-        0x7f040237
+        0x7f040207
+        0x7f040212
+        0x7f040215
+        0x7f040232
         0x7f040238
+        0x7f040239
     .end array-data
 
     :array_36
     .array-data 4
         0x7f04006e
-        0x7f04029c
+        0x7f04029d
     .end array-data
 
     :array_37
     .array-data 4
-        0x7f040211
-        0x7f040214
+        0x7f040212
+        0x7f040215
     .end array-data
 
     :array_38
     .array-data 4
         0x101057f
-        0x7f0401b1
+        0x7f0401b2
     .end array-data
 
     :array_39
     .array-data 4
         0x1010034
         0x101057f
-        0x7f0401b1
+        0x7f0401b2
     .end array-data
 
     :array_3a
@@ -3826,11 +3841,11 @@
         0x7f040021
         0x7f04002c
         0x7f0400bd
-        0x7f04014b
         0x7f04014c
-        0x7f0401e7
-        0x7f040216
-        0x7f040296
+        0x7f04014d
+        0x7f0401e8
+        0x7f040217
+        0x7f040297
     .end array-data
 
     :array_3c
@@ -3842,8 +3857,8 @@
         0x101012f
         0x1010130
         0x1010131
-        0x7f0401f9
-        0x7f040239
+        0x7f0401fa
+        0x7f04023a
     .end array-data
 
     :array_3d
@@ -3852,36 +3867,36 @@
         0x10100dd
         0x101011f
         0x7f0400fa
-        0x7f040135
-        0x7f040156
-        0x7f040158
-        0x7f04015a
+        0x7f040136
+        0x7f040157
+        0x7f040159
         0x7f04015b
         0x7f04015c
         0x7f04015d
-        0x7f040160
+        0x7f04015e
         0x7f040161
         0x7f040162
         0x7f040163
         0x7f040164
         0x7f040165
         0x7f040166
-        0x7f04016a
-        0x7f04016d
-        0x7f0401de
+        0x7f040167
+        0x7f04016b
+        0x7f04016e
+        0x7f0401df
     .end array-data
 
     :array_3e
     .array-data 4
         0x1010176
         0x10102c9
-        0x7f0401e8
+        0x7f0401e9
     .end array-data
 
     :array_3f
     .array-data 4
-        0x7f0401e9
-        0x7f0401ec
+        0x7f0401ea
+        0x7f0401ed
     .end array-data
 
     :array_40
@@ -3894,10 +3909,10 @@
         0x7f040122
         0x7f040123
         0x7f040124
-        0x7f040172
-        0x7f040205
-        0x7f040222
-        0x7f040228
+        0x7f040173
+        0x7f040206
+        0x7f040223
+        0x7f040229
     .end array-data
 
     :array_41
@@ -3910,15 +3925,15 @@
         0x7f0400b9
         0x7f0400e2
         0x7f040134
-        0x7f04014d
-        0x7f040171
-        0x7f0401fd
+        0x7f04014e
+        0x7f040172
         0x7f0401fe
-        0x7f04020b
+        0x7f0401ff
         0x7f04020c
-        0x7f04023a
-        0x7f04023f
-        0x7f04029f
+        0x7f04020d
+        0x7f04023b
+        0x7f040240
+        0x7f0402a0
     .end array-data
 
     :array_42
@@ -3939,13 +3954,13 @@
     .array-data 4
         0x7f04006b
         0x7f0400b4
-        0x7f040207
+        0x7f040208
     .end array-data
 
     :array_44
     .array-data 4
-        0x7f040220
         0x7f040221
+        0x7f040222
     .end array-data
 
     :array_45
@@ -3955,7 +3970,7 @@
         0x7f04002d
         0x7f04003d
         0x7f0400fa
-        0x7f0401d9
+        0x7f0401da
     .end array-data
 
     :array_46
@@ -3964,7 +3979,7 @@
         0x1010176
         0x101017b
         0x1010262
-        0x7f0401f7
+        0x7f0401f8
     .end array-data
 
     :array_47
@@ -3982,17 +3997,17 @@
         0x1010124
         0x1010125
         0x1010142
-        0x7f040219
-        0x7f040226
-        0x7f040240
+        0x7f04021a
+        0x7f040227
         0x7f040241
-        0x7f040243
-        0x7f04027e
+        0x7f040242
+        0x7f040244
         0x7f04027f
         0x7f040280
-        0x7f040297
+        0x7f040281
         0x7f040298
         0x7f040299
+        0x7f04029a
     .end array-data
 
     :array_49
@@ -4004,7 +4019,6 @@
 
     :array_4a
     .array-data 4
-        0x7f040244
         0x7f040245
         0x7f040246
         0x7f040247
@@ -4026,9 +4040,10 @@
         0x7f040257
         0x7f040258
         0x7f040259
-        0x7f04025b
+        0x7f04025a
         0x7f04025c
         0x7f04025d
+        0x7f04025e
     .end array-data
 
     :array_4b
@@ -4047,8 +4062,8 @@
         0x1010585
         0x7f040128
         0x7f040130
-        0x7f04025e
-        0x7f040279
+        0x7f04025f
+        0x7f04027a
     .end array-data
 
     :array_4c
@@ -4083,26 +4098,26 @@
         0x7f04010b
         0x7f04010c
         0x7f04010d
-        0x7f040137
         0x7f040138
         0x7f040139
         0x7f04013a
-        0x7f04013e
+        0x7f04013b
         0x7f04013f
         0x7f040140
         0x7f040141
-        0x7f0401f0
+        0x7f040142
         0x7f0401f1
         0x7f0401f2
         0x7f0401f3
         0x7f0401f4
-        0x7f040211
-        0x7f040214
-        0x7f040229
+        0x7f0401f5
+        0x7f040212
+        0x7f040215
         0x7f04022a
         0x7f04022b
         0x7f04022c
         0x7f04022d
+        0x7f04022e
     .end array-data
 
     :array_4d
@@ -4125,18 +4140,17 @@
         0x7f0400c1
         0x7f0400c2
         0x7f0400c3
-        0x7f0401c3
         0x7f0401c4
-        0x7f0401da
-        0x7f0401de
-        0x7f0401e2
+        0x7f0401c5
+        0x7f0401db
+        0x7f0401df
         0x7f0401e3
-        0x7f0401f7
-        0x7f04023b
+        0x7f0401e4
+        0x7f0401f8
         0x7f04023c
         0x7f04023d
-        0x7f040286
-        0x7f040288
+        0x7f04023e
+        0x7f040287
         0x7f040289
         0x7f04028a
         0x7f04028b
@@ -4144,21 +4158,22 @@
         0x7f04028d
         0x7f04028e
         0x7f04028f
+        0x7f040290
     .end array-data
 
     :array_4f
     .array-data 4
         0x7f0400fe
-        0x7f04029e
+        0x7f04029f
     .end array-data
 
     :array_50
     .array-data 4
         0x1010000
         0x10100da
-        0x7f0401ea
         0x7f0401eb
-        0x7f04027b
+        0x7f0401ec
+        0x7f04027c
     .end array-data
 
     :array_51
@@ -4179,7 +4194,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 9505
+    .line 9458
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

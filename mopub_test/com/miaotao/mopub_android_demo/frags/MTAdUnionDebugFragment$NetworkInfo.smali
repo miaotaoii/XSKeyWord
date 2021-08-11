@@ -35,24 +35,24 @@
     .param p4, "state"    # Ljava/lang/String;
     .param p5, "msg"    # Ljava/lang/String;
 
-    .line 67
+    .line 70
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->this$0:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 68
+    .line 71
     iput-object p3, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->name:Ljava/lang/String;
 
-    .line 69
+    .line 72
     iput-object p4, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->state:Ljava/lang/String;
 
-    .line 70
+    .line 73
     iput-object p5, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->msg:Ljava/lang/String;
 
-    .line 71
+    .line 74
     iput-object p2, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->id:Ljava/lang/String;
 
-    .line 72
+    .line 75
     return-void
 .end method
 
@@ -61,7 +61,7 @@
 .method public getId()Ljava/lang/String;
     .locals 1
 
-    .line 75
+    .line 78
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->id:Ljava/lang/String;
 
     return-object v0
@@ -70,7 +70,7 @@
 .method getMsg()Ljava/lang/String;
     .locals 1
 
-    .line 91
+    .line 94
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->msg:Ljava/lang/String;
 
     return-object v0
@@ -79,7 +79,7 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 83
+    .line 86
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->name:Ljava/lang/String;
 
     return-object v0
@@ -88,7 +88,7 @@
 .method getState()Ljava/lang/String;
     .locals 1
 
-    .line 95
+    .line 98
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->state:Ljava/lang/String;
 
     return-object v0
@@ -98,10 +98,10 @@
     .locals 0
     .param p1, "id"    # Ljava/lang/String;
 
-    .line 79
+    .line 82
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->id:Ljava/lang/String;
 
-    .line 80
+    .line 83
     return-void
 .end method
 
@@ -109,10 +109,10 @@
     .locals 0
     .param p1, "msg"    # Ljava/lang/String;
 
-    .line 99
+    .line 102
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->msg:Ljava/lang/String;
 
-    .line 100
+    .line 103
     return-void
 .end method
 
@@ -120,10 +120,10 @@
     .locals 0
     .param p1, "name"    # Ljava/lang/String;
 
-    .line 87
+    .line 90
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->name:Ljava/lang/String;
 
-    .line 88
+    .line 91
     return-void
 .end method
 
@@ -131,9 +131,9 @@
     .locals 0
     .param p1, "state"    # Ljava/lang/String;
 
-    .line 103
+    .line 106
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->state:Ljava/lang/String;
 
-    .line 104
+    .line 107
     return-void
 .end method

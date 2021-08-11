@@ -26,7 +26,7 @@
     .locals 0
     .param p1, "this$0"    # Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
-    .line 162
+    .line 161
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$4;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +40,7 @@
     .locals 3
     .param p1, "v"    # Landroid/view/View;
 
-    .line 165
+    .line 164
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$4;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
@@ -49,12 +49,12 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 166
+    .line 165
     .local v0, "intent":Landroid/content/Intent;
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$4;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-virtual {v1, v0}, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 173
+    .line 172
     return-void
 .end method

@@ -34,7 +34,7 @@
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     .line 38
-    const v0, 0x7f0c0097
+    const v0, 0x7f0c0094
 
     invoke-virtual {p0, v0}, Lcom/miaotao/mopub_android_demo/mssdk/TestActy;->setContentView(I)V
 
@@ -65,7 +65,7 @@
     invoke-static {p0, v0, v1}, Lcom/mopub/common/MoPub;->initializeSdk(Landroid/content/Context;Lcom/mopub/common/SdkConfiguration;Lcom/mopub/common/SdkInitializationListener;)V
 
     .line 54
-    const v1, 0x7f090083
+    const v1, 0x7f090086
 
     invoke-virtual {p0, v1}, Lcom/miaotao/mopub_android_demo/mssdk/TestActy;->findViewById(I)Landroid/view/View;
 
@@ -78,7 +78,7 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 62
-    const v1, 0x7f090089
+    const v1, 0x7f09008c
 
     invoke-virtual {p0, v1}, Lcom/miaotao/mopub_android_demo/mssdk/TestActy;->findViewById(I)Landroid/view/View;
 
@@ -91,7 +91,7 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 69
-    const v1, 0x7f09008b
+    const v1, 0x7f09008e
 
     invoke-virtual {p0, v1}, Lcom/miaotao/mopub_android_demo/mssdk/TestActy;->findViewById(I)Landroid/view/View;
 
@@ -104,7 +104,7 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 77
-    const v1, 0x7f09008a
+    const v1, 0x7f09008d
 
     invoke-virtual {p0, v1}, Lcom/miaotao/mopub_android_demo/mssdk/TestActy;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 85
-    const v1, 0x7f090088
+    const v1, 0x7f09008b
 
     invoke-virtual {p0, v1}, Lcom/miaotao/mopub_android_demo/mssdk/TestActy;->findViewById(I)Landroid/view/View;
 

@@ -52,25 +52,25 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 33
+    .line 36
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
 
-    .line 38
+    .line 41
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->data:Ljava/util/ArrayList;
 
-    .line 39
+    .line 42
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->type:I
 
-    .line 40
+    .line 43
     iput-boolean v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->isBanner:Z
 
-    .line 41
+    .line 44
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -84,7 +84,7 @@
     .locals 1
     .param p0, "x0"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
-    .line 33
+    .line 36
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->data:Ljava/util/ArrayList;
 
     return-object v0
@@ -94,7 +94,7 @@
     .locals 1
     .param p0, "x0"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
-    .line 33
+    .line 36
     iget v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->type:I
 
     return v0
@@ -104,7 +104,7 @@
     .locals 1
     .param p0, "x0"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
-    .line 33
+    .line 36
     iget-boolean v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->isBanner:Z
 
     return v0
@@ -114,7 +114,7 @@
     .locals 1
     .param p0, "x0"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
-    .line 33
+    .line 36
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->mAdUnionClickListener:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionClickListener;
 
     return-object v0
@@ -124,12 +124,12 @@
     .locals 1
     .param p0, "adType"    # I
 
-    .line 127
+    .line 130
     new-instance v0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-direct {v0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;-><init>()V
 
-    .line 128
+    .line 131
     .local v0, "fragment":Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
     return-object v0
 .end method
@@ -148,13 +148,13 @@
         }
     .end annotation
 
-    .line 44
+    .line 47
     .local p1, "mAdConfigMap":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->data:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 47
+    .line 50
     invoke-virtual {p1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -176,7 +176,7 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 48
+    .line 51
     .local v1, "id":Ljava/lang/String;
     iget-object v8, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->data:Ljava/util/ArrayList;
 
@@ -204,11 +204,11 @@
 
     invoke-virtual {v8, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 49
+    .line 52
     .end local v1    # "id":Ljava/lang/String;
     goto :goto_0
 
-    .line 50
+    .line 53
     :cond_0
     return-void
 .end method
@@ -220,10 +220,10 @@
         .end annotation
     .end param
 
-    .line 134
+    .line 137
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 135
+    .line 138
     return-void
 .end method
 
@@ -233,7 +233,7 @@
     .param p2, "container"    # Landroid/view/ViewGroup;
     .param p3, "savedInstanceState"    # Landroid/os/Bundle;
 
-    .line 141
+    .line 144
     new-instance v0, Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->getContext()Landroid/content/Context;
@@ -242,7 +242,7 @@
 
     invoke-direct {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;)V
 
-    .line 142
+    .line 145
     .local v0, "recyclerView":Landroidx/recyclerview/widget/RecyclerView;
     new-instance v1, Landroidx/recyclerview/widget/LinearLayoutManager;
 
@@ -252,11 +252,11 @@
 
     invoke-direct {v1, v2}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;)V
 
-    .line 143
+    .line 146
     .local v1, "layoutManager":Landroidx/recyclerview/widget/LinearLayoutManager;
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 144
+    .line 147
     new-instance v2, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v3, -0x1
@@ -265,24 +265,29 @@
 
     invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 146
+    .line 149
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/LinearLayoutManager;->setOrientation(I)V
 
-    .line 147
+    .line 151
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/RecyclerView;->setItemViewCacheSize(I)V
+
+    .line 152
     new-instance v2, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;
 
     invoke-direct {v2, p0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;-><init>(Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;)V
 
     iput-object v2, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->mAdUnionAdapter:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;
 
-    .line 148
+    .line 153
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->mAdUnionAdapter:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;
 
     invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 149
+    .line 154
     return-object v0
 .end method
 
@@ -292,7 +297,7 @@
     .param p2, "state"    # Ljava/lang/String;
     .param p3, "msg"    # Ljava/lang/String;
 
-    .line 112
+    .line 115
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->data:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -312,7 +317,7 @@
 
     check-cast v1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;
 
-    .line 113
+    .line 116
     .local v1, "networkinfo":Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->getId()Ljava/lang/String;
 
@@ -324,28 +329,28 @@
 
     if-eqz v2, :cond_0
 
-    .line 114
+    .line 117
     invoke-virtual {v1, p3}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->setMsg(Ljava/lang/String;)V
 
-    .line 115
+    .line 118
     invoke-virtual {v1, p2}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;->setState(Ljava/lang/String;)V
 
-    .line 116
+    .line 119
     goto :goto_1
 
-    .line 118
+    .line 121
     .end local v1    # "networkinfo":Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$NetworkInfo;
     :cond_0
     goto :goto_0
 
-    .line 119
+    .line 122
     :cond_1
     :goto_1
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->mAdUnionAdapter:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;
 
     invoke-virtual {v0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;->notifyDataSetChanged()V
 
-    .line 120
+    .line 123
     return-void
 .end method
 
@@ -353,10 +358,10 @@
     .locals 0
     .param p1, "adUnionClickListener"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionClickListener;
 
-    .line 108
+    .line 111
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->mAdUnionClickListener:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionClickListener;
 
-    .line 109
+    .line 112
     return-void
 .end method
 
@@ -364,10 +369,10 @@
     .locals 0
     .param p1, "banner"    # Z
 
-    .line 123
+    .line 126
     iput-boolean p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->isBanner:Z
 
-    .line 124
+    .line 127
     return-void
 .end method
 
@@ -375,9 +380,9 @@
     .locals 0
     .param p1, "type"    # I
 
-    .line 53
+    .line 56
     iput p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->type:I
 
-    .line 54
+    .line 57
     return-void
 .end method

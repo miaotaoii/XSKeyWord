@@ -210,11 +210,7 @@
 
     .line 168
     .local v0, "code":Ljava/lang/String;
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
+    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v3
 
@@ -258,13 +254,11 @@
 
     .line 175
     .local v4, "appStrs":[Ljava/lang/String;
-    if-eqz v4, :cond_5
-
     array-length v5, v4
 
     if-nez v5, :cond_1
 
-    goto :goto_2
+    return-object v2
 
     .line 177
     :cond_1
@@ -412,21 +406,14 @@
     .line 197
     return-object v5
 
-    .line 175
-    .end local v5    # "units":Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
-    .end local v6    # "inners":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
-    .end local v7    # "videos":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
-    .end local v8    # "banners":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
-    :cond_5
-    :goto_2
-    const/4 v2, 0x0
-
-    return-object v2
-
     .line 200
     .end local v0    # "code":Ljava/lang/String;
     .end local v3    # "data":Ljava/lang/String;
     .end local v4    # "appStrs":[Ljava/lang/String;
+    .end local v5    # "units":Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
+    .end local v6    # "inners":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
+    .end local v7    # "videos":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
+    .end local v8    # "banners":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
     :catch_0
     move-exception v0
 

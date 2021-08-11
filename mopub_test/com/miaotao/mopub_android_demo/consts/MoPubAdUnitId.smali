@@ -46,6 +46,8 @@
 
 .field public static final enum INNER_IRAONSOURCE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
+.field public static final enum INNER_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+
 .field public static final enum INNER_MINTEGRAL_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
 .field public static final enum INNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
@@ -71,6 +73,8 @@
 .field public static final enum VIDEO_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
 .field public static final enum VIDEO_IRONSOURCE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+
+.field public static final enum VIDEO_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
 .field public static final enum VIDEO_MINTEGRAL_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
@@ -262,25 +266,38 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_fyber_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 19
+    .line 18
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    const-string v14, "VIDEO_MPX_ID"
+    const-string v14, "VIDEO_InMobi_ID"
 
     const/16 v15, 0xd
 
-    const-string v13, "989389dd13ef42009fea9c432fd54197"
+    const-string v13, "9b85c66eb4a045d985123df105352d3d"
 
     invoke-direct {v0, v14, v15, v13}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
+    sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+
+    .line 20
+    new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+
+    const-string v13, "VIDEO_MPX_ID"
+
+    const/16 v14, 0xe
+
+    const-string v15, "989389dd13ef42009fea9c432fd54197"
+
+    invoke-direct {v0, v13, v14, v15}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 21
+    .line 22
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v13, "INNER_AdMOB_ID"
 
-    const/16 v14, 0xe
+    const/16 v14, 0xf
 
     const-string v15, "9dec832ec02c438aa0a56ababa1b9eca"
 
@@ -288,12 +305,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 22
+    .line 23
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v13, "INNER_APPLOVIN_ID"
 
-    const/16 v14, 0xf
+    const/16 v14, 0x10
 
     const-string v15, "94f5438f56dd480a9c98c91f57fafd16"
 
@@ -301,12 +318,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 23
+    .line 24
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v13, "INNER_CHARTBOOST_ID"
 
-    const/16 v14, 0x10
+    const/16 v14, 0x11
 
     const-string v15, "fc9694dee6bf43cfaa15a8a0b3982ed8"
 
@@ -314,12 +331,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_CHARTBOOST_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 24
+    .line 25
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v13, "INNER_FACEBOOK_ID"
 
-    const/16 v14, 0x11
+    const/16 v14, 0x12
 
     const-string v15, "f540bbd64362435c980cf4c79c29c694"
 
@@ -327,12 +344,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 25
+    .line 26
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v13, "INNER_IRAONSOURCE_ID"
 
-    const/16 v14, 0x12
+    const/16 v14, 0x13
 
     const-string v15, "850f808aa29e4cc99cea55f7bf651597"
 
@@ -340,12 +357,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_IRAONSOURCE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 26
+    .line 27
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v13, "INNER_UNITY_ID"
 
-    const/16 v14, 0x13
+    const/16 v14, 0x14
 
     const-string v15, "04b367b63c67461d94959e2c96c365b9"
 
@@ -353,12 +370,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_UNITY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 27
+    .line 28
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v13, "INNER_VUNGLE_ID"
 
-    const/16 v14, 0x14
+    const/16 v14, 0x15
 
     const-string v15, "2498c2c517ff42cfb1b55fa53b6a4f81"
 
@@ -366,23 +383,23 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_VUNGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 28
+    .line 29
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v13, "INNER_MINTEGRAL_ID"
 
-    const/16 v14, 0x15
+    const/16 v14, 0x16
 
     invoke-direct {v0, v13, v14, v9}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MINTEGRAL_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 29
+    .line 30
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "INNER_ADCOLONY_ID"
 
-    const/16 v13, 0x16
+    const/16 v13, 0x17
 
     const-string v14, "a4f41a7025b5403aa2c18a246d02ee80"
 
@@ -390,36 +407,36 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_ADCOLONY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 30
+    .line 31
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "INNER_CHARTBOOST_N_ID"
 
-    const/16 v13, 0x17
+    const/16 v13, 0x18
 
     invoke-direct {v0, v9, v13, v12}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_CHARTBOOST_N_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 31
+    .line 32
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "INNER_PANGLE_ID"
 
-    const/16 v12, 0x18
+    const/16 v12, 0x19
 
-    const-string v13, "0e277f6321c747b18ef2a2450de46253\n"
+    const-string v13, "0e277f6321c747b18ef2a2450de46253"
 
     invoke-direct {v0, v9, v12, v13}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_PANGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 32
+    .line 33
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "INNER_FYBER_ID"
 
-    const/16 v12, 0x19
+    const/16 v12, 0x1a
 
     const-string v13, "1cf256dc393f4380863bebfea0426651"
 
@@ -427,12 +444,25 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_FYBER_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 33
+    .line 34
+    new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+
+    const-string v9, "INNER_InMobi_ID"
+
+    const/16 v12, 0x1b
+
+    const-string v13, "2fe1e60de0f8428d8ca42adc8e469135"
+
+    invoke-direct {v0, v9, v12, v13}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+
+    .line 36
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "INNER_MPX_ID"
 
-    const/16 v12, 0x1a
+    const/16 v12, 0x1c
 
     const-string v13, "5ae55546706a49e7b7cee9ab111ed048"
 
@@ -440,12 +470,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 35
+    .line 38
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "BANNER_AdMOB_ID"
 
-    const/16 v12, 0x1b
+    const/16 v12, 0x1d
 
     const-string v13, "57e124c38a8d460490fa3ad32c966388"
 
@@ -453,12 +483,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 36
+    .line 39
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "BANNER_APPLOVIN_ID"
 
-    const/16 v12, 0x1c
+    const/16 v12, 0x1e
 
     const-string v13, "6d6b163d9809469ab3a2d84b2cf8b53a"
 
@@ -466,12 +496,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 37
+    .line 40
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "BANNER_FACEBOOK_ID"
 
-    const/16 v12, 0x1d
+    const/16 v12, 0x1f
 
     const-string v13, "347c4fcca91e4f4f94fb6f313f8d3e2d"
 
@@ -479,12 +509,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 38
+    .line 41
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "BANNER_MPX_ID"
 
-    const/16 v12, 0x1e
+    const/16 v12, 0x20
 
     const-string v13, "0ac59b0996d947309c33f59d6676399f"
 
@@ -492,12 +522,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 40
+    .line 43
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "AFF_MOPUB_RW1"
 
-    const/16 v12, 0x1f
+    const/16 v12, 0x21
 
     const-string v13, "1a9eebf7253f44d9b6cd88f9e800d33f"
 
@@ -505,12 +535,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW1:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 41
+    .line 44
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "AFF_MOPUB_RW2"
 
-    const/16 v12, 0x20
+    const/16 v12, 0x22
 
     const-string v13, "fefa0938d82e46c39712dc2fe53acc17"
 
@@ -518,12 +548,12 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW2:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 42
+    .line 45
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const-string v9, "AFF_MOPUB_RW3"
 
-    const/16 v12, 0x21
+    const/16 v12, 0x23
 
     const-string v13, "276a23fbc6014aa79b516595600de907"
 
@@ -532,7 +562,7 @@
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW3:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     .line 4
-    const/16 v0, 0x22
+    const/16 v0, 0x24
 
     new-array v0, v0, [Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
@@ -594,129 +624,141 @@
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0xd
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0xe
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0xf
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_CHARTBOOST_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x10
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_CHARTBOOST_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x11
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_IRAONSOURCE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x12
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_UNITY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_IRAONSOURCE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x13
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_VUNGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_UNITY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x14
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MINTEGRAL_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_VUNGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x15
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_ADCOLONY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MINTEGRAL_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x16
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_CHARTBOOST_N_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_ADCOLONY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x17
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_PANGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_CHARTBOOST_N_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x18
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_FYBER_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_PANGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x19
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_FYBER_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x1a
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x1b
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x1c
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x1d
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x1e
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW1:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x1f
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW2:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x20
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW3:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW1:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
     const/16 v2, 0x21
+
+    aput-object v1, v0, v2
+
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW2:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+
+    const/16 v2, 0x22
+
+    aput-object v1, v0, v2
+
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW3:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+
+    const/16 v2, 0x23
 
     aput-object v1, v0, v2
 
@@ -736,13 +778,13 @@
         }
     .end annotation
 
-    .line 46
+    .line 49
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 47
+    .line 50
     iput-object p3, p0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->id:Ljava/lang/String;
 
-    .line 48
+    .line 51
     return-void
 .end method
 
@@ -782,7 +824,7 @@
 .method public getId()Ljava/lang/String;
     .locals 1
 
-    .line 51
+    .line 54
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->id:Ljava/lang/String;
 
     return-object v0

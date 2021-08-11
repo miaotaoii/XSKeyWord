@@ -39,13 +39,13 @@
         }
     .end annotation
 
-    .line 324
+    .line 337
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->this$1:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;
 
-    .line 325
+    .line 338
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 326
+    .line 339
     const/16 v0, 0x13
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdName:Landroid/widget/TextView;
 
-    .line 327
+    .line 340
     const/16 v0, 0x15
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdVersion:Landroid/widget/TextView;
 
-    .line 328
+    .line 341
     const/16 v0, 0x11
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mHas:Landroid/widget/TextView;
 
-    .line 329
+    .line 342
     const/16 v0, 0xf
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mShow:Landroid/widget/Button;
 
-    .line 330
+    .line 343
     const/16 v0, 0x17
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -100,6 +100,6 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mBanner:Lcom/mopub/mobileads/MoPubView;
 
-    .line 332
+    .line 345
     return-void
 .end method

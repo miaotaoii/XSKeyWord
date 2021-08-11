@@ -26,7 +26,7 @@
     .locals 0
     .param p1, "this$0"    # Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
-    .line 393
+    .line 392
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$6;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -39,13 +39,13 @@
 .method public run()V
     .locals 2
 
-    .line 396
+    .line 395
     const-string v0, "fcm_token:"
 
     const-string v1, "\u5f00\u59cb\u83b7\u53d6"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 399
+    .line 398
     return-void
 .end method

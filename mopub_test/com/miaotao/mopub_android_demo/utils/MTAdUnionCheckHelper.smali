@@ -971,25 +971,29 @@
 
     .line 74
     :cond_4
-    if-eqz v2, :cond_5
+    if-nez v2, :cond_6
 
-    if-eqz v5, :cond_5
+    if-nez v5, :cond_6
 
-    if-eqz v6, :cond_5
+    if-nez v6, :cond_6
 
     if-eqz v7, :cond_5
-
-    const/4 v3, 0x1
 
     goto :goto_0
 
     :cond_5
     const/4 v3, 0x0
 
+    goto :goto_1
+
+    :cond_6
+    :goto_0
+    const/4 v3, 0x1
+
     .line 76
     .local v3, "result":Z
-    :goto_0
-    if-nez v3, :cond_6
+    :goto_1
+    if-nez v3, :cond_7
 
     .line 77
     const-string v4, "Admob ads jars has not improved, check please"
@@ -997,14 +1001,14 @@
     invoke-static {v4}, Lcom/miaotao/mopub_android_demo/utils/MTLogHelper;->d(Ljava/lang/String;)V
 
     .line 80
-    :cond_6
-    if-eqz v3, :cond_7
+    :cond_7
+    if-eqz v3, :cond_8
 
     .line 81
     invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->updateExistedUnion(I)V
 
     .line 83
-    :cond_7
+    :cond_8
     invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->updateCheckedUnion(I)V
 
     .line 84

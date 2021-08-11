@@ -54,6 +54,8 @@
 
 .field public static final enum IRONSOURCE_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
+.field public static final enum InMobi:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+
 .field public static final enum MAIO:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
 .field public static final enum MINTEGRAL_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
@@ -243,53 +245,63 @@
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FYBER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
-    .line 15
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v13, 0xc
 
-    const-string v14, "ADMOB_R"
+    const-string v14, "InMobi"
 
-    const-string v15, "admob_reward_interstitial"
+    invoke-direct {v0, v14, v13, v14}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    invoke-direct {v0, v14, v13, v15}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->InMobi:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+
+    .line 15
+    new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+
+    const/16 v14, 0xd
+
+    const-string v15, "ADMOB_R"
+
+    const-string v13, "admob_reward_interstitial"
+
+    invoke-direct {v0, v15, v14, v13}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
-    const/16 v14, 0xd
+    const-string v13, "FACEBOOK_R"
 
-    const-string v15, "FACEBOOK_R"
+    const/16 v15, 0xe
 
-    const-string v13, "fb_reward_interstitial"
+    const-string v14, "fb_reward_interstitial"
 
-    invoke-direct {v0, v15, v14, v13}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v13, v15, v14}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
-    const/16 v13, 0xe
+    const-string v13, "IRONSOURCE_R"
 
-    const-string v15, "IRONSOURCE_R"
+    const/16 v14, 0xf
 
-    const-string v14, "ironsource_reward_interstitial"
+    const-string v15, "ironsource_reward_interstitial"
 
-    invoke-direct {v0, v15, v13, v14}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v13, v14, v15}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->IRONSOURCE_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     .line 18
     new-instance v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
-    const-string v14, "ADCOLONY"
+    const-string v13, "ADCOLONY"
 
-    const/16 v15, 0xf
+    const/16 v14, 0x10
 
-    const-string v13, "adcolony"
+    const-string v15, "adcolony"
 
-    invoke-direct {v0, v14, v15, v13}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v13, v14, v15}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADCOLONY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -297,7 +309,7 @@
 
     const-string v13, "MAIO"
 
-    const/16 v14, 0x10
+    const/16 v14, 0x11
 
     const-string v15, "maio"
 
@@ -309,7 +321,7 @@
 
     const-string v13, "ADMOB_NEW"
 
-    const/16 v14, 0x11
+    const/16 v14, 0x12
 
     const-string v15, "admob_new"
 
@@ -322,7 +334,7 @@
 
     const-string v13, "VUNGLE"
 
-    const/16 v14, 0x12
+    const/16 v14, 0x13
 
     const-string v15, "vungle"
 
@@ -334,7 +346,7 @@
 
     const-string v13, "UNITY"
 
-    const/16 v14, 0x13
+    const/16 v14, 0x14
 
     const-string v15, "unity"
 
@@ -347,7 +359,7 @@
 
     const-string v13, "AMAZON"
 
-    const/16 v14, 0x14
+    const/16 v14, 0x15
 
     const-string v15, "amazon"
 
@@ -360,7 +372,7 @@
 
     const-string v13, "MOPUB"
 
-    const/16 v14, 0x15
+    const/16 v14, 0x16
 
     const-string v15, "MoPub"
 
@@ -373,7 +385,7 @@
 
     const-string v13, "MOPUB_INTER"
 
-    const/16 v14, 0x16
+    const/16 v14, 0x17
 
     const-string v15, "MoPubInterstitial"
 
@@ -386,7 +398,7 @@
 
     const-string v13, "MOPUB_REWARD"
 
-    const/16 v14, 0x17
+    const/16 v14, 0x18
 
     const-string v15, "MoPubRewardedVideo"
 
@@ -399,7 +411,7 @@
 
     const-string v13, "ADCOLONY_ADAPTER"
 
-    const/16 v14, 0x18
+    const/16 v14, 0x19
 
     const-string v15, "AdColonyAdapterConfiguration"
 
@@ -412,7 +424,7 @@
 
     const-string v13, "FACEBOOK_ADAPTER"
 
-    const/16 v14, 0x19
+    const/16 v14, 0x1a
 
     const-string v15, "FacebookAdapterConfiguration"
 
@@ -425,7 +437,7 @@
 
     const-string v13, "ADMOB_ADAPTER"
 
-    const/16 v14, 0x1a
+    const/16 v14, 0x1b
 
     const-string v15, "GooglePlayServicesAdapterConfiguration"
 
@@ -438,7 +450,7 @@
 
     const-string v13, "APPLOVIN_ADAPTER"
 
-    const/16 v14, 0x1b
+    const/16 v14, 0x1c
 
     const-string v15, "AppLovinAdapterConfiguration"
 
@@ -451,7 +463,7 @@
 
     const-string v13, "CHARTBOOST_ADAPTER"
 
-    const/16 v14, 0x1c
+    const/16 v14, 0x1d
 
     const-string v15, "ChartboostAdapterConfiguration"
 
@@ -464,7 +476,7 @@
 
     const-string v13, "IRONSOURCE_ADAPTER"
 
-    const/16 v14, 0x1d
+    const/16 v14, 0x1e
 
     const-string v15, "IronSourceAdapterConfiguration"
 
@@ -477,7 +489,7 @@
 
     const-string v13, "UNITY_ADAPTER"
 
-    const/16 v14, 0x1e
+    const/16 v14, 0x1f
 
     const-string v15, "UnityAdsAdapterConfiguration"
 
@@ -490,7 +502,7 @@
 
     const-string v13, "VUNGLE_ADAPTER"
 
-    const/16 v14, 0x1f
+    const/16 v14, 0x20
 
     const-string v15, "VungleAdapterConfiguration"
 
@@ -503,7 +515,7 @@
 
     const-string v13, "MINTEGRAL_ADAPTER"
 
-    const/16 v14, 0x20
+    const/16 v14, 0x21
 
     const-string v15, "MintegralAdapterConfiguration"
 
@@ -516,7 +528,7 @@
 
     const-string v13, "MOPUB_VOLLEY"
 
-    const/16 v14, 0x21
+    const/16 v14, 0x22
 
     const-string v15, "mopub_volley"
 
@@ -529,7 +541,7 @@
 
     const-string v13, "MOPUB_MARKETPLACE"
 
-    const/16 v14, 0x22
+    const/16 v14, 0x23
 
     const-string v15, "mpx"
 
@@ -538,7 +550,7 @@
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_MARKETPLACE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     .line 7
-    const/16 v0, 0x23
+    const/16 v0, 0x24
 
     new-array v0, v0, [Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -590,141 +602,147 @@
 
     aput-object v1, v0, v12
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->InMobi:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0xc
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0xd
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->IRONSOURCE_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0xe
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADCOLONY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->IRONSOURCE_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0xf
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MAIO:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADCOLONY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x10
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_NEW:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MAIO:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x11
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->VUNGLE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_NEW:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x12
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->UNITY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->VUNGLE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x13
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->AMAZON:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->UNITY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x14
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->AMAZON:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x15
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_INTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x16
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_REWARD:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_INTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x17
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADCOLONY_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_REWARD:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x18
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADCOLONY_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x19
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x1a
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->APPLOVIN_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x1b
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->CHARTBOOST_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->APPLOVIN_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x1c
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->IRONSOURCE_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->CHARTBOOST_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x1d
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->UNITY_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->IRONSOURCE_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x1e
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->VUNGLE_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->UNITY_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x1f
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MINTEGRAL_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->VUNGLE_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x20
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_VOLLEY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MINTEGRAL_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x21
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_MARKETPLACE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_VOLLEY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     const/16 v2, 0x22
+
+    aput-object v1, v0, v2
+
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_MARKETPLACE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+
+    const/16 v2, 0x23
 
     aput-object v1, v0, v2
 
