@@ -152,10 +152,10 @@
     .param p0, "context"    # Landroid/content/Context;
     .param p1, "name"    # Ljava/lang/String;
 
-    .line 819
+    .line 822
     const-string v0, "N/A"
 
-    .line 821
+    .line 824
     .local v0, "version":Ljava/lang/String;
     invoke-static {p1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->isClassLoaded(Ljava/lang/String;)Z
 
@@ -163,7 +163,7 @@
 
     if-eqz v1, :cond_15
 
-    .line 823
+    .line 826
     :try_start_0
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -179,7 +179,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_NEW:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
-    .line 824
+    .line 827
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
 
     move-result-object v1
@@ -192,7 +192,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_R:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
-    .line 825
+    .line 828
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
 
     move-result-object v1
@@ -205,7 +205,7 @@
 
     goto/16 :goto_3
 
-    .line 828
+    .line 831
     :cond_0
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADCOLONY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -219,14 +219,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 829
+    .line 832
     invoke-static {}, Lcom/adcolony/sdk/AdColony;->getSDKVersion()Ljava/lang/String;
 
     move-result-object v1
 
     return-object v1
 
-    .line 831
+    .line 834
     :cond_1
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->UNITY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -240,14 +240,14 @@
 
     if-eqz v1, :cond_2
 
-    .line 832
+    .line 835
     invoke-static {}, Lcom/unity3d/ads/UnityAds;->getVersion()Ljava/lang/String;
 
     move-result-object v1
 
     return-object v1
 
-    .line 834
+    .line 837
     :cond_2
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->VUNGLE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -261,7 +261,7 @@
 
     if-eqz v1, :cond_3
 
-    .line 835
+    .line 838
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_vungle_c:Ljava/lang/String;
 
     sget-object v2, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_VERSION_NAME:Ljava/lang/String;
@@ -272,7 +272,7 @@
 
     return-object v1
 
-    .line 837
+    .line 840
     :cond_3
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->APPLOVIN:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -286,7 +286,7 @@
 
     if-eqz v1, :cond_4
 
-    .line 838
+    .line 841
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_APPLOVIN:Ljava/lang/String;
 
     sget-object v2, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_VERSION:Ljava/lang/String;
@@ -297,7 +297,7 @@
 
     return-object v1
 
-    .line 840
+    .line 843
     :cond_4
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->CHARTBOOST:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -311,14 +311,14 @@
 
     if-eqz v1, :cond_5
 
-    .line 841
+    .line 844
     invoke-static {}, Lcom/chartboost/sdk/Chartboost;->getSDKVersion()Ljava/lang/String;
 
     move-result-object v1
 
     return-object v1
 
-    .line 846
+    .line 849
     :cond_5
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->PLAYABLEADS:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -332,7 +332,7 @@
 
     if-eqz v1, :cond_6
 
-    .line 847
+    .line 850
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_ADLY_P:Ljava/lang/String;
 
     sget-object v2, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_VERSION_NAME:Ljava/lang/String;
@@ -343,7 +343,7 @@
 
     return-object v1
 
-    .line 849
+    .line 852
     :cond_6
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -371,7 +371,7 @@
 
     goto/16 :goto_1
 
-    .line 859
+    .line 862
     :cond_7
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->IRONSOURCE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -399,7 +399,7 @@
 
     goto/16 :goto_0
 
-    .line 862
+    .line 865
     :cond_8
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->VK:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -413,7 +413,7 @@
 
     if-eqz v1, :cond_9
 
-    .line 863
+    .line 866
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_vk_c:Ljava/lang/String;
 
     const-string v2, "e"
@@ -424,7 +424,7 @@
 
     return-object v1
 
-    .line 865
+    .line 868
     :cond_9
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->PLAYABLEADS_INNER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -438,7 +438,7 @@
 
     if-eqz v1, :cond_a
 
-    .line 866
+    .line 869
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_ADLY_P:Ljava/lang/String;
 
     sget-object v2, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_VERSION_NAME:Ljava/lang/String;
@@ -449,7 +449,7 @@
 
     return-object v1
 
-    .line 868
+    .line 871
     :cond_a
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MAIO:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -467,10 +467,10 @@
 
     if-eqz v1, :cond_b
 
-    .line 870
+    .line 873
     return-object v2
 
-    .line 872
+    .line 875
     :cond_b
     :try_start_1
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->NEND:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
@@ -485,12 +485,12 @@
 
     if-eqz v1, :cond_c
 
-    .line 873
+    .line 876
     const-string v1, ""
 
     return-object v1
 
-    .line 878
+    .line 881
     :cond_c
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->APPLOVIN:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -504,7 +504,7 @@
 
     if-eqz v1, :cond_d
 
-    .line 879
+    .line 882
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_APPLOVIN:Ljava/lang/String;
 
     sget-object v2, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_VERSION:Ljava/lang/String;
@@ -515,7 +515,7 @@
 
     return-object v1
 
-    .line 881
+    .line 884
     :cond_d
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->AMAZON:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -529,10 +529,10 @@
 
     if-eqz v1, :cond_e
 
-    .line 883
+    .line 886
     move-object v0, v2
 
-    .line 885
+    .line 888
     :cond_e
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_mintegral:Ljava/lang/String;
 
@@ -542,7 +542,7 @@
 
     if-eqz v1, :cond_f
 
-    .line 886
+    .line 889
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_MTG_C:Ljava/lang/String;
 
     sget-object v2, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_SDK_VERSION:Ljava/lang/String;
@@ -553,11 +553,11 @@
 
     move-object v0, v1
 
-    .line 892
+    .line 895
     :cond_f
     goto :goto_4
 
-    .line 860
+    .line 863
     :cond_10
     :goto_0
     invoke-static {}, Lcom/ironsource/mediationsdk/utils/IronSourceUtils;->getSDKVersion()Ljava/lang/String;
@@ -566,7 +566,7 @@
 
     return-object v1
 
-    .line 850
+    .line 853
     :cond_11
     :goto_1
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_fb_c:Ljava/lang/String;
@@ -579,18 +579,18 @@
 
     move-object v0, v1
 
-    .line 851
+    .line 854
     const-string v1, "com.facebook.bidding.FBAdBidRequest"
 
     invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->hasClass(Ljava/lang/String;)Z
 
     move-result v1
 
-    .line 852
+    .line 855
     .local v1, "bidding":Z
     if-eqz v1, :cond_12
 
-    .line 853
+    .line 856
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -609,7 +609,7 @@
 
     goto :goto_2
 
-    .line 855
+    .line 858
     :cond_12
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -627,11 +627,11 @@
 
     move-object v0, v2
 
-    .line 857
+    .line 860
     :goto_2
     return-object v0
 
-    .line 826
+    .line 829
     .end local v1    # "bidding":Z
     :cond_13
     :goto_3
@@ -643,15 +643,15 @@
 
     return-object v1
 
-    .line 890
+    .line 893
     :catch_0
     move-exception v1
 
-    .line 891
+    .line 894
     .local v1, "throwable":Ljava/lang/Throwable;
     const-string v0, ""
 
-    .line 894
+    .line 897
     .end local v1    # "throwable":Ljava/lang/Throwable;
     :goto_4
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -660,12 +660,12 @@
 
     if-eqz v1, :cond_14
 
-    .line 895
+    .line 898
     const-string v0, "N/A"
 
     goto :goto_5
 
-    .line 897
+    .line 900
     :cond_14
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -681,7 +681,7 @@
 
     move-result-object v0
 
-    .line 901
+    .line 904
     :cond_15
     :goto_5
     return-object v0
@@ -692,25 +692,25 @@
     .param p0, "className"    # Ljava/lang/String;
     .param p1, "fieldName"    # Ljava/lang/String;
 
-    .line 906
+    .line 909
     :try_start_0
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 907
+    .line 910
     .local v0, "clazz":Ljava/lang/Class;
     invoke-virtual {v0, p1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
 
-    .line 908
+    .line 911
     .local v1, "field":Ljava/lang/reflect/Field;
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 909
+    .line 912
     invoke-virtual {v1, v0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -723,13 +723,13 @@
 
     return-object v2
 
-    .line 910
+    .line 913
     .end local v0    # "clazz":Ljava/lang/Class;
     .end local v1    # "field":Ljava/lang/reflect/Field;
     :catch_0
     move-exception v0
 
-    .line 911
+    .line 914
     .local v0, "throwable":Ljava/lang/Throwable;
     const-string v1, ""
 
@@ -1753,191 +1753,18 @@
 .end method
 
 .method public static hasIronsource()Z
-    .locals 8
-
-    .line 335
-    const/16 v0, 0x2000
-
-    .line 336
-    .local v0, "bitunion":I
-    const/16 v1, 0x2000
-
-    invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->isCheckedUnion(I)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    .line 337
-    invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->isExistedUnion(I)Z
-
-    move-result v1
-
-    return v1
+    .locals 1
 
     .line 340
-    :cond_0
-    sget-object v2, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->IRONSOURCE_CLASS_NAME:Ljava/lang/String;
+    sget-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->IRONSOURCE_CLASS_NAME:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->hasClass(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->hasClass(Ljava/lang/String;)Z
 
-    move-result v2
-
-    .line 342
-    .local v2, "result":Z
-    if-nez v2, :cond_1
-
-    .line 343
-    const-string v3, "Ironsource ads jars has be not improved, check please"
-
-    invoke-static {v3}, Lcom/miaotao/mopub_android_demo/utils/MTLogHelper;->d(Ljava/lang/String;)V
-
-    .line 346
-    :cond_1
-    if-eqz v2, :cond_4
-
-    .line 348
-    :try_start_0
-    invoke-static {}, Lcom/ironsource/mediationsdk/utils/IronSourceUtils;->getSDKVersion()Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 350
-    .local v3, "v":Ljava/lang/String;
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "Ironsource version:"
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4}, Lcom/miaotao/mopub_android_demo/utils/MTLogHelper;->cpLogI(Ljava/lang/String;)V
-
-    .line 352
-    if-eqz v3, :cond_3
-
-    .line 353
-    const-string v4, "\\."
-
-    invoke-virtual {v3, v4}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
-    move-result-object v4
-
-    .line 355
-    .local v4, "ary":[Ljava/lang/String;
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v6, "Ironsource length:"
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    array-length v6, v4
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-static {v5}, Lcom/miaotao/mopub_android_demo/utils/MTLogHelper;->cpLogI(Ljava/lang/String;)V
-
-    .line 357
-    array-length v5, v4
-
-    const/4 v6, 0x3
-
-    if-ne v5, v6, :cond_3
-
-    .line 358
-    const/4 v5, 0x0
-
-    aget-object v5, v4, v5
-
-    invoke-virtual {v5}, Ljava/lang/String;->trim()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-static {v5}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
-
-    move-result v5
-
-    .line 359
-    .local v5, "v1":I
-    const/4 v6, 0x1
-
-    aget-object v6, v4, v6
-
-    invoke-virtual {v6}, Ljava/lang/String;->trim()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-static {v6}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Ljava/lang/Integer;->intValue()I
-
-    move-result v6
-
-    .line 360
-    .local v6, "v2":I
-    const/4 v7, 0x6
-
-    if-lt v5, v7, :cond_2
-
-    const/16 v7, 0xb
-
-    if-ge v6, v7, :cond_3
-
-    .line 361
-    :cond_2
-    const/4 v2, 0x0
-
-    .line 363
-    const-string v7, "Ironsource ads version too lower, update to 6.11.1 or above."
-
-    invoke-static {v7}, Lcom/miaotao/mopub_android_demo/utils/MTLogHelper;->cpLogE(Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 370
-    .end local v3    # "v":Ljava/lang/String;
-    .end local v4    # "ary":[Ljava/lang/String;
-    .end local v5    # "v1":I
-    .end local v6    # "v2":I
-    :cond_3
-    goto :goto_0
-
-    .line 369
-    :catch_0
-    move-exception v3
-
-    .line 371
-    :goto_0
-    if-eqz v2, :cond_4
-
-    .line 372
-    invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->updateExistedUnion(I)V
-
-    .line 375
-    :cond_4
-    invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->updateCheckedUnion(I)V
+    move-result v0
 
     .line 376
-    return v2
+    .local v0, "result":Z
+    return v0
 .end method
 
 .method public static hasMaio()Z
@@ -3221,7 +3048,7 @@
 
     .line 810
     :cond_1b
-    sget-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_baidu:Ljava/lang/String;
+    sget-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_Inmobi:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3230,14 +3057,33 @@
     if-eqz v0, :cond_1c
 
     .line 811
+    const-string v0, "com.inmobi.ads.InMobiAdRequestStatus"
+
+    invoke-static {v0}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->hasClass(Ljava/lang/String;)Z
+
+    move-result v0
+
+    return v0
+
+    .line 814
+    :cond_1c
+    sget-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_baidu:Ljava/lang/String;
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1d
+
+    .line 815
     invoke-static {}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->hasBdm()Z
 
     move-result v0
 
     return v0
 
-    .line 815
-    :cond_1c
+    .line 818
+    :cond_1d
     const/4 v0, 0x0
 
     return v0

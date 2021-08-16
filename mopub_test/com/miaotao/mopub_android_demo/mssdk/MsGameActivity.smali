@@ -281,7 +281,7 @@
     invoke-virtual {v0, v1}, Lcom/ms/sdk/MsBannerAd;->setBannerAdListener(Lcom/ms/sdk/wrapper/banner/MsBannerAdListener;)V
 
     .line 70
-    const v0, 0x7f090165
+    const v0, 0x7f090184
 
     invoke-virtual {p0, v0}, Lcom/miaotao/mopub_android_demo/mssdk/MsGameActivity;->findViewById(I)Landroid/view/View;
 
@@ -314,7 +314,7 @@
     invoke-super {p0, p1}, Lcom/miaotao/mopub_android_demo/mssdk/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 34
-    const v0, 0x7f0c004d
+    const v0, 0x7f0c0052
 
     invoke-virtual {p0, v0}, Lcom/miaotao/mopub_android_demo/mssdk/MsGameActivity;->setContentView(I)V
 

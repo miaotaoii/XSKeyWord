@@ -365,7 +365,7 @@
     .param p2, "id"    # Ljava/lang/String;
     .param p3, "state"    # Ljava/lang/String;
 
-    .line 306
+    .line 307
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mShow:Landroid/widget/Button;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -384,7 +384,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 308
+    .line 309
     const-string v0, "loaded"
 
     invoke-virtual {v0, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -393,7 +393,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 309
+    .line 310
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mShow:Landroid/widget/Button;
 
     const v1, -0xad6ecf
@@ -402,7 +402,7 @@
 
     goto :goto_0
 
-    .line 310
+    .line 311
     :cond_0
     const-string v0, "load fail"
 
@@ -412,7 +412,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 311
+    .line 312
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mShow:Landroid/widget/Button;
 
     const v1, -0x58f1f2
@@ -421,7 +421,7 @@
 
     goto :goto_0
 
-    .line 313
+    .line 314
     :cond_1
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mShow:Landroid/widget/Button;
 
@@ -429,7 +429,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
 
-    .line 315
+    .line 316
     :goto_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;->this$0:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
@@ -439,14 +439,14 @@
 
     if-eqz v0, :cond_2
 
-    .line 316
+    .line 317
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mShow:Landroid/widget/Button;
 
     const-string v1, "\u5c55\u793a\u6a2a\u5e45"
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 318
+    .line 319
     :cond_2
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mShow:Landroid/widget/Button;
 
@@ -456,7 +456,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 319
+    .line 320
     return-void
 .end method
 
@@ -553,7 +553,7 @@
 .end method
 
 .method private updateTextView(Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
-    .locals 2
+    .locals 4
     .param p1, "holder"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;
     .param p2, "network"    # Ljava/lang/String;
     .param p3, "id"    # Ljava/lang/String;
@@ -570,9 +570,9 @@
     .line 268
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdName:Landroid/widget/TextView;
 
-    const/4 v1, -0x1
+    const/4 v2, -0x1
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
     .line 269
     if-eqz p5, :cond_1
@@ -580,7 +580,7 @@
     .line 270
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdName:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
     .line 271
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdName:Landroid/widget/TextView;
@@ -611,73 +611,75 @@
     :cond_1
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdName:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
+    const v2, -0x58f1f2
+
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
     .line 279
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdName:Landroid/widget/TextView;
 
-    invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    new-instance v2, Ljava/lang/StringBuilder;
 
-    .line 281
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v3, " \u672a\u63a5\u5165"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 280
+    iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdVersion:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 282
     :goto_0
     return-void
 .end method
 
 .method private updateTvVerForAdUnit(Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;Ljava/lang/String;Ljava/lang/String;)V
-    .locals 2
+    .locals 3
     .param p1, "holder"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;
     .param p2, "id"    # Ljava/lang/String;
     .param p3, "msg"    # Ljava/lang/String;
 
-    .line 284
+    .line 285
     iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdVersion:Landroid/widget/TextView;
 
     const-string v1, ""
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 294
-    return-void
-.end method
-
-.method private updateTvVerForDefault(Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;Ljava/lang/String;Ljava/lang/String;)V
-    .locals 3
-    .param p1, "holder"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;
-    .param p2, "network"    # Ljava/lang/String;
-    .param p3, "msg"    # Ljava/lang/String;
-
-    .line 297
-    iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdVersion:Landroid/widget/TextView;
-
-    const-string v1, ""
-
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    .line 299
-    iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;->this$0:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
-
-    invoke-virtual {v0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-static {v0, p2}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->getAdUnionVersion(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 300
-    .local v0, "version":Ljava/lang/String;
+    .line 288
     invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v2
+    move-result v0
 
-    if-eqz v2, :cond_0
+    if-eqz v0, :cond_0
+
+    .line 289
+    iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdVersion:Landroid/widget/TextView;
+
+    invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
+    .line 292
     :cond_0
+    iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdVersion:Landroid/widget/TextView;
+
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "\nMoPubError:"
 
@@ -689,14 +691,84 @@
 
     move-result-object v1
 
-    .line 301
-    .local v1, "string":Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 295
     :goto_0
+    return-void
+.end method
+
+.method private updateTvVerForDefault(Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 3
+    .param p1, "holder"    # Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;
+    .param p2, "network"    # Ljava/lang/String;
+    .param p3, "msg"    # Ljava/lang/String;
+
+    .line 298
+    iget-object v0, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdVersion:Landroid/widget/TextView;
+
+    const-string v1, ""
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 300
+    iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;->this$0:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
+
+    invoke-virtual {v0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0, p2}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->getAdUnionVersion(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 301
+    .local v0, "version":Ljava/lang/String;
+    invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    const-string v2, "ver:"
+
+    if-eqz v1, :cond_0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, "\nMoPubError:"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    :goto_0
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 302
+    .local v1, "string":Ljava/lang/String;
     iget-object v2, p1, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter$AdUnionViewHolder;->mAdVersion:Landroid/widget/TextView;
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 302
+    .line 303
     return-void
 .end method
 
@@ -705,7 +777,7 @@
 .method public getItemCount()I
     .locals 1
 
-    .line 324
+    .line 325
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;->this$0:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-static {v0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->access$000(Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;)Ljava/util/ArrayList;
@@ -738,7 +810,7 @@
     .param p1, "id"    # Ljava/lang/String;
     .param p2, "v"    # Landroid/view/View;
 
-    .line 318
+    .line 319
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionAdapter;->this$0:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-static {v0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->access$300(Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;)Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionClickListener;

@@ -32,12 +32,12 @@
         }
     .end annotation
 
-    .line 75
+    .line 77
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 77
+    .line 79
     .local v0, "data":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Ljava/lang/String;>;"
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -47,7 +47,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 78
+    .line 80
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_INTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -56,7 +56,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 79
+    .line 81
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_REWARD:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -65,7 +65,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 80
+    .line 82
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->APPLOVIN_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -74,7 +74,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 81
+    .line 83
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->CHARTBOOST_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -83,7 +83,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 82
+    .line 84
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -92,7 +92,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 83
+    .line 85
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->IRONSOURCE_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -101,7 +101,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 84
+    .line 86
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->UNITY_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -110,7 +110,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 85
+    .line 87
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->VUNGLE_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -119,7 +119,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 86
+    .line 88
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MINTEGRAL_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -128,7 +128,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 87
+    .line 89
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADCOLONY_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -137,7 +137,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 88
+    .line 90
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB_ADAPTER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -146,7 +146,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 91
+    .line 93
     return-object v0
 .end method
 
@@ -161,12 +161,12 @@
         }
     .end annotation
 
-    .line 65
+    .line 67
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 66
+    .line 68
     .local v0, "data":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Ljava/lang/String;>;"
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -176,7 +176,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 67
+    .line 69
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->APPLOVIN:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -185,7 +185,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 68
+    .line 70
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -194,7 +194,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 69
+    .line 71
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_MARKETPLACE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -203,21 +203,21 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 71
+    .line 73
     return-object v0
 .end method
 
 .method public static getDefaultBannerIds()[Ljava/lang/String;
     .locals 3
 
-    .line 146
+    .line 150
     const/4 v0, 0x4
 
     new-array v0, v0, [Ljava/lang/String;
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 147
+    .line 151
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -228,7 +228,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 148
+    .line 152
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -239,7 +239,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 149
+    .line 153
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -250,7 +250,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->BANNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 150
+    .line 154
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -259,21 +259,21 @@
 
     aput-object v1, v0, v2
 
-    .line 146
+    .line 150
     return-object v0
 .end method
 
 .method public static getDefaultInnerIds()[Ljava/lang/String;
     .locals 3
 
-    .line 96
+    .line 98
     const/16 v0, 0xe
 
     new-array v0, v0, [Ljava/lang/String;
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 97
+    .line 99
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -284,7 +284,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 98
+    .line 100
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -295,7 +295,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_CHARTBOOST_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 99
+    .line 101
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -306,7 +306,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 100
+    .line 102
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -317,7 +317,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_IRAONSOURCE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 101
+    .line 103
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -328,7 +328,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_UNITY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 102
+    .line 104
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -339,7 +339,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_VUNGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 103
+    .line 105
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -350,7 +350,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MINTEGRAL_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 104
+    .line 106
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -361,7 +361,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_ADCOLONY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 105
+    .line 107
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -372,7 +372,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_CHARTBOOST_N_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 106
+    .line 108
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -383,7 +383,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_PANGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 107
+    .line 109
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -394,7 +394,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_FYBER_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 108
+    .line 110
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -403,9 +403,9 @@
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 109
+    .line 111
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -414,9 +414,9 @@
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->INNER_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 110
+    .line 112
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -425,21 +425,21 @@
 
     aput-object v1, v0, v2
 
-    .line 96
+    .line 98
     return-object v0
 .end method
 
 .method public static getDefaultVideoIds()[Ljava/lang/String;
     .locals 3
 
-    .line 116
+    .line 119
     const/16 v0, 0xf
 
     new-array v0, v0, [Ljava/lang/String;
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_AdMOB_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 117
+    .line 120
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -450,7 +450,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_ADMOB_NEW_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 118
+    .line 121
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -461,7 +461,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_APPLOVIN_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 119
+    .line 122
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -472,7 +472,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_CHARTBOOST_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 120
+    .line 123
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -483,7 +483,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_FACEBOOK_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 121
+    .line 124
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -494,7 +494,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_IRONSOURCE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 122
+    .line 125
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -505,7 +505,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_UNITY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 123
+    .line 126
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -516,7 +516,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_VUNGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 124
+    .line 127
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -527,7 +527,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_MINTEGRAL_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 125
+    .line 128
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -538,7 +538,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_ADCOLONY_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 126
+    .line 129
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -549,7 +549,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_CHARTBOOST_N_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 127
+    .line 130
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -560,7 +560,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_PANGLE_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 128
+    .line 131
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -571,7 +571,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_fyber_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 129
+    .line 132
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -580,9 +580,9 @@
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 130
+    .line 133
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -591,9 +591,9 @@
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_InMobi_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->VIDEO_MPX_ID:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 131
+    .line 134
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -602,7 +602,7 @@
 
     aput-object v1, v0, v2
 
-    .line 116
+    .line 119
     return-object v0
 .end method
 
@@ -617,12 +617,12 @@
         }
     .end annotation
 
-    .line 45
+    .line 46
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 46
+    .line 47
     .local v0, "data":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Ljava/lang/String;>;"
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADMOB:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
@@ -632,7 +632,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 47
+    .line 48
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->APPLOVIN:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -641,7 +641,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 48
+    .line 49
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->CHARTBOOST:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -650,7 +650,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 49
+    .line 50
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FACEBOOK:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -659,7 +659,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 50
+    .line 51
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->IRONSOURCE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -668,7 +668,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 51
+    .line 52
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->UNITY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -677,7 +677,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 52
+    .line 53
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->VUNGLE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -686,12 +686,12 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 53
+    .line 54
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_KEY_NAME_mintegral:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 54
+    .line 55
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->ADCOLONY:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -700,17 +700,8 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 55
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->CHARTBOOST_N:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
-
-    invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
     .line 56
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_MARKETPLACE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->CHARTBOOST_N:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
 
@@ -745,21 +736,30 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 61
+    .line 60
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_MARKETPLACE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+
+    invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 63
     return-object v0
 .end method
 
 .method public static getTestVideoIds()[Ljava/lang/String;
     .locals 3
 
-    .line 138
+    .line 142
     const/4 v0, 0x3
 
     new-array v0, v0, [Ljava/lang/String;
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW1:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 139
+    .line 143
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -770,7 +770,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW2:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 140
+    .line 144
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -781,7 +781,7 @@
 
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->AFF_MOPUB_RW3:Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;
 
-    .line 141
+    .line 145
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MoPubAdUnitId;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -790,7 +790,7 @@
 
     aput-object v1, v0, v2
 
-    .line 138
+    .line 142
     return-object v0
 .end method
 
@@ -907,15 +907,6 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 35
-    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_MARKETPLACE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
-
-    invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 36
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->PANGLE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -924,7 +915,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 37
+    .line 36
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->FYBER:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -933,7 +924,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 38
+    .line 37
     sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->InMobi:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
 
     invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
@@ -942,6 +933,15 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 41
+    .line 38
+    sget-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->MOPUB_MARKETPLACE:Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;
+
+    invoke-virtual {v1}, Lcom/miaotao/mopub_android_demo/consts/MTAdPlatform;->getPlatformName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 42
     return-object v0
 .end method

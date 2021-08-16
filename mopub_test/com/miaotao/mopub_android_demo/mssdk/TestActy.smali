@@ -34,7 +34,7 @@
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     .line 38
-    const v0, 0x7f0c0094
+    const v0, 0x7f0c0099
 
     invoke-virtual {p0, v0}, Lcom/miaotao/mopub_android_demo/mssdk/TestActy;->setContentView(I)V
 
