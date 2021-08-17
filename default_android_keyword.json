@@ -686,7 +686,7 @@
   }, {
     "name": "Pangle",
     "filePathList": ["com/pgl"],
-    "versionPathList": ["com/bytedances/sdk/openadsdk/BuildConfig.smali"],
+    "versionPathList": ["com/bytedances/sdk/openadsdk/BuildConfig.smali","com/mopub/mobileads/pangle/BuildConfig.smali"],
     "scanType": "FILE_SEARCH",
     "adType": "VALID_AD",
     "content": [""],
@@ -706,5 +706,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 22
+  "configVer": 23
 }
