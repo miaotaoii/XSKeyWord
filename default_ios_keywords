@@ -1,13 +1,13 @@
 {
-	"configVer": 32,
+	"configVer": 33,
 	"list": [{
 		"name": "MoPubSDK",
 		"content": ["-[MPRewardedVideo init]", "MoPub SDK requires iOS 9 and up", "MPRewardedVideo"],
 		"adType": "VALID_AD",
 		"isExisted": false,
-		"versionTag": "Chartboost\u0027s initialization skipped__miaotao__Initialized Facebook Audience Network__miaotao__MoPub SDK requires iOS 9 and up__miaotao__Failed to initialize Chartboost SDK: missing appId. Make sure you have a valid appId entered on the MoPub dashboard.__miaotao__Failed to load Chartboost interstitial: this location is already in use",
+		"versionTag": "",
 		"isUserAdded": false,
-		"podName": "mopub-ios-sdk",
+		"podName": "mopub-ios-sdk__sprite__mopub-ios-sdk/Core",
 		"isVerFromLockFile": false,
 		"code": 112326
 	}, {
