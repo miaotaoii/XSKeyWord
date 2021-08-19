@@ -20,17 +20,9 @@
     "isIgnoreSystemLib": false,
     "code": 122301,
     "isUserAdded": false
-  }, {
-    "name": "facebook_bid",
-    "filePathList": ["com/facebook/bidding/FBAdBidRequest.smali"],
-    "versionPathList": [],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122302,
-    "isUserAdded": false
-  }, {
+  }, 
+  
+   {
     "name": "adcolony",
     "filePathList": ["com/adcolony/sdk/AdColonyInterstitial.smali"],
     "versionPathList": ["com/adcolony/sdk/n.smali"],
@@ -706,5 +698,5 @@
     "code": 221312,
     "isUserAdded": true
   }],
-  "configVer": 23
+  "configVer": 24
 }
