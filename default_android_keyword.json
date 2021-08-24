@@ -697,6 +697,17 @@
     "isIgnoreSystemLib": true,
     "code": 221312,
     "isUserAdded": true
+  }, {
+    "name": "FacebookCoreSDK",
+    "filePathList": ["com/facebook/core/BuildConfig.smali"],
+    "versionPathList": ["com/facebook/FacebookSdkVersion.smali"],
+    "scanType": "FILE_SEARCH",
+    "adType": "VALID_AD",
+    "content": [""],
+    "isIgnoreAdLib": false,
+    "isIgnoreSystemLib": true,
+    "code": 221312,
+    "isUserAdded": true
   }],
-  "configVer": 24
+  "configVer": 25
 }
