@@ -438,7 +438,7 @@
   {
     "name": "appsflyer",
     "filePathList": ["com/appsflyer"],
-    "versionPathList": ["com/appsflyer/BuildConfig.smali","com/appsflyer/AFLogger.smali"],
+    "versionPathList": ["com/appsflyer/BuildConfig.smali","com/appsflyer/AFLogger.smali","com/appsflyer/AFVersionDeclaration.smali"],
     "scanType": "FILE_SEARCH",
     "adType": "NOT_AD",
     "content": [""],
@@ -709,5 +709,5 @@
     "code": 222347,
     "isUserAdded": true
   }],
-  "configVer": 26
+  "configVer": 27
 }
