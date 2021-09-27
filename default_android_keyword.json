@@ -1,713 +1,1122 @@
 {
-  "list": [{
-    "name": "admob",
-    "filePathList": ["com/google/android/gms/ads/reward/RewardedVideoAd.smali",
-        "com/google/android/gms/ads/rewarded/RewardedAd.smali"],
-    "versionPathList": ["unknown/play-services-ads-base.properties"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122300,
-    "isUserAdded": false
-  }, {
-    "name": "facebook_AN",
-    "filePathList": ["com/facebook/ads/RewardedVideoAd.smali"],
-    "versionPathList": ["com/facebook/ads/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122301,
-    "isUserAdded": false
-  }, 
-  
-   {
-    "name": "adcolony",
-    "filePathList": ["com/adcolony/sdk/AdColonyInterstitial.smali"],
-    "versionPathList": ["com/adcolony/sdk/n.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122303,
-    "isUserAdded": false
-  }, {
-    "name": "unityads",
-    "filePathList": ["com/unity3d/ads/BuildConfig.smali", "com/unity3d/ads/UnityAds.smali", "com/unity3d/ads"],
-    "versionPathList": ["com/unity3d/ads/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122304,
-    "isUserAdded": false
-  }, {
-    "name": "vungle",
-    "filePathList": ["com/vungle/warren/Vungle.smali"],
-    "versionPathList": ["com/vungle/warren/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122305,
-    "isUserAdded": false
-  }, {
-    "name": "chartboost",
-    "filePathList": ["com/chartboost/sdk/Chartboost.smali"],
-    "versionPathList": ["com/chartboost/sdk/Chartboost.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122306,
-    "isUserAdded": false
-  }, {
-    "name": "chartboost_new",
-    "filePathList": ["com/chartboost/heliumsdk/HeliumSdk.smali"],
-    "versionPathList": ["com/chartboost/heliumsdk/HeliumSdk.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122307,
-    "isUserAdded": false
-  }, {
-    "name": "GoogleBillLib",
-    "filePathList": ["com/android/billingclient/BuildConfig.smali","billing.properties"],
-    "versionPathList": ["unknown/billing.properties"],
-    "scanType": "FILE_SEARCH",
-    "adType": "NOT_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 222316,
-    "isUserAdded": false
-  }, {
-    "name": "ironsource",
-    "filePathList": ["com/ironsource/adapters/ironsource/IronSourceAdapter.smali", "com/ironsource/mediationsdk/IronSource.smali"],
-    "versionPathList": ["com/ironsource/adapters/ironsource/IronSourceAdapter.smali", "com/ironsource/mediationsdk/IronSource.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 112320,
-    "isUserAdded": false
-  }, {
-    "name": "applovin",
-    "filePathList": ["com/applovin/sdk/AppLovinSdk.smali"],
-    "versionPathList": ["com/applovin/sdk/AppLovinSdk.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 112321,
-    "isUserAdded": false
-  }, {
-    "name": "mintegral",
-    "filePathList": ["com/mintegral/msdk/out/MTGConfiguration.smali"],
-    "versionPathList": ["com/mintegral/msdk/out/MTGConfiguration.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 122310,
-    "isUserAdded": false
-  }, {
-    "name": "toponad SDK",
-    "filePathList": ["com.uparpu.interstitial.api.", "com.uparpu.api.UpArpuSDK", "com/uparpu/api/", "com/uparpu/interstitial/api/", "com/uparpu/rewardvideo/api/", "com/uparpu/network/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100100,
-    "isUserAdded": false
-  }, {
-    "name": "soomla SDK",
-    "filePathList": ["com.soomla.traceback.", "com.soomla.keeva", "com/soomla/traceback/", "com/soomla/keeva/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100101,
-    "isUserAdded": false
-  }, {
-    "name": "SafeDK",
-    "filePathList": ["com.safedk.android", "com/safedk/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100102,
-    "isUserAdded": false
-  }, {
-    "name": "AMAP",
-    "filePathList": ["com.amap.api.location.APSService", "com.amap.api.v2.apikey", "com/amap/api/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100103,
-    "isUserAdded": false
-  }, {
-    "name": "Avidly",
-    "filePathList": ["avidly", "hola"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100104,
-    "isUserAdded": false
-  }, {
-    "name": "Sigmob",
-    "filePathList": ["com/sigmob/windad/WindAds."],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100105,
-    "isUserAdded": false
-  }, {
-    "name": "BaiduAd SDK",
-    "filePathList": ["com.baidu.mobads.", "com.baidu.mobad.video.", "com/baidu/mobad/", "com/baidu/mobads/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100106,
-    "isUserAdded": false
-  }, {
-    "name": "Mob.com",
-    "filePathList": ["com/mob/sdk/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100107,
-    "isUserAdded": false
-  }, {
-    "name": "YouAPPi",
-    "filePathList": ["com/youappi/sdk/YouAPPi"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100108,
-    "isUserAdded": false
-  }, {
-    "name": "Appnext",
-    "filePathList": ["com/appnext/base/Appnext"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100109,
-    "isUserAdded": false
-  }, {
-    "name": "displayio",
-    "filePathList": ["io.display", "display.io", "io/display", "display/io"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100110,
-    "isUserAdded": false
-  }, {
-    "name": "Centrixlink",
-    "filePathList": ["com/centrixlink/SDK"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100111,
-    "isUserAdded": false
-  }, {
-    "name": "Inmobi",
-    "filePathList": ["com/inmobi/ads"],
-    "versionPathList": ["com/mopub/mobileads/inmobi/BuildConfig.smali"],
-
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 122344,
-    "isUserAdded": false
-  },{
-    "name": "fyber",
-    "filePathList": ["com/fyber"],
-    "versionPathList": ["com/mopub/mobileads/fyber/BuildConfig.smali"],
-
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 122345,
-    "isUserAdded": false
-  }, {
-    "name": "Mobpower",
-    "filePathList": ["com/mrad/api/SDK"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100113,
-    "isUserAdded": false
-  }, {
-    "name": "Domob",
-    "filePathList": ["cn/domob/android/ads"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100114,
-    "isUserAdded": false
-  }, {
-    "name": "Tapjoy",
-    "filePathList": ["com/tapjoy"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100115,
-    "isUserAdded": false
-  }, {
-    "name": "Gdt",
-    "filePathList": ["com.qq.e.ads", "com/qq/e/ads"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100116,
-    "isUserAdded": false
-  }, {
-    "name": "Toutiao",
-    "filePathList": ["com/bytedance/sdk/openadsdk/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100117,
-    "isUserAdded": false
-  }, {
-    "name": "Oneway",
-    "filePathList": ["oneway", "mobi/oneway/sdk/OnewaySdk"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100118,
-    "isUserAdded": false
-  }, {
-    "name": "YeahMobi",
-    "filePathList": ["io/branch/referral/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100119,
-    "isUserAdded": false
-  }, {
-    "name": "AltaMob",
-    "filePathList": ["com/altamob/sdk"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 100120,
-    "isUserAdded": false
-  }, {
-    "name": "ANDROID_ID",
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["\"android_id\"", "Settings.Secure.ANDROID_ID"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "KEYWORD",
-    "code": 360121,
-    "isUserAdded": false
-  }, {
-    "name": "IMEI",
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["TelephonyManager;-\u003egetDeviceId()Ljava/lang/String", ".getDeviceId()"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "KEYWORD",
-    "code": 360122,
-    "isUserAdded": false
-  }, {
-    "name": "Mac地址",
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["getHardwareAddress()Ljava/lang/String", "WifiInfo;-\u003egetMacAddress()Ljava/lang/String"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "KEYWORD",
-    "code": 360123,
-    "isUserAdded": false
-  }, {
-    "name": "UP素材代码",
-    "filePathList": ["com/up/ads/f/az.smali", "com/up/ads/g/ay.smali", "com/up/ads/g/zu.smali", "com/up/ads/g/zz.smali", "com/up/playablead/ext/PlayableADCall.smali", "com/ad/ext/support/AdRuntime.smali", "com/web/sockethelper/report/AmazonS3Client.smali", "com/web/sockethelper/logic/", "com/ad/ext/support/"],
-    "scanType": "FILE_SEARCH",
-    "adType": "NOT_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "KEYWORD",
-    "code": 340124,
-    "isUserAdded": false
-  }, {
-    "name": "Mintegral危险代码",
-    "filePathList": ["com/mintegral/msdk/mtgdownload/", "com/mintegral/msdk/pluginFramework/PluginService.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "NOT_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "KEYWORD",
-    "code": 340125,
-    "isUserAdded": false
-  }, {
-    "name": "TASDK",
-    "filePathList": ["com/aly/analysis/analysiscore/BuildConfig.smali"],
-    "versionPathList": ["com/aly/analysis/analysiscore/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "NOT_AD",
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 221315,
-    "isUserAdded": false
-  }, {
-    "name": "悬浮窗权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["android.permission.SYSTEM_ALERT_WINDOW", "android.settings.action.MANAGE_OVERLAY_PERMISSION"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230127,
-    "isUserAdded": false
-  }, 
- {
-    "name": "读取应用列表权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["getInstalledPackages", "android.permission.QUERY_ALL_PACKAGES","getInstalledApplications","getInstallerPackageName"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230175,
-    "isUserAdded": false
-  },
-  {
-    "name": "所有文件访问权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["MANAGE_EXTERNAL_STORAGE"],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230176,
-    "isUserAdded": false
-  },
-  {
-    "name": "appsflyer",
-    "filePathList": ["com/appsflyer"],
-    "versionPathList": ["com/appsflyer/BuildConfig.smali","com/appsflyer/AFLogger.smali","com/appsflyer/AFVersionDeclaration.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "NOT_AD",
-    "content": [""],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 222314,
-    "isUserAdded": false
-  }, {
-    "name": "kochava sdk",
-    "filePathList": ["com/kochava"],
-    "versionPathList": ["com/kochava/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [""],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 120128,
-    "isUserAdded": false
-  }, {
-    "name": "localytics sdk",
-    "filePathList": ["com/localytics"],
-    "versionPathList": ["com/localytics/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 120129,
-    "isUserAdded": false
-  }, {
-    "name": "branch sdk",
-    "filePathList": ["io/branch"],
-    "versionPathList": ["io/branch/referral/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 120130,
-    "isUserAdded": false
-  }, {
-    "name": "tenjin SDK",
-    "filePathList": ["com/tenjin/android"],
-    "versionPathList": ["com/tenjin/android/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 120131,
-    "isUserAdded": false
-  }, {
-    "name": "AdJust",
-    "filePathList": ["com/adjust/sdk"],
-    "versionPathList": ["com/adjust/sdk/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "SDK",
-    "code": 120132,
-    "isUserAdded": false
-  }, {
-    "name": "singular sdk",
-    "filePathList": ["com/singular/sdk"],
-    "versionPathList": ["com/singular/sdk/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [""],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "SDK",
-    "code": 120133,
-    "isUserAdded": false
-  }, {
-    "name": "tune sdk",
-    "filePathList": ["com/tune"],
-    "versionPathList": ["com/tune/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [""],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 120134,
-    "isUserAdded": false
-  }, {
-    "name": "Tapstream sdk",
-    "filePathList": ["com/tapstream/sdk"],
-    "versionPathList": ["com/tapstream/sdk/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [""],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "InvalidType": "SDK",
-    "code": 120135,
-    "isUserAdded": false
-  }, {
-    "name": "访问电话状态权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["android.permission.READ_PHONE_STAT"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230136,
-    "isUserAdded": false
-  }, {
-    "name": "读取外部存储权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["android.permission.READ_EXTERNAL_STORAGE"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230138,
-    "isUserAdded": false
-  }, {
-    "name": "BACKGROUND_LOCATION权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["android.permission.ACCESS_BACKGROUND_LOCATION"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230139,
-    "isUserAdded": true
-  },{
-    "name": "ACCESS_FINE_LOCATION权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["android.permission.ACCESS_FINE_LOCATION"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230184,
-    "isUserAdded": true
-  },
-{
-    "name": "ACCESS_COARSE_LOCATION权限",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["android.permission.ACCESS_COARSE_LOCATION"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "PERMISSION",
-    "code": 230185,
-    "isUserAdded": true
-  },
-
-
-   {
-    "name": "ICCID",
-    "filePathList": [],
-    "versionPathList": [],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["getIccId"],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "KEYWORD",
-    "code": 360140,
-    "isUserAdded": true
-  }, {
-    "name": "UmengSDK",
-    "filePathList": ["com/umeng"],
-    "versionPathList": [""],
-    "scanType": "FILE_SEARCH",
-    "adType": "INVALID_AD",
-    "content": [""],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "SDK",
-    "code": 100141,
-    "isUserAdded": true
-  }, {
-    "name": "setCustomerID",
-    "filePathList": [],
-    "versionPathList": [],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["-\u003esetCustomerUserId"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "code": 0,
-    "isUserAdded": true
-  }, {
-    "name": "setAFId",
-    "filePathList": [],
-    "versionPathList": [],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["-\u003esetAFId"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "code": 0,
-    "isUserAdded": true
-  }, {
-    "name": "Upltv关键字",
-    "filePathList": [""],
-    "versionPathList": [""],
-    "scanType": "CONTENT_SEARCH",
-    "adType": "NOT_AD",
-    "content": ["upltv"],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "InvalidType": "KEYWORD",
-    "code": 340142,
-    "isUserAdded": true
-  }, {
-    "name": "CSSDK",
-    "filePathList": ["com/css/sdk/BuildConfig.smali"],
-    "versionPathList": ["com/css/sdk/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "NOT_AD",
-    "content": [""],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": false,
-    "code": 221313,
-    "isUserAdded": true
-  }, {
-    "name": "Pangle",
-    "filePathList": ["com/pgl"],
-    "versionPathList": ["com/bytedances/sdk/openadsdk/BuildConfig.smali","com/mopub/mobileads/pangle/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "content": [""],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "code": 122311,
-    "isUserAdded": true
-  }, {
-    "name": "AASDK",
-    "filePathList": ["com/aas/sdk/account/BuildConfig.smali"],
-    "versionPathList": ["com/aas/sdk/account/BuildConfig.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "NOT_AD",
-    "content": [""],
-    "isIgnoreAdLib": true,
-    "isIgnoreSystemLib": true,
-    "code": 221312,
-    "isUserAdded": true
-  }, {
-    "name": "FacebookCoreSDK",
-    "filePathList": ["com/facebook/core/BuildConfig.smali"],
-    "versionPathList": ["com/facebook/FacebookSdkVersion.smali"],
-    "scanType": "FILE_SEARCH",
-    "adType": "VALID_AD",
-    "content": [""],
-    "isIgnoreAdLib": false,
-    "isIgnoreSystemLib": true,
-    "code": 222347,
-    "isUserAdded": true
-  }],
-  "configVer": 27
+  "list": [
+    {
+      "name": "admob",
+      "filePathList": [
+        "com/google/android/gms/ads/reward/RewardedVideoAd.smali",
+        "com/google/android/gms/ads/rewarded/RewardedAd.smali"
+      ],
+      "versionPathList": [
+        "unknown/play-services-ads-base.properties"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 122300,
+      "isUserAdded": false
+    },
+    {
+      "name": "facebook_AN",
+      "filePathList": [
+        "com/facebook/ads/RewardedVideoAd.smali"
+      ],
+      "versionPathList": [
+        "com/facebook/ads/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 122301,
+      "isUserAdded": false
+    },
+    {
+      "name": "adcolony",
+      "filePathList": [
+        "com/adcolony/sdk/AdColonyInterstitial.smali"
+      ],
+      "versionPathList": [
+        "com/adcolony/sdk/n.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 122303,
+      "isUserAdded": false
+    },
+    {
+      "name": "unityads",
+      "filePathList": [
+        "com/unity3d/ads/BuildConfig.smali",
+        "com/unity3d/ads/UnityAds.smali",
+        "com/unity3d/ads"
+      ],
+      "versionPathList": [
+        "com/unity3d/ads/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 122304,
+      "isUserAdded": false
+    },
+    {
+      "name": "vungle",
+      "filePathList": [
+        "com/vungle/warren/Vungle.smali"
+      ],
+      "versionPathList": [
+        "com/vungle/warren/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 122305,
+      "isUserAdded": false
+    },
+    {
+      "name": "chartboost",
+      "filePathList": [
+        "com/chartboost/sdk/Chartboost.smali"
+      ],
+      "versionPathList": [
+        "com/chartboost/sdk/Chartboost.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 122306,
+      "isUserAdded": false
+    },
+    {
+      "name": "chartboost_new",
+      "filePathList": [
+        "com/chartboost/heliumsdk/HeliumSdk.smali"
+      ],
+      "versionPathList": [
+        "com/chartboost/heliumsdk/HeliumSdk.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 122307,
+      "isUserAdded": false
+    },
+    {
+      "name": "GoogleBillLib",
+      "filePathList": [
+        "com/android/billingclient/BuildConfig.smali",
+        "billing.properties"
+      ],
+      "versionPathList": [
+        "unknown/billing.properties"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 222316,
+      "isUserAdded": false
+    },
+    {
+      "name": "Firebase Crashlytics SDK",
+      "filePathList": [
+        "firebase-crashlytics.properties"
+      ],
+      "versionPathList": [
+        "unknown/firebase-crashlytics.properties"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 222317,
+      "isUserAdded": false
+    },
+    {
+      "name": "Firebase Analytics SDK",
+      "filePathList": [
+        "firebase-analytics.properties"
+      ],
+      "versionPathList": [
+        "unknown/firebase-analytics.properties"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 222318,
+      "isUserAdded": false,
+      "keys": [
+        {
+          "flag": "gcm_defaultSenderId",
+          "origin_name": "project_number"
+        },
+        {
+          "flag": "project_id",
+          "origin_name": "project_id"
+        },
+        {
+          "flag": "google_storage_bucket",
+          "origin_name": "storage_bucket"
+        },
+        {
+          "flag": "google_app_id",
+          "origin_name": "mobilesdk_app_id"
+        },
+        {
+          "flag": "default_web_client_id",
+          "origin_name": "client_id"
+        },
+        {
+          "flag": "google_api_key",
+          "origin_name": "current_key"
+        }
+      ]
+    },
+    {
+      "name": "ironsource",
+      "filePathList": [
+        "com/ironsource/adapters/ironsource/IronSourceAdapter.smali",
+        "com/ironsource/mediationsdk/IronSource.smali"
+      ],
+      "versionPathList": [
+        "com/ironsource/adapters/ironsource/IronSourceAdapter.smali",
+        "com/ironsource/mediationsdk/IronSource.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 112320,
+      "isUserAdded": false
+    },
+    {
+      "name": "applovin",
+      "filePathList": [
+        "com/applovin/sdk/AppLovinSdk.smali"
+      ],
+      "versionPathList": [
+        "com/applovin/sdk/AppLovinSdk.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 112321,
+      "isUserAdded": false
+    },
+    {
+      "name": "mintegral",
+      "filePathList": [
+        "com/mintegral/msdk/out/MTGConfiguration.smali",
+        "com/mbridge/msdk"
+      ],
+      "versionPathList": [
+        "com/mintegral/msdk/out/MTGConfiguration.smali",
+        "com/mbridge/msdk/out/MBConfiguration.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 122310,
+      "isUserAdded": false
+    },
+    {
+      "name": "toponad SDK",
+      "filePathList": [
+        "com.uparpu.interstitial.api.",
+        "com.uparpu.api.UpArpuSDK",
+        "com/uparpu/api/",
+        "com/uparpu/interstitial/api/",
+        "com/uparpu/rewardvideo/api/",
+        "com/uparpu/network/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100100,
+      "isUserAdded": false
+    },
+    {
+      "name": "soomla SDK",
+      "filePathList": [
+        "com.soomla.traceback.",
+        "com.soomla.keeva",
+        "com/soomla/traceback/",
+        "com/soomla/keeva/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100101,
+      "isUserAdded": false
+    },
+    {
+      "name": "SafeDK",
+      "filePathList": [
+        "com.safedk.android",
+        "com/safedk/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100102,
+      "isUserAdded": false
+    },
+    {
+      "name": "AMAP",
+      "filePathList": [
+        "com.amap.api.location.APSService",
+        "com.amap.api.v2.apikey",
+        "com/amap/api/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100103,
+      "isUserAdded": false
+    },
+    {
+      "name": "Avidly",
+      "filePathList": [
+        "avidly",
+        "hola"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100104,
+      "isUserAdded": false
+    },
+    {
+      "name": "Sigmob",
+      "filePathList": [
+        "com/sigmob/windad/WindAds."
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100105,
+      "isUserAdded": false
+    },
+    {
+      "name": "BaiduAd SDK",
+      "filePathList": [
+        "com.baidu.mobads.",
+        "com.baidu.mobad.video.",
+        "com/baidu/mobad/",
+        "com/baidu/mobads/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100106,
+      "isUserAdded": false
+    },
+    {
+      "name": "Mob.com",
+      "filePathList": [
+        "com/mob/sdk/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100107,
+      "isUserAdded": false
+    },
+    {
+      "name": "YouAPPi",
+      "filePathList": [
+        "com/youappi/sdk/YouAPPi"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100108,
+      "isUserAdded": false
+    },
+    {
+      "name": "Appnext",
+      "filePathList": [
+        "com/appnext/base/Appnext"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100109,
+      "isUserAdded": false
+    },
+    {
+      "name": "displayio",
+      "filePathList": [
+        "io.display",
+        "display.io",
+        "io/display",
+        "display/io"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100110,
+      "isUserAdded": false
+    },
+    {
+      "name": "Centrixlink",
+      "filePathList": [
+        "com/centrixlink/SDK"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100111,
+      "isUserAdded": false
+    },
+    {
+      "name": "Inmobi",
+      "filePathList": [
+        "com/inmobi/ads"
+      ],
+      "versionPathList": [
+        "com/mopub/mobileads/inmobi/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 122344,
+      "isUserAdded": false
+    },
+    {
+      "name": "fyber",
+      "filePathList": [
+        "com/fyber"
+      ],
+      "versionPathList": [
+        "com/mopub/mobileads/fyber/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 122345,
+      "isUserAdded": false
+    },
+    {
+      "name": "Mobpower",
+      "filePathList": [
+        "com/mrad/api/SDK"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100113,
+      "isUserAdded": false
+    },
+    {
+      "name": "Domob",
+      "filePathList": [
+        "cn/domob/android/ads"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100114,
+      "isUserAdded": false
+    },
+    {
+      "name": "Tapjoy",
+      "filePathList": [
+        "com/tapjoy"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100115,
+      "isUserAdded": false
+    },
+    {
+      "name": "Gdt",
+      "filePathList": [
+        "com.qq.e.ads",
+        "com/qq/e/ads"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100116,
+      "isUserAdded": false
+    },
+    {
+      "name": "Toutiao",
+      "filePathList": [
+        "com/bytedance/sdk/openadsdk/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100117,
+      "isUserAdded": false
+    },
+    {
+      "name": "Oneway",
+      "filePathList": [
+        "oneway",
+        "mobi/oneway/sdk/OnewaySdk"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100118,
+      "isUserAdded": false
+    },
+    {
+      "name": "YeahMobi",
+      "filePathList": [
+        "io/branch/referral/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100119,
+      "isUserAdded": false
+    },
+    {
+      "name": "AltaMob",
+      "filePathList": [
+        "com/altamob/sdk"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 100120,
+      "isUserAdded": false
+    },
+    {
+      "name": "ANDROID_ID",
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "\"android_id\"",
+        "Settings.Secure.ANDROID_ID"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "KEYWORD",
+      "code": 360121,
+      "isUserAdded": false
+    },
+    {
+      "name": "IMEI",
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "TelephonyManager;-\u003egetDeviceId()Ljava/lang/String",
+        ".getDeviceId()"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "KEYWORD",
+      "code": 360122,
+      "isUserAdded": false
+    },
+    {
+      "name": "Mac地址",
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "getHardwareAddress()Ljava/lang/String",
+        "WifiInfo;-\u003egetMacAddress()Ljava/lang/String"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "KEYWORD",
+      "code": 360123,
+      "isUserAdded": false
+    },
+    {
+      "name": "UP素材代码",
+      "filePathList": [
+        "com/up/ads/f/az.smali",
+        "com/up/ads/g/ay.smali",
+        "com/up/ads/g/zu.smali",
+        "com/up/ads/g/zz.smali",
+        "com/up/playablead/ext/PlayableADCall.smali",
+        "com/ad/ext/support/AdRuntime.smali",
+        "com/web/sockethelper/report/AmazonS3Client.smali",
+        "com/web/sockethelper/logic/",
+        "com/ad/ext/support/"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "KEYWORD",
+      "code": 340124,
+      "isUserAdded": false
+    },
+    {
+      "name": "Mintegral危险代码",
+      "filePathList": [
+        "com/mintegral/msdk/mtgdownload/",
+        "com/mintegral/msdk/pluginFramework/PluginService.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "KEYWORD",
+      "code": 340125,
+      "isUserAdded": false
+    },
+    {
+      "name": "TASDK",
+      "filePathList": [
+        "com/aly/analysis/analysiscore/BuildConfig.smali"
+      ],
+      "versionPathList": [
+        "com/aly/analysis/analysiscore/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 221315,
+      "isUserAdded": false
+    },
+    {
+      "name": "悬浮窗权限",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.settings.action.MANAGE_OVERLAY_PERMISSION"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "PERMISSION",
+      "code": 230127,
+      "isUserAdded": false
+    },
+    {
+      "name": "读取应用列表权限",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "getInstalledPackages",
+        "android.permission.QUERY_ALL_PACKAGES",
+        "getInstalledApplications",
+        "getInstallerPackageName"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "PERMISSION",
+      "code": 230175,
+      "isUserAdded": false
+    },
+    {
+      "name": "所有文件访问权限",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "MANAGE_EXTERNAL_STORAGE"
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "PERMISSION",
+      "code": 230176,
+      "isUserAdded": false
+    },
+    {
+      "name": "appsflyer",
+      "filePathList": [
+        "com/appsflyer"
+      ],
+      "versionPathList": [
+        "com/appsflyer/BuildConfig.smali",
+        "com/appsflyer/AFLogger.smali",
+        "com/appsflyer/AFVersionDeclaration.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 222314,
+      "isUserAdded": false
+    },
+    {
+      "name": "kochava sdk",
+      "filePathList": [
+        "com/kochava"
+      ],
+      "versionPathList": [
+        "com/kochava/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 120128,
+      "isUserAdded": false
+    },
+    {
+      "name": "localytics sdk",
+      "filePathList": [
+        "com/localytics"
+      ],
+      "versionPathList": [
+        "com/localytics/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 120129,
+      "isUserAdded": false
+    },
+    {
+      "name": "branch sdk",
+      "filePathList": [
+        "io/branch"
+      ],
+      "versionPathList": [
+        "io/branch/referral/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 120130,
+      "isUserAdded": false
+    },
+    {
+      "name": "tenjin SDK",
+      "filePathList": [
+        "com/tenjin/android"
+      ],
+      "versionPathList": [
+        "com/tenjin/android/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 120131,
+      "isUserAdded": false
+    },
+    {
+      "name": "AdJust",
+      "filePathList": [
+        "com/adjust/sdk"
+      ],
+      "versionPathList": [
+        "com/adjust/sdk/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "SDK",
+      "code": 120132,
+      "isUserAdded": false
+    },
+    {
+      "name": "singular sdk",
+      "filePathList": [
+        "com/singular/sdk"
+      ],
+      "versionPathList": [
+        "com/singular/sdk/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "SDK",
+      "code": 120133,
+      "isUserAdded": false
+    },
+    {
+      "name": "tune sdk",
+      "filePathList": [
+        "com/tune"
+      ],
+      "versionPathList": [
+        "com/tune/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 120134,
+      "isUserAdded": false
+    },
+    {
+      "name": "Tapstream sdk",
+      "filePathList": [
+        "com/tapstream/sdk"
+      ],
+      "versionPathList": [
+        "com/tapstream/sdk/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "InvalidType": "SDK",
+      "code": 120135,
+      "isUserAdded": false
+    },
+    {
+      "name": "访问电话状态权限",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "android.permission.READ_PHONE_STAT"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "PERMISSION",
+      "code": 230136,
+      "isUserAdded": false
+    },
+    {
+      "name": "读取外部存储权限",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "PERMISSION",
+      "code": 230138,
+      "isUserAdded": false
+    },
+    {
+      "name": "BACKGROUND_LOCATION权限",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "android.permission.ACCESS_BACKGROUND_LOCATION"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "PERMISSION",
+      "code": 230139,
+      "isUserAdded": true
+    },
+    {
+      "name": "ACCESS_FINE_LOCATION权限",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "PERMISSION",
+      "code": 230184,
+      "isUserAdded": true
+    },
+    {
+      "name": "ACCESS_COARSE_LOCATION权限",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "PERMISSION",
+      "code": 230185,
+      "isUserAdded": true
+    },
+    {
+      "name": "ICCID",
+      "filePathList": [],
+      "versionPathList": [],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "getIccId"
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "KEYWORD",
+      "code": 360140,
+      "isUserAdded": true
+    },
+    {
+      "name": "UmengSDK",
+      "filePathList": [
+        "com/umeng"
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "INVALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "SDK",
+      "code": 100141,
+      "isUserAdded": true
+    },
+    {
+      "name": "setCustomerID",
+      "filePathList": [],
+      "versionPathList": [],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "-\u003esetCustomerUserId"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "code": 0,
+      "isUserAdded": true
+    },
+    {
+      "name": "setAFId",
+      "filePathList": [],
+      "versionPathList": [],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "-\u003esetAFId"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "code": 0,
+      "isUserAdded": true
+    },
+    {
+      "name": "Upltv关键字",
+      "filePathList": [
+        ""
+      ],
+      "versionPathList": [
+        ""
+      ],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "upltv"
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "InvalidType": "KEYWORD",
+      "code": 340142,
+      "isUserAdded": true
+    },
+    {
+      "name": "CSSDK",
+      "filePathList": [
+        "com/css/sdk/BuildConfig.smali"
+      ],
+      "versionPathList": [
+        "com/css/sdk/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": false,
+      "code": 221313,
+      "isUserAdded": true
+    },
+    {
+      "name": "Pangle",
+      "filePathList": [
+        "com/pgl"
+      ],
+      "versionPathList": [
+        "com/bytedances/sdk/openadsdk/BuildConfig.smali",
+        "com/mopub/mobileads/pangle/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "VALID_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "code": 122311,
+      "isUserAdded": true
+    },
+    {
+      "name": "AASDK",
+      "filePathList": [
+        "com/aas/sdk/account/BuildConfig.smali"
+      ],
+      "versionPathList": [
+        "com/aas/sdk/account/BuildConfig.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "code": 221312,
+      "isUserAdded": true
+    },
+    {
+      "name": "FacebookCoreSDK",
+      "filePathList": [
+        "com/facebook/core/BuildConfig.smali"
+      ],
+      "versionPathList": [
+        "com/facebook/FacebookSdkVersion.smali"
+      ],
+      "scanType": "FILE_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        ""
+      ],
+      "isIgnoreAdLib": false,
+      "isIgnoreSystemLib": true,
+      "code": 222347,
+      "isUserAdded": true,
+      "keys": [
+        {
+          "flag": "facebook_app_id",
+          "origin_name": "facebook_app_id"
+        },
+        {
+          "flag": "facebook_client_token",
+          "origin_name": "facebook_client_token"
+        }
+      ]
+    }
+  ],
+  "configVer": 29
 }
