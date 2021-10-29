@@ -1000,6 +1000,20 @@
       "isIgnoreSystemLib": true,
       "code": 0,
       "isUserAdded": true
+    },{
+      "name": "HTTP明文传输",
+      "filePathList": [],
+      "versionPathList": [],
+      "scanType": "CONTENT_SEARCH",
+      "adType": "NOT_AD",
+      "content": [
+        "cleartextTrafficPermitted=\"true\""
+      ],
+      "InvalidType": "OTHER",
+      "isIgnoreAdLib": true,
+      "isIgnoreSystemLib": true,
+      "code": 490186,
+      "isUserAdded": true
     },
     {
       "name": "setAFId",
@@ -1118,5 +1132,5 @@
       ]
     }
   ],
-  "configVer": 29
+  "configVer": 30
 }
