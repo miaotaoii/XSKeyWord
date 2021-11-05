@@ -77,38 +77,38 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 55
+    .line 53
     invoke-direct {p0}, Landroidx/appcompat/app/AppCompatActivity;-><init>()V
 
-    .line 62
+    .line 60
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->videoConfig:Ljava/util/HashMap;
 
-    .line 63
+    .line 61
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interObjects:Ljava/util/HashMap;
 
-    .line 64
+    .line 62
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interConfig:Ljava/util/HashMap;
 
-    .line 65
+    .line 63
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->bannerConfig:Ljava/util/HashMap;
 
-    .line 69
+    .line 67
     const-string v0, ""
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
@@ -120,7 +120,7 @@
     .locals 1
     .param p0, "x0"    # Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;
 
-    .line 55
+    .line 53
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     return-object v0
@@ -131,7 +131,7 @@
     .param p0, "x0"    # Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;
     .param p1, "x1"    # Ljava/lang/String;
 
-    .line 55
+    .line 53
     invoke-direct {p0, p1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->loadVideoAd(Ljava/lang/String;)V
 
     return-void
@@ -141,7 +141,7 @@
     .locals 4
     .param p1, "layout"    # Landroid/widget/RelativeLayout;
 
-    .line 106
+    .line 103
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
     const-string v1, "video"
@@ -156,7 +156,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 108
+    .line 105
     const/4 v0, 0x2
 
     invoke-static {v0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->newInstance(I)Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
@@ -165,12 +165,12 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
-    .line 109
+    .line 106
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-virtual {v0, v2}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->setBanner(Z)V
 
-    .line 111
+    .line 108
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->videoConfig:Ljava/util/HashMap;
@@ -179,7 +179,7 @@
 
     goto :goto_0
 
-    .line 114
+    .line 111
     :cond_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
@@ -191,19 +191,19 @@
 
     if-eqz v0, :cond_1
 
-    .line 115
+    .line 112
     invoke-static {v1}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->newInstance(I)Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
-    .line 116
+    .line 113
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-virtual {v0, v2}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->setBanner(Z)V
 
-    .line 118
+    .line 115
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interConfig:Ljava/util/HashMap;
@@ -212,7 +212,7 @@
 
     goto :goto_0
 
-    .line 121
+    .line 118
     :cond_1
     const/4 v0, 0x3
 
@@ -222,19 +222,19 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
-    .line 122
+    .line 119
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-virtual {v0, v1}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->setBanner(Z)V
 
-    .line 123
+    .line 120
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->bannerConfig:Ljava/util/HashMap;
 
     invoke-virtual {v0, v3}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->initData(Ljava/util/HashMap;)V
 
-    .line 128
+    .line 125
     :goto_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
@@ -247,23 +247,23 @@
     :cond_2
     invoke-virtual {v0, v1}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->setType(I)V
 
-    .line 129
+    .line 126
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-virtual {v0, p0}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->setAdUnionClickListener(Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment$AdUnionClickListener;)V
 
-    .line 130
+    .line 127
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v0
 
-    .line 131
+    .line 128
     .local v0, "fragmentManager":Landroidx/fragment/app/FragmentManager;
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 132
+    .line 129
     .local v1, "transaction":Landroidx/fragment/app/FragmentTransaction;
     invoke-virtual {p1}, Landroid/widget/RelativeLayout;->getId()I
 
@@ -273,10 +273,10 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
-    .line 133
+    .line 130
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;->commit()I
 
-    .line 134
+    .line 131
     return-void
 .end method
 
@@ -284,7 +284,7 @@
     .locals 3
     .param p1, "id"    # Ljava/lang/String;
 
-    .line 209
+    .line 206
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interObjects:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->values()Ljava/util/Collection;
@@ -308,7 +308,7 @@
 
     check-cast v1, Lcom/mopub/mobileads/MoPubInterstitial;
 
-    .line 210
+    .line 207
     .local v1, "o":Lcom/mopub/mobileads/MoPubInterstitial;
     invoke-virtual {v1}, Lcom/mopub/mobileads/MoPubInterstitial;->getKeywords()Ljava/lang/String;
 
@@ -320,15 +320,15 @@
 
     if-eqz v2, :cond_0
 
-    .line 211
+    .line 208
     return-object v1
 
-    .line 213
+    .line 210
     .end local v1    # "o":Lcom/mopub/mobileads/MoPubInterstitial;
     :cond_0
     goto :goto_0
 
-    .line 214
+    .line 211
     :cond_1
     const/4 v0, 0x0
 
@@ -338,12 +338,12 @@
 .method private initBannerConfig()V
     .locals 5
 
-    .line 186
+    .line 183
     invoke-static {}, Lcom/miaotao/mopub_android_demo/utils/MTDefaultConfigUtils;->getBannerList()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 187
+    .line 184
     .local v0, "names":Ljava/util/List;, "Ljava/util/List<Ljava/lang/String;>;"
     const/4 v1, 0x0
 
@@ -355,7 +355,7 @@
 
     if-ge v1, v3, :cond_0
 
-    .line 188
+    .line 185
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->bannerConfig:Ljava/util/HashMap;
 
     aget-object v2, v2, v1
@@ -366,12 +366,12 @@
 
     invoke-virtual {v3, v2, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 187
+    .line 184
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 190
+    .line 187
     .end local v1    # "i":I
     :cond_0
     return-void
@@ -381,19 +381,19 @@
     .locals 0
     .param p1, "units"    # Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
-    .line 383
+    .line 380
     if-eqz p1, :cond_0
 
-    .line 384
+    .line 381
     invoke-direct {p0, p1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initGameConfig(Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;)V
 
     goto :goto_0
 
-    .line 386
+    .line 383
     :cond_0
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initDefaultConfig()V
 
-    .line 388
+    .line 385
     :goto_0
     return-void
 .end method
@@ -401,28 +401,28 @@
 .method private initDefaultConfig()V
     .locals 2
 
-    .line 367
+    .line 364
     invoke-static {}, Lcom/miaotao/mopub_android_demo/utils/MTDefaultConfigUtils;->getDefaultInnerIds()[Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->adunit_inter:[Ljava/lang/String;
 
-    .line 368
+    .line 365
     invoke-static {}, Lcom/miaotao/mopub_android_demo/utils/MTDefaultConfigUtils;->getDefaultVideoIds()[Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->adunit_video:[Ljava/lang/String;
 
-    .line 369
+    .line 366
     invoke-static {}, Lcom/miaotao/mopub_android_demo/utils/MTDefaultConfigUtils;->getDefaultBannerIds()[Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->adunit_banner:[Ljava/lang/String;
 
-    .line 370
+    .line 367
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
     const-string v1, "video"
@@ -433,12 +433,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 372
+    .line 369
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initVideoConfig()V
 
     goto :goto_0
 
-    .line 374
+    .line 371
     :cond_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
@@ -450,16 +450,16 @@
 
     if-eqz v0, :cond_1
 
-    .line 375
+    .line 372
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initInterConfig()V
 
     goto :goto_0
 
-    .line 378
+    .line 375
     :cond_1
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initBannerConfig()V
 
-    .line 380
+    .line 377
     :goto_0
     return-void
 .end method
@@ -468,7 +468,7 @@
     .locals 2
     .param p1, "units"    # Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
-    .line 346
+    .line 343
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
     const-string v1, "video"
@@ -479,7 +479,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 347
+    .line 344
     invoke-virtual {p1}, Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;->getVideos()Ljava/util/HashMap;
 
     move-result-object v0
@@ -488,7 +488,7 @@
 
     goto :goto_0
 
-    .line 348
+    .line 345
     :cond_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
@@ -500,19 +500,19 @@
 
     if-eqz v0, :cond_1
 
-    .line 349
+    .line 346
     invoke-virtual {p1}, Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;->getInners()Ljava/util/HashMap;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interConfig:Ljava/util/HashMap;
 
-    .line 350
+    .line 347
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initInnerObjects()V
 
     goto :goto_0
 
-    .line 352
+    .line 349
     :cond_1
     invoke-virtual {p1}, Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;->getBanners()Ljava/util/HashMap;
 
@@ -520,7 +520,7 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->bannerConfig:Ljava/util/HashMap;
 
-    .line 354
+    .line 351
     :goto_0
     return-void
 .end method
@@ -528,7 +528,7 @@
 .method private initInnerObjects()V
     .locals 4
 
-    .line 357
+    .line 354
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interConfig:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
@@ -552,7 +552,7 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 359
+    .line 356
     .local v1, "id":Ljava/lang/String;
     new-instance v2, Lcom/mopub/mobileads/MoPubInterstitial;
 
@@ -560,28 +560,28 @@
 
     iput-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
-    .line 360
+    .line 357
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v2, p0}, Lcom/mopub/mobileads/MoPubInterstitial;->setInterstitialAdListener(Lcom/mopub/mobileads/MoPubInterstitial$InterstitialAdListener;)V
 
-    .line 361
+    .line 358
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v2, v1}, Lcom/mopub/mobileads/MoPubInterstitial;->setKeywords(Ljava/lang/String;)V
 
-    .line 362
+    .line 359
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interObjects:Ljava/util/HashMap;
 
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v2, v1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 363
+    .line 360
     .end local v1    # "id":Ljava/lang/String;
     goto :goto_0
 
-    .line 364
+    .line 361
     :cond_0
     return-void
 .end method
@@ -589,12 +589,12 @@
 .method private initInterConfig()V
     .locals 5
 
-    .line 193
+    .line 190
     invoke-static {}, Lcom/miaotao/mopub_android_demo/utils/MTDefaultConfigUtils;->getInterList()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 194
+    .line 191
     .local v0, "names":Ljava/util/List;, "Ljava/util/List<Ljava/lang/String;>;"
     const/4 v1, 0x0
 
@@ -606,7 +606,7 @@
 
     if-ge v1, v3, :cond_0
 
-    .line 195
+    .line 192
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interConfig:Ljava/util/HashMap;
 
     aget-object v2, v2, v1
@@ -617,12 +617,12 @@
 
     invoke-virtual {v3, v2, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 194
+    .line 191
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 197
+    .line 194
     .end local v1    # "i":I
     :cond_0
     return-void
@@ -636,7 +636,7 @@
         }
     .end annotation
 
-    .line 88
+    .line 85
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
@@ -649,7 +649,7 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
-    .line 89
+    .line 86
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
     const-string v1, "banner"
@@ -660,7 +660,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 90
+    .line 87
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
@@ -671,7 +671,7 @@
 
     goto :goto_1
 
-    .line 92
+    .line 89
     :cond_0
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
@@ -697,13 +697,13 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 95
+    .line 92
     :goto_1
     new-instance v0, Landroid/widget/RelativeLayout;
 
     invoke-direct {v0, p0}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
-    .line 96
+    .line 93
     .local v0, "layout":Landroid/widget/RelativeLayout;
     new-instance v1, Landroid/widget/RelativeLayout$LayoutParams;
 
@@ -713,41 +713,41 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 98
+    .line 95
     const/16 v1, 0x10
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setId(I)V
 
-    .line 99
+    .line 96
     invoke-virtual {v0, v2}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    .line 100
+    .line 97
     invoke-virtual {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->setContentView(Landroid/view/View;)V
 
-    .line 101
+    .line 98
     invoke-direct {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->createFragment(Landroid/widget/RelativeLayout;)V
 
-    .line 103
+    .line 100
     return-void
 .end method
 
 .method private initMoPub()V
     .locals 9
 
-    .line 425
+    .line 422
     invoke-static {}, Lcom/mopub/common/MoPub;->isSdkInitialized()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 427
+    .line 424
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->preload()V
 
-    .line 428
+    .line 425
     return-void
 
-    .line 430
+    .line 427
     :cond_0
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
@@ -781,21 +781,21 @@
 
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 431
+    .line 428
     const-string v0, ""
 
-    .line 432
+    .line 429
     .local v0, "initId":Ljava/lang/String;
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->units:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
     if-nez v1, :cond_1
 
-    .line 433
+    .line 430
     const-string v0, "0293a6434d234f09bb975ea5658e9066"
 
     goto :goto_0
 
-    .line 435
+    .line 432
     :cond_1
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
@@ -807,7 +807,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 436
+    .line 433
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->videoConfig:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
@@ -834,7 +834,7 @@
 
     goto :goto_0
 
-    .line 437
+    .line 434
     :cond_2
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
@@ -846,7 +846,7 @@
 
     if-eqz v1, :cond_3
 
-    .line 438
+    .line 435
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interConfig:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
@@ -873,7 +873,7 @@
 
     goto :goto_0
 
-    .line 440
+    .line 437
     :cond_3
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->bannerConfig:Ljava/util/HashMap;
 
@@ -899,13 +899,13 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 445
+    .line 442
     :goto_0
     invoke-static {p0}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
 
     move-result-object v1
 
-    .line 446
+    .line 443
     .local v1, "sdk":Lcom/applovin/sdk/AppLovinSdk;
     invoke-virtual {v1}, Lcom/applovin/sdk/AppLovinSdk;->getSettings()Lcom/applovin/sdk/AppLovinSdkSettings;
 
@@ -915,48 +915,48 @@
 
     invoke-virtual {v2, v3}, Lcom/applovin/sdk/AppLovinSdkSettings;->setVerboseLogging(Z)V
 
-    .line 447
+    .line 444
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 448
+    .line 445
     .local v2, "list":Ljava/util/List;, "Ljava/util/List<Ljava/lang/String;>;"
     const-string v3, "38b7a718-32c9-4f91-b28b-0ca9713cf6bb"
 
-    .line 449
+    .line 446
     .local v3, "gaid":Ljava/lang/String;
     const-string v4, "db8bd61d-f351-4a1d-b0c7-3908e9e9f105"
 
-    .line 450
+    .line 447
     .local v4, "gaid2":Ljava/lang/String;
     const-string v5, "3b24af48-6b88-48ba-b4b1-f34970cfc993"
 
-    .line 451
+    .line 448
     .local v5, "gaid3":Ljava/lang/String;
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 452
+    .line 449
     invoke-interface {v2, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 453
+    .line 450
     invoke-interface {v2, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 454
+    .line 451
     invoke-virtual {v1}, Lcom/applovin/sdk/AppLovinSdk;->getSettings()Lcom/applovin/sdk/AppLovinSdkSettings;
 
     move-result-object v6
 
     invoke-virtual {v6, v2}, Lcom/applovin/sdk/AppLovinSdkSettings;->setTestDeviceAdvertisingIds(Ljava/util/List;)V
 
-    .line 457
+    .line 454
     new-instance v6, Lcom/mopub/common/SdkConfiguration$Builder;
 
     invoke-direct {v6, v0}, Lcom/mopub/common/SdkConfiguration$Builder;-><init>(Ljava/lang/String;)V
 
     sget-object v7, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 458
+    .line 455
     invoke-virtual {v6, v7}, Lcom/mopub/common/SdkConfiguration$Builder;->withLogLevel(Lcom/mopub/common/logging/MoPubLog$LogLevel;)Lcom/mopub/common/SdkConfiguration$Builder;
 
     move-result-object v6
@@ -965,7 +965,7 @@
 
     move-result-object v6
 
-    .line 459
+    .line 456
     .local v6, "sdkConfiguration":Lcom/mopub/common/SdkConfiguration;
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getApplication()Landroid/app/Application;
 
@@ -975,21 +975,21 @@
 
     invoke-static {v7, v8, v0}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->writeSpString(Landroid/app/Application;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 461
+    .line 458
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initSdkListener()Lcom/mopub/common/SdkInitializationListener;
 
     move-result-object v7
 
     invoke-static {p0, v6, v7}, Lcom/mopub/common/MoPub;->initializeSdk(Landroid/content/Context;Lcom/mopub/common/SdkConfiguration;Lcom/mopub/common/SdkInitializationListener;)V
 
-    .line 462
+    .line 459
     return-void
 .end method
 
 .method private initSdkListener()Lcom/mopub/common/SdkInitializationListener;
     .locals 1
 
-    .line 466
+    .line 463
     new-instance v0, Lcom/miaotao/mopub_android_demo/actys/-$$Lambda$MTAdUnionActivity$Wlgdp9LNNeygQ1kaaAd24ooQiMk;
 
     invoke-direct {v0, p0}, Lcom/miaotao/mopub_android_demo/actys/-$$Lambda$MTAdUnionActivity$Wlgdp9LNNeygQ1kaaAd24ooQiMk;-><init>(Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;)V
@@ -1000,12 +1000,12 @@
 .method private initVideoConfig()V
     .locals 5
 
-    .line 179
+    .line 176
     invoke-static {}, Lcom/miaotao/mopub_android_demo/utils/MTDefaultConfigUtils;->getVideoList()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 180
+    .line 177
     .local v0, "names":Ljava/util/List;, "Ljava/util/List<Ljava/lang/String;>;"
     const/4 v1, 0x0
 
@@ -1017,7 +1017,7 @@
 
     if-ge v1, v3, :cond_0
 
-    .line 181
+    .line 178
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->videoConfig:Ljava/util/HashMap;
 
     aget-object v2, v2, v1
@@ -1028,12 +1028,12 @@
 
     invoke-virtual {v3, v2, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 180
+    .line 177
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 183
+    .line 180
     .end local v1    # "i":I
     :cond_0
     return-void
@@ -1044,17 +1044,17 @@
     .param p0, "adUnitId"    # Ljava/lang/String;
     .param p1, "impressionData"    # Lcom/mopub/network/ImpressionData;
 
-    .line 484
+    .line 481
     const-string v0, "DePub"
 
     if-eqz p1, :cond_0
 
-    .line 485
+    .line 482
     const-string v1, "\n///////////////////impression data///////////////////"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 486
+    .line 483
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1075,7 +1075,7 @@
 
     invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 487
+    .line 484
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1096,7 +1096,7 @@
 
     invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 489
+    .line 486
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1117,7 +1117,7 @@
 
     invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 490
+    .line 487
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1138,18 +1138,18 @@
 
     invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 491
+    .line 488
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
-    .line 494
+    .line 491
     :cond_0
     const-string v1, "impressionData == null "
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 496
+    .line 493
     :goto_0
     return-void
 .end method
@@ -1158,7 +1158,7 @@
     .locals 4
     .param p1, "id"    # Ljava/lang/String;
 
-    .line 219
+    .line 216
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1191,16 +1191,16 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 221
+    .line 218
     invoke-direct {p0, p1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getInterObjectFromId(Ljava/lang/String;)Lcom/mopub/mobileads/MoPubInterstitial;
 
     move-result-object v0
 
-    .line 222
+    .line 219
     .local v0, "moPubInterstitial":Lcom/mopub/mobileads/MoPubInterstitial;
     if-nez v0, :cond_0
 
-    .line 223
+    .line 220
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     const-string v2, "load fail"
@@ -1209,14 +1209,14 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->refreshState(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 224
+    .line 221
     return-void
 
-    .line 226
+    .line 223
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/mobileads/MoPubInterstitial;->load()V
 
-    .line 227
+    .line 224
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     const-string v2, "loading"
@@ -1225,7 +1225,7 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->refreshState(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 229
+    .line 226
     return-void
 .end method
 
@@ -1233,14 +1233,14 @@
     .locals 3
     .param p1, "id"    # Ljava/lang/String;
 
-    .line 201
+    .line 198
     const/4 v0, 0x0
 
     new-array v0, v0, [Lcom/mopub/common/MediationSettings;
 
     invoke-static {p1, v0}, Lcom/mopub/mobileads/MoPubRewardedVideos;->loadRewardedVideo(Ljava/lang/String;[Lcom/mopub/common/MediationSettings;)V
 
-    .line 202
+    .line 199
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1273,7 +1273,7 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 203
+    .line 200
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     const-string v1, "loading"
@@ -1282,14 +1282,14 @@
 
     invoke-virtual {v0, p1, v1, v2}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->refreshState(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 205
+    .line 202
     return-void
 .end method
 
 .method private preLoadInter()V
     .locals 2
 
-    .line 172
+    .line 169
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interConfig:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
@@ -1313,15 +1313,15 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 173
+    .line 170
     .local v1, "key":Ljava/lang/String;
     invoke-direct {p0, v1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->loadInterAd(Ljava/lang/String;)V
 
-    .line 174
+    .line 171
     .end local v1    # "key":Ljava/lang/String;
     goto :goto_0
 
-    .line 175
+    .line 172
     :cond_0
     return-void
 .end method
@@ -1329,7 +1329,7 @@
 .method private preLoadVideo()V
     .locals 2
 
-    .line 165
+    .line 162
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->videoConfig:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
@@ -1353,15 +1353,15 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 166
+    .line 163
     .local v1, "key":Ljava/lang/String;
     invoke-direct {p0, v1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->loadVideoAd(Ljava/lang/String;)V
 
-    .line 167
+    .line 164
     .end local v1    # "key":Ljava/lang/String;
     goto :goto_0
 
-    .line 168
+    .line 165
     :cond_0
     return-void
 .end method
@@ -1369,7 +1369,7 @@
 .method private preload()V
     .locals 2
 
-    .line 413
+    .line 410
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
     const-string v1, "video"
@@ -1380,15 +1380,15 @@
 
     if-eqz v0, :cond_0
 
-    .line 414
+    .line 411
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->setRewardListener()V
 
-    .line 415
+    .line 412
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->preLoadVideo()V
 
     goto :goto_0
 
-    .line 417
+    .line 414
     :cond_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
@@ -1400,13 +1400,13 @@
 
     if-eqz v0, :cond_1
 
-    .line 418
+    .line 415
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->setInnerListener()V
 
-    .line 419
+    .line 416
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->preLoadInter()V
 
-    .line 421
+    .line 418
     :cond_1
     :goto_0
     return-void
@@ -1415,12 +1415,12 @@
 .method private setInnerListener()V
     .locals 6
 
-    .line 391
+    .line 388
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->units:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
     if-nez v0, :cond_0
 
-    .line 392
+    .line 389
     sget-object v0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->adunit_inter:[Ljava/lang/String;
 
     array-length v1, v0
@@ -1432,7 +1432,7 @@
 
     aget-object v3, v0, v2
 
-    .line 393
+    .line 390
     .local v3, "id":Ljava/lang/String;
     new-instance v4, Lcom/mopub/mobileads/MoPubInterstitial;
 
@@ -1440,30 +1440,30 @@
 
     iput-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
-    .line 394
+    .line 391
     iget-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v4, p0}, Lcom/mopub/mobileads/MoPubInterstitial;->setInterstitialAdListener(Lcom/mopub/mobileads/MoPubInterstitial$InterstitialAdListener;)V
 
-    .line 395
+    .line 392
     iget-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v4, v3}, Lcom/mopub/mobileads/MoPubInterstitial;->setKeywords(Ljava/lang/String;)V
 
-    .line 396
+    .line 393
     iget-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interObjects:Ljava/util/HashMap;
 
     iget-object v5, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v4, v3, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 392
+    .line 389
     .end local v3    # "id":Ljava/lang/String;
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 399
+    .line 396
     :cond_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interConfig:Ljava/util/HashMap;
 
@@ -1475,7 +1475,7 @@
 
     move-result-object v0
 
-    .line 400
+    .line 397
     .local v0, "it":Ljava/util/Iterator;, "Ljava/util/Iterator<Ljava/lang/String;>;"
     :goto_1
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -1484,14 +1484,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 401
+    .line 398
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/String;
 
-    .line 402
+    .line 399
     .local v1, "id":Ljava/lang/String;
     new-instance v2, Lcom/mopub/mobileads/MoPubInterstitial;
 
@@ -1499,28 +1499,28 @@
 
     iput-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
-    .line 403
+    .line 400
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v2, p0}, Lcom/mopub/mobileads/MoPubInterstitial;->setInterstitialAdListener(Lcom/mopub/mobileads/MoPubInterstitial$InterstitialAdListener;)V
 
-    .line 404
+    .line 401
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v2, v1}, Lcom/mopub/mobileads/MoPubInterstitial;->setKeywords(Ljava/lang/String;)V
 
-    .line 405
+    .line 402
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->interObjects:Ljava/util/HashMap;
 
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mInterstitial:Lcom/mopub/mobileads/MoPubInterstitial;
 
     invoke-virtual {v2, v1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 406
+    .line 403
     .end local v1    # "id":Ljava/lang/String;
     goto :goto_1
 
-    .line 409
+    .line 406
     .end local v0    # "it":Ljava/util/Iterator;, "Ljava/util/Iterator<Ljava/lang/String;>;"
     :cond_1
     return-void
@@ -1529,19 +1529,19 @@
 .method private setRewardListener()V
     .locals 1
 
-    .line 264
+    .line 261
     new-instance v0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity$1;
 
     invoke-direct {v0, p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity$1;-><init>(Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;)V
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->rewardedVideoListener:Lcom/mopub/mobileads/MoPubRewardedAdListener;
 
-    .line 308
+    .line 305
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->rewardedVideoListener:Lcom/mopub/mobileads/MoPubRewardedAdListener;
 
     invoke-static {v0}, Lcom/mopub/mobileads/MoPubRewardedAds;->setRewardedAdListener(Lcom/mopub/mobileads/MoPubRewardedAdListener;)V
 
-    .line 309
+    .line 306
     return-void
 .end method
 
@@ -1550,15 +1550,15 @@
 .method public synthetic lambda$initSdkListener$1$MTAdUnionActivity()V
     .locals 3
 
-    .line 467
+    .line 464
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->units:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
     if-nez v0, :cond_0
 
-    .line 468
+    .line 465
     invoke-static {p0}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->invokeApplovinSdkObject(Landroid/content/Context;)V
 
-    .line 470
+    .line 467
     :cond_0
     const/4 v0, 0x0
 
@@ -1570,7 +1570,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 472
+    .line 469
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
     const-string v1, "banner"
@@ -1581,7 +1581,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 473
+    .line 470
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
@@ -1592,7 +1592,7 @@
 
     goto :goto_1
 
-    .line 475
+    .line 472
     :cond_1
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
@@ -1618,7 +1618,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 478
+    .line 475
     :goto_1
     const-string v0, "DePub"
 
@@ -1626,30 +1626,30 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 480
+    .line 477
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->preload()V
 
-    .line 482
+    .line 479
     sget-object v0, Lcom/miaotao/mopub_android_demo/actys/-$$Lambda$MTAdUnionActivity$OqK1w4fRviUM52cW_vX1CRHcUv4;->INSTANCE:Lcom/miaotao/mopub_android_demo/actys/-$$Lambda$MTAdUnionActivity$OqK1w4fRviUM52cW_vX1CRHcUv4;
 
-    .line 497
+    .line 494
     .local v0, "impressionListener":Lcom/mopub/network/ImpressionListener;
     invoke-static {v0}, Lcom/mopub/network/ImpressionsEmitter;->addListener(Lcom/mopub/network/ImpressionListener;)V
 
-    .line 498
+    .line 495
     return-void
 .end method
 
 .method public onBackPressed()V
     .locals 0
 
-    .line 146
+    .line 143
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onBackPressed()V
 
-    .line 147
+    .line 144
     invoke-static {p0}, Lcom/mopub/common/MoPub;->onBackPressed(Landroid/app/Activity;)V
 
-    .line 148
+    .line 145
     return-void
 .end method
 
@@ -1657,7 +1657,7 @@
     .locals 4
     .param p1, "id"    # Ljava/lang/String;
 
-    .line 233
+    .line 230
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
     const-string v1, "video"
@@ -1672,17 +1672,17 @@
 
     if-eqz v0, :cond_1
 
-    .line 234
+    .line 231
     invoke-static {p1}, Lcom/mopub/mobileads/MoPubRewardedAds;->hasRewardedAd(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 236
+    .line 233
     invoke-static {p1}, Lcom/mopub/mobileads/MoPubRewardedAds;->showRewardedAd(Ljava/lang/String;)V
 
-    .line 237
+    .line 234
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1713,13 +1713,13 @@
 
     goto/16 :goto_0
 
-    .line 239
+    .line 236
     :cond_0
     invoke-direct {p0, p1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->loadVideoAd(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 241
+    .line 238
     :cond_1
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
@@ -1731,7 +1731,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 242
+    .line 239
     invoke-direct {p0, p1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getInterObjectFromId(Ljava/lang/String;)Lcom/mopub/mobileads/MoPubInterstitial;
 
     move-result-object v0
@@ -1748,7 +1748,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 243
+    .line 240
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1777,7 +1777,7 @@
 
     invoke-static {v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 244
+    .line 241
     invoke-direct {p0, p1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getInterObjectFromId(Ljava/lang/String;)Lcom/mopub/mobileads/MoPubInterstitial;
 
     move-result-object v0
@@ -1792,13 +1792,13 @@
 
     goto :goto_0
 
-    .line 246
+    .line 243
     :cond_2
     invoke-direct {p0, p1}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->loadInterAd(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 250
+    .line 247
     :cond_3
     new-instance v0, Landroid/content/Intent;
 
@@ -1806,19 +1806,19 @@
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 251
+    .line 248
     .local v0, "intent":Landroid/content/Intent;
     new-instance v1, Lcom/miaotao/mopub_android_demo/beans/MTSerializableMap;
 
     invoke-direct {v1}, Lcom/miaotao/mopub_android_demo/beans/MTSerializableMap;-><init>()V
 
-    .line 252
+    .line 249
     .local v1, "map":Lcom/miaotao/mopub_android_demo/beans/MTSerializableMap;
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
 
-    .line 253
+    .line 250
     .local v2, "map1":Ljava/util/HashMap;
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->bannerConfig:Ljava/util/HashMap;
 
@@ -1828,18 +1828,18 @@
 
     invoke-virtual {v2, p1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 254
+    .line 251
     invoke-virtual {v1, v2}, Lcom/miaotao/mopub_android_demo/beans/MTSerializableMap;->setBanners(Ljava/util/HashMap;)V
 
-    .line 256
+    .line 253
     const-string v3, "banner_config"
 
     invoke-virtual {v0, v3, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 257
+    .line 254
     invoke-virtual {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 260
+    .line 257
     .end local v0    # "intent":Landroid/content/Intent;
     .end local v1    # "map":Lcom/miaotao/mopub_android_demo/beans/MTSerializableMap;
     .end local v2    # "map1":Ljava/util/HashMap;
@@ -1859,13 +1859,13 @@
         }
     .end annotation
 
-    .line 76
+    .line 74
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 77
+    .line 75
     invoke-static {p0}, Lcom/mopub/common/MoPub;->onCreate(Landroid/app/Activity;)V
 
-    .line 78
+    .line 76
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
@@ -1878,7 +1878,7 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->type:Ljava/lang/String;
 
-    .line 79
+    .line 77
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
@@ -1893,28 +1893,28 @@
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->units:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
-    .line 80
+    .line 78
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->units:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
     invoke-direct {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initConfig(Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;)V
 
-    .line 82
+    .line 79
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initLayout()V
 
-    .line 83
+    .line 80
     return-void
 .end method
 
 .method protected onDestroy()V
     .locals 0
 
-    .line 503
+    .line 500
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 504
+    .line 501
     invoke-static {p0}, Lcom/mopub/common/MoPub;->onDestroy(Landroid/app/Activity;)V
 
-    .line 505
+    .line 502
     return-void
 .end method
 
@@ -1922,7 +1922,7 @@
     .locals 0
     .param p1, "interstitial"    # Lcom/mopub/mobileads/MoPubInterstitial;
 
-    .line 335
+    .line 332
     return-void
 .end method
 
@@ -1930,7 +1930,7 @@
     .locals 4
     .param p1, "interstitial"    # Lcom/mopub/mobileads/MoPubInterstitial;
 
-    .line 339
+    .line 336
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/MoPubInterstitial;->getKeywords()Ljava/lang/String;
@@ -1943,14 +1943,14 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->refreshState(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 340
+    .line 337
     invoke-virtual {p1}, Lcom/mopub/mobileads/MoPubInterstitial;->getKeywords()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->loadInterAd(Ljava/lang/String;)V
 
-    .line 342
+    .line 339
     return-void
 .end method
 
@@ -1959,7 +1959,7 @@
     .param p1, "interstitial"    # Lcom/mopub/mobileads/MoPubInterstitial;
     .param p2, "errorCode"    # Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 321
+    .line 318
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1982,7 +1982,7 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 323
+    .line 320
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/MoPubInterstitial;->getKeywords()Ljava/lang/String;
@@ -1997,7 +1997,7 @@
 
     invoke-virtual {v0, v1, v3, v2}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->refreshState(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 325
+    .line 322
     return-void
 .end method
 
@@ -2005,7 +2005,7 @@
     .locals 4
     .param p1, "interstitial"    # Lcom/mopub/mobileads/MoPubInterstitial;
 
-    .line 313
+    .line 310
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2028,7 +2028,7 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 315
+    .line 312
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->mAdUnionFragment:Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/MoPubInterstitial;->getKeywords()Ljava/lang/String;
@@ -2041,7 +2041,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/miaotao/mopub_android_demo/frags/MTAdUnionDebugFragment;->refreshState(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 317
+    .line 314
     return-void
 .end method
 
@@ -2049,48 +2049,48 @@
     .locals 0
     .param p1, "interstitial"    # Lcom/mopub/mobileads/MoPubInterstitial;
 
-    .line 330
+    .line 327
     return-void
 .end method
 
 .method public onPause()V
     .locals 0
 
-    .line 153
+    .line 150
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onPause()V
 
-    .line 154
+    .line 151
     invoke-static {p0}, Lcom/mopub/common/MoPub;->onPause(Landroid/app/Activity;)V
 
-    .line 155
+    .line 152
     return-void
 .end method
 
 .method protected onResume()V
     .locals 0
 
-    .line 138
+    .line 135
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onResume()V
 
-    .line 139
+    .line 136
     invoke-static {p0}, Lcom/mopub/common/MoPub;->onResume(Landroid/app/Activity;)V
 
-    .line 141
+    .line 138
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;->initMoPub()V
 
-    .line 142
+    .line 139
     return-void
 .end method
 
 .method public onStop()V
     .locals 0
 
-    .line 159
+    .line 156
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onStop()V
 
-    .line 160
+    .line 157
     invoke-static {p0}, Lcom/mopub/common/MoPub;->onStop(Landroid/app/Activity;)V
 
-    .line 161
+    .line 158
     return-void
 .end method

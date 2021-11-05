@@ -24,6 +24,8 @@
 
 .field public static ADS_AFF_CLASS_MTG:Ljava/lang/String;
 
+.field public static ADS_AFF_CLASS_MTG_2:Ljava/lang/String;
+
 .field public static ADS_AFF_CLASS_MTG_C:Ljava/lang/String;
 
 .field public static ADS_AFF_CLASS_ONEWAY:Ljava/lang/String;
@@ -206,242 +208,247 @@
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_MTG:Ljava/lang/String;
 
     .line 21
+    const-string v0, "com.mbridge.msdk.reward.BuildConfig"
+
+    sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_MTG_2:Ljava/lang/String;
+
+    .line 22
     const-string v0, "mobi.oneway.sdk.OnewaySdk"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_ONEWAY:Ljava/lang/String;
 
-    .line 22
+    .line 23
     const-string v0, "com.bytedance.sdk.openadsdk.TTAdManager"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_TT:Ljava/lang/String;
 
-    .line 23
+    .line 24
     const-string v0, "com.bytedance.sdk.openadsdk.TTFullScreenVideoAd"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_TTV:Ljava/lang/String;
 
-    .line 24
+    .line 25
     const-string v0, "com.qq.e.ads.interstitial.InterstitialAD"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_qq:Ljava/lang/String;
 
-    .line 25
+    .line 26
     const-string v0, "com.qq.e.ads.rewardvideo.RewardVideoAD"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_qqrd:Ljava/lang/String;
 
-    .line 26
+    .line 27
     const-string v0, "com.sigmob.windad.WindAds"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_sgmb:Ljava/lang/String;
 
-    .line 27
+    .line 28
     const-string v0, "com.baidu.mobad.video.XAdManager"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_mobad:Ljava/lang/String;
 
-    .line 28
+    .line 29
     const-string v0, "com.mintegral.msdk.out.MTGConfiguration"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_MTG_C:Ljava/lang/String;
 
-    .line 29
+    .line 30
     const-string v0, "com.applovin.sdk.AppLovinSdk"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_APPLOVIN:Ljava/lang/String;
 
-    .line 30
+    .line 31
     const-string v1, "com.sw.playablead.BuildConfig"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_ADLY_P:Ljava/lang/String;
 
-    .line 31
+    .line 32
     const-string v1, "com.vungle.warren.BuildConfig"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_vungle_c:Ljava/lang/String;
 
-    .line 32
+    .line 33
     const-string v1, "com.facebook.ads.BuildConfig"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_fb_c:Ljava/lang/String;
 
-    .line 33
+    .line 34
     const-string v1, "com.my.target.nativeads.BuildConfig"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_vk_c:Ljava/lang/String;
 
-    .line 35
+    .line 36
     const-string v1, "com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_PANGLE:Ljava/lang/String;
 
-    .line 36
+    .line 37
     const-string v1, "com.fyber.inneractive.sdk.video.IAVideoKit"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_FYBER:Ljava/lang/String;
 
-    .line 39
+    .line 40
     const-string v1, "com.google.android.gms.ads.AdView"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADMOB_BANNER_CLASS_NAME:Ljava/lang/String;
 
-    .line 40
+    .line 41
     const-string v1, "com.google.android.gms.ads.AdRequest"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADMOB_REQUEST_CLASS_NAME:Ljava/lang/String;
 
-    .line 41
+    .line 42
     const-string v1, "com.google.android.gms.ads.InterstitialAd"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADMOB_INTERSTITIAL_CLASS_NAME:Ljava/lang/String;
 
-    .line 42
+    .line 43
     const-string v1, "com.google.android.gms.ads.reward.RewardedVideoAd"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADMOB_REWARD_CLASS_NAME:Ljava/lang/String;
 
-    .line 43
+    .line 44
     const-string v1, "com.google.android.gms.ads.rewarded.RewardedAd"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADMOB_NEW_CLASS_NAME:Ljava/lang/String;
 
-    .line 47
+    .line 48
     const-string v1, "com.mopub.common.MoPub"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->MOPUB_CLASS_NAME:Ljava/lang/String;
 
-    .line 48
+    .line 49
     const-string v1, "com.mopub.mobileads.MoPubInterstitial"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->MOPUB_INTER_CLASS_NAME:Ljava/lang/String;
 
-    .line 49
+    .line 50
     const-string v1, "com.mopub.mobileads.BuildConfig"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->MOPUB_BuildConfig_CLASS_NAME:Ljava/lang/String;
 
-    .line 50
+    .line 51
     const-string v1, "com.mopub.mobileads.MoPubRewardedVideo"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->MOPUB_REWARD_CLASS_NAME:Ljava/lang/String;
 
-    .line 51
+    .line 52
     const-string v1, "com.mopub.volley.BuildConfig"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->MOPUB_VOLLEY_CLASS_NAME:Ljava/lang/String;
 
-    .line 53
+    .line 54
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->Inmobi_CLASS_NAME:Ljava/lang/String;
 
-    .line 56
+    .line 57
     const-string v1, "com.facebook.ads.AdView"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->FACEBOOK_BANNER_CLASS_NAME:Ljava/lang/String;
 
-    .line 57
+    .line 58
     const-string v1, "com.facebook.ads.InterstitialAd"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->FACEBOOK_INTERSTITIAL_CLASS_NAME:Ljava/lang/String;
 
-    .line 58
+    .line 59
     const-string v1, "com.facebook.ads.Ad"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->FACEBOOK_NATIVE_CLASS_NAME:Ljava/lang/String;
 
-    .line 59
+    .line 60
     const-string v1, "com.facebook.ads.RewardedVideoAd"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->FACEBOOK_VIDEO_CLASS_NAME:Ljava/lang/String;
 
-    .line 60
+    .line 61
     const-string v1, "com.facebook.ads.AdListener"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->FACEBOOK_LISTENER_CLASS_NAME:Ljava/lang/String;
 
-    .line 62
+    .line 63
     const-string v1, "com.vungle.warren.Vungle"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->VUNGLE_CLASS_NAME:Ljava/lang/String;
 
-    .line 63
+    .line 64
     const-string v1, "com.adcolony.sdk.AdColonyInterstitial"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADCOLONY_CLASS_NAME:Ljava/lang/String;
 
-    .line 64
+    .line 65
     const-string v1, "com.unity3d.ads.UnityAds"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->UNITY_CLASS_NAME:Ljava/lang/String;
 
-    .line 65
+    .line 66
     const-string v1, "com.unity3d.services.banners.UnityBanners"
 
     sput-object v1, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->UNITY_BANNER_CLASS_NAME:Ljava/lang/String;
 
-    .line 67
+    .line 68
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->APPLOVIN_CLASS_NAME:Ljava/lang/String;
 
-    .line 68
+    .line 69
     const-string v0, "com.chartboost.sdk.Chartboost"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->CHARTBOOST_CLASS_NAME:Ljava/lang/String;
 
-    .line 69
+    .line 70
     const-string v0, "com.chartboost.heliumsdk.HeliumSdk"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->CHARTBOOST_N_CLASS_NAME:Ljava/lang/String;
 
-    .line 70
+    .line 71
     const-string v0, "com.sw.playablead.app.PlayableRewardAd"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->PLAYABLE_REWARDAD_CLASS_NAME:Ljava/lang/String;
 
-    .line 71
+    .line 72
     const-string v0, "com.sw.playablead.app.PlayableInterstitialAd"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->PLAYABLE_INTERAD_CLASS_NAME:Ljava/lang/String;
 
-    .line 72
+    .line 73
     const-string v0, "com.sw.playablead.app.PlayableRecommendedRewardAd"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->PLAYABLE_INNER_REWARDAD_CLASS_NAME:Ljava/lang/String;
 
-    .line 73
+    .line 74
     const-string v0, "com.sw.playablead.app.PlayableRecommendedInterstitialAd"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->PLAYABLE_INNER_INTERAD_CLASS_NAME:Ljava/lang/String;
 
-    .line 75
+    .line 76
     const-string v0, "com.ironsource.adapters.ironsource.IronSourceAdapter"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->IRONSOURCE_CLASS_NAME:Ljava/lang/String;
 
-    .line 76
+    .line 77
     const-string v0, "com.my.target.ads.InterstitialAd"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->VK_CLASS_NAME:Ljava/lang/String;
 
-    .line 77
+    .line 78
     const-string v0, "jp.maio.sdk.android.MaioAds"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->MAIO_CLASS_NAME:Ljava/lang/String;
 
-    .line 78
+    .line 79
     const-string v0, "net.nend.android.NendAdRewardedVideo"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->NEND_CLASS_NAME:Ljava/lang/String;
 
-    .line 79
+    .line 80
     const-string v0, "com.google.gson.Gson"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->GSON_CLASS_NAME:Ljava/lang/String;
 
-    .line 80
+    .line 81
     const-string v0, "com.google.android.exoplayer2.ExoPlayer"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->EXO_PLAYER_CLASS_NAME:Ljava/lang/String;
 
-    .line 81
+    .line 82
     const-string v0, "com.amazon.device.ads.AdRegistration"
 
     sput-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->AMAZON_CLASS_NAME:Ljava/lang/String;

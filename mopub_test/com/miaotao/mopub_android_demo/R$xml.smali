@@ -29,14 +29,12 @@
 
 .field public static final standalone_badge_gravity_top_start:I = 0x7f130006
 
-.field public static final vungle_backup_rule:I = 0x7f130007
-
 
 # direct methods
 .method public constructor <init>()V
     .locals 0
 
-    .line 26426
+    .line 26443
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

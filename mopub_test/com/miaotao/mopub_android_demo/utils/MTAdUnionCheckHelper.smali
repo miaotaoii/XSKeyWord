@@ -1855,9 +1855,31 @@
 
     move-result v3
 
+    if-nez v3, :cond_2
+
+    sget-object v3, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->ADS_AFF_CLASS_MTG_2:Ljava/lang/String;
+
+    invoke-static {v3}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->hasClass(Ljava/lang/String;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v3, 0x0
+
+    goto :goto_1
+
+    :cond_2
+    :goto_0
+    const/4 v3, 0x1
+
     .line 495
     .local v3, "result":Z
-    if-nez v3, :cond_1
+    :goto_1
+    if-nez v3, :cond_3
 
     .line 496
     const-string v4, "Mintegral ads jars has be not improved, check please"
@@ -1865,14 +1887,14 @@
     invoke-static {v4}, Lcom/miaotao/mopub_android_demo/utils/MTLogHelper;->d(Ljava/lang/String;)V
 
     .line 499
-    :cond_1
-    if-eqz v3, :cond_2
+    :cond_3
+    if-eqz v3, :cond_4
 
     .line 500
     invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->updateExistedUnion(I)V
 
     .line 502
-    :cond_2
+    :cond_4
     invoke-static {v1}, Lcom/miaotao/mopub_android_demo/utils/MTAdUnionCheckHelper;->updateCheckedUnion(I)V
 
     .line 503

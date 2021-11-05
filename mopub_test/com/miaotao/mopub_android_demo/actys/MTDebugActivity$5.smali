@@ -26,7 +26,7 @@
     .locals 0
     .param p1, "this$0"    # Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
-    .line 175
+    .line 177
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -39,8 +39,13 @@
 .method public onClick(Landroid/view/View;)V
     .locals 5
     .param p1, "v"    # Landroid/view/View;
+    .annotation build Landroid/annotation/SuppressLint;
+        value = {
+            "ShowToast"
+        }
+    .end annotation
 
-    .line 178
+    .line 181
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     const-string v1, "mopub_debug_orign_launcher"
@@ -49,11 +54,11 @@
 
     move-result-object v0
 
-    .line 179
+    .line 182
     .local v0, "originLauncherName":Ljava/lang/String;
     const/4 v1, 0x0
 
-    .line 181
+    .line 184
     .local v1, "cls":Ljava/lang/Class;
     :try_start_0
     const-string v2, "DePub"
@@ -74,7 +79,7 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 182
+    .line 185
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -83,23 +88,23 @@
 
     move-object v1, v2
 
-    .line 186
+    .line 189
     goto :goto_0
 
-    .line 183
+    .line 186
     :catch_0
     move-exception v2
 
-    .line 185
+    .line 188
     .local v2, "e":Ljava/lang/ClassNotFoundException;
     invoke-virtual {v2}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
 
-    .line 187
+    .line 190
     .end local v2    # "e":Ljava/lang/ClassNotFoundException;
     :goto_0
     if-nez v1, :cond_0
 
-    .line 188
+    .line 191
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     const/4 v3, 0x0
@@ -112,38 +117,45 @@
 
     invoke-virtual {v2}, Landroid/widget/Toast;->show()V
 
-    .line 189
+    .line 192
     return-void
 
-    .line 191
+    .line 194
     :cond_0
     const/4 v2, 0x1
 
     invoke-static {v2}, Lcom/ironsource/mediationsdk/IronSource;->setAdaptersDebug(Z)V
 
-    .line 192
-    iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
+    .line 195
+    iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
-    invoke-static {v2}, Lcom/ironsource/mediationsdk/integration/IntegrationHelper;->validateIntegration(Landroid/app/Activity;)V
+    invoke-static {v3}, Lcom/ironsource/mediationsdk/integration/IntegrationHelper;->validateIntegration(Landroid/app/Activity;)V
 
-    .line 194
+    .line 196
+    iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
+
+    const-string v4, "\u5df2\u5f00\u542fIronSource Debug \u65e5\u5fd7"
+
+    invoke-static {v3, v4, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    .line 197
     new-instance v2, Landroid/content/Intent;
 
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-direct {v2, v3, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 195
+    .line 198
     .local v2, "intent":Landroid/content/Intent;
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-virtual {v3, v2}, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 196
+    .line 199
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$5;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-virtual {v3}, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;->finish()V
 
-    .line 197
+    .line 200
     return-void
 .end method

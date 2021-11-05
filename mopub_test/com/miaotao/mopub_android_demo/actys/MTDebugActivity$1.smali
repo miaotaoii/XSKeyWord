@@ -26,7 +26,7 @@
     .locals 0
     .param p1, "this$0"    # Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
-    .line 99
+    .line 101
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$1;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +40,7 @@
     .locals 3
     .param p1, "v"    # Landroid/view/View;
 
-    .line 103
+    .line 105
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$1;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-static {v0}, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;->access$000(Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;)Z
@@ -49,7 +49,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 104
+    .line 106
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$1;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
@@ -58,7 +58,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 105
+    .line 107
     .local v0, "intent":Landroid/content/Intent;
     const-string v1, "type"
 
@@ -66,16 +66,16 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 107
+    .line 109
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$1;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-virtual {v1, v0}, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 108
+    .line 110
     .end local v0    # "intent":Landroid/content/Intent;
     goto :goto_0
 
-    .line 109
+    .line 111
     :cond_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$1;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
@@ -89,7 +89,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 112
+    .line 114
     :goto_0
     return-void
 .end method

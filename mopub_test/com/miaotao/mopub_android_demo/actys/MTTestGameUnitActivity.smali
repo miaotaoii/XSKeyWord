@@ -23,10 +23,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 33
+    .line 35
     invoke-direct {p0}, Landroidx/appcompat/app/AppCompatActivity;-><init>()V
 
-    .line 241
+    .line 243
     new-instance v0, Landroid/os/Handler;
 
     new-instance v1, Lcom/miaotao/mopub_android_demo/actys/-$$Lambda$MTTestGameUnitActivity$wpLRAW7K59i6y5fO4w8DeNatA5E;
@@ -44,7 +44,7 @@
     .locals 1
     .param p0, "x0"    # Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
 
-    .line 33
+    .line 35
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->mUnits:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
     return-object v0
@@ -55,7 +55,7 @@
     .param p0, "x0"    # Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
     .param p1, "x1"    # Ljava/lang/String;
 
-    .line 33
+    .line 35
     invoke-direct {p0, p1}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->showDialog(Ljava/lang/String;)V
 
     return-void
@@ -64,7 +64,7 @@
 .method private getAppInfoFromServer()V
     .locals 2
 
-    .line 210
+    .line 212
     :try_start_0
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
@@ -76,18 +76,18 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 213
+    .line 215
     goto :goto_0
 
-    .line 211
+    .line 213
     :catch_0
     move-exception v0
 
-    .line 212
+    .line 214
     .local v0, "e":Ljava/lang/Exception;
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 214
+    .line 216
     .end local v0    # "e":Ljava/lang/Exception;
     :goto_0
     new-instance v0, Ljava/lang/Thread;
@@ -98,10 +98,10 @@
 
     invoke-direct {v0, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 238
+    .line 240
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    .line 239
+    .line 241
     return-void
 .end method
 
@@ -109,12 +109,12 @@
     .locals 5
     .param p1, "pkg"    # Ljava/lang/String;
 
-    .line 152
+    .line 154
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 153
+    .line 155
     .local v0, "time":J
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -134,7 +134,7 @@
 
     move-result-object v2
 
-    .line 155
+    .line 157
     .local v2, "sign":Ljava/lang/String;
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -172,7 +172,7 @@
 
     move-result-object v3
 
-    .line 158
+    .line 160
     .local v3, "url":Ljava/lang/String;
     invoke-static {v3}, Lcom/miaotao/mopub_android_demo/utils/MTNetWorkHelper;->get(Ljava/lang/String;)Ljava/lang/String;
 
@@ -185,10 +185,10 @@
     .locals 16
     .param p1, "json"    # Ljava/lang/String;
 
-    .line 163
+    .line 165
     const/4 v1, 0x0
 
-    .line 165
+    .line 167
     .local v1, "map":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
     const/4 v2, 0x0
 
@@ -199,7 +199,7 @@
 
     move-object v1, v0
 
-    .line 167
+    .line 169
     const-string v0, "code"
 
     invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -208,8 +208,14 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 168
+    .line 170
     .local v0, "code":Ljava/lang/String;
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_5
+
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v3
@@ -218,10 +224,9 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 169
-    return-object v2
+    goto/16 :goto_2
 
-    .line 172
+    .line 174
     :cond_0
     const-string v3, "data"
 
@@ -231,7 +236,7 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 173
+    .line 175
     .local v3, "data":Ljava/lang/String;
     invoke-static {v3}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->jsonStringToMap(Ljava/lang/String;)Ljava/util/Map;
 
@@ -239,7 +244,7 @@
 
     move-object v1, v4
 
-    .line 174
+    .line 176
     const-string v4, "mopub_id"
 
     invoke-interface {v1, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -252,7 +257,7 @@
 
     move-result-object v4
 
-    .line 175
+    .line 177
     .local v4, "appStrs":[Ljava/lang/String;
     array-length v5, v4
 
@@ -260,7 +265,7 @@
 
     return-object v2
 
-    .line 177
+    .line 179
     :cond_1
     new-instance v5, Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
@@ -270,25 +275,25 @@
 
     invoke-direct {v5, v6}, Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;-><init>(Lcom/miaotao/mopub_android_demo/beans/MTSerializableMap;)V
 
-    .line 178
+    .line 180
     .local v5, "units":Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
     new-instance v6, Ljava/util/HashMap;
 
     invoke-direct {v6}, Ljava/util/HashMap;-><init>()V
 
-    .line 179
+    .line 181
     .local v6, "inners":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
     new-instance v7, Ljava/util/HashMap;
 
     invoke-direct {v7}, Ljava/util/HashMap;-><init>()V
 
-    .line 180
+    .line 182
     .local v7, "videos":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
     new-instance v8, Ljava/util/HashMap;
 
     invoke-direct {v8}, Ljava/util/HashMap;-><init>()V
 
-    .line 183
+    .line 185
     .local v8, "banners":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
     array-length v9, v4
 
@@ -299,13 +304,13 @@
 
     aget-object v11, v4, v10
 
-    .line 184
+    .line 186
     .local v11, "s":Ljava/lang/String;
     invoke-static {v11}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->jsonStringToMap(Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object v12
 
-    .line 185
+    .line 187
     .local v12, "temp":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
     const-string v13, "type"
 
@@ -315,7 +320,7 @@
 
     check-cast v13, Ljava/lang/String;
 
-    .line 186
+    .line 188
     .local v13, "t":Ljava/lang/String;
     const-string v14, "0"
 
@@ -331,7 +336,7 @@
 
     if-eqz v14, :cond_2
 
-    .line 187
+    .line 189
     :try_start_1
     invoke-interface {v12, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -345,7 +350,7 @@
 
     goto :goto_1
 
-    .line 188
+    .line 190
     :cond_2
     const-string v14, "1"
 
@@ -355,7 +360,7 @@
 
     if-eqz v14, :cond_3
 
-    .line 189
+    .line 191
     invoke-interface {v12, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -368,7 +373,7 @@
 
     goto :goto_1
 
-    .line 191
+    .line 193
     :cond_3
     invoke-interface {v12, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -380,7 +385,7 @@
 
     invoke-virtual {v8, v2, v14}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 183
+    .line 185
     .end local v11    # "s":Ljava/lang/String;
     .end local v13    # "t":Ljava/lang/String;
     :goto_1
@@ -390,38 +395,45 @@
 
     goto :goto_0
 
-    .line 194
+    .line 196
     .end local v12    # "temp":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
     :cond_4
     invoke-virtual {v5, v8}, Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;->setBanners(Ljava/util/HashMap;)V
 
-    .line 195
+    .line 197
     invoke-virtual {v5, v7}, Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;->setVideos(Ljava/util/HashMap;)V
 
-    .line 196
+    .line 198
     invoke-virtual {v5, v6}, Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;->setInners(Ljava/util/HashMap;)V
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 197
+    .line 199
     return-object v5
 
-    .line 200
-    .end local v0    # "code":Ljava/lang/String;
+    .line 171
     .end local v3    # "data":Ljava/lang/String;
     .end local v4    # "appStrs":[Ljava/lang/String;
     .end local v5    # "units":Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
     .end local v6    # "inners":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
     .end local v7    # "videos":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
     .end local v8    # "banners":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;"
+    :cond_5
+    :goto_2
+    const/4 v2, 0x0
+
+    return-object v2
+
+    .line 202
+    .end local v0    # "code":Ljava/lang/String;
     :catch_0
     move-exception v0
 
-    .line 201
+    .line 203
     .local v0, "e":Lorg/json/JSONException;
     invoke-virtual {v0}, Lorg/json/JSONException;->printStackTrace()V
 
-    .line 203
+    .line 205
     .end local v0    # "e":Lorg/json/JSONException;
     const/4 v2, 0x0
 
@@ -436,60 +448,60 @@
         }
     .end annotation
 
-    .line 51
+    .line 53
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
-    .line 52
+    .line 54
     .local v0, "actionBar":Landroidx/appcompat/app/ActionBar;
     const-string v1, "\u6e38\u620f\u5e7f\u544a\u4f4d\u6d4b\u8bd5"
 
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 53
+    .line 55
     const-string v1, "DePub"
 
     const-string v2, "MTTestGameUnitActivity onCreate"
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 54
+    .line 56
     new-instance v1, Landroid/widget/RelativeLayout;
 
     invoke-direct {v1, p0}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
-    .line 55
+    .line 57
     .local v1, "myLayout":Landroid/widget/RelativeLayout;
     const/4 v2, -0x1
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    .line 59
+    .line 61
     new-instance v2, Landroid/widget/Button;
 
     invoke-direct {v2, p0}, Landroid/widget/Button;-><init>(Landroid/content/Context;)V
 
     iput-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_video:Landroid/widget/Button;
 
-    .line 60
+    .line 62
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_video:Landroid/widget/Button;
 
     const/16 v3, 0x79
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setId(I)V
 
-    .line 61
+    .line 63
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_video:Landroid/widget/Button;
 
     const-string v3, "\u6fc0\u52b1\u89c6\u9891Debug"
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 62
+    .line 64
     new-instance v2, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 63
+    .line 65
     const/high16 v3, 0x437a0000    # 250.0f
 
     invoke-static {p0, v3}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->dip2px(Landroid/content/Context;F)I
@@ -500,37 +512,37 @@
 
     invoke-direct {v2, v4, v5}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 65
+    .line 67
     .local v2, "buttonParams":Landroid/widget/RelativeLayout$LayoutParams;
     const/16 v4, 0xe
 
     invoke-virtual {v2, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 66
+    .line 68
     const/16 v6, 0x1e
 
     iput v6, v2, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 67
+    .line 69
     iget-object v7, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_video:Landroid/widget/Button;
 
     invoke-virtual {v1, v7, v2}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 70
+    .line 72
     new-instance v7, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 71
+    .line 73
     invoke-static {p0, v3}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->dip2px(Landroid/content/Context;F)I
 
     move-result v8
 
     invoke-direct {v7, v8, v5}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 74
+    .line 76
     .local v7, "test_para":Landroid/widget/RelativeLayout$LayoutParams;
     invoke-virtual {v7, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 75
+    .line 77
     iget-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_video:Landroid/widget/Button;
 
     invoke-virtual {v8}, Landroid/widget/Button;->getId()I
@@ -541,65 +553,65 @@
 
     invoke-virtual {v7, v9, v8}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 77
+    .line 79
     iput v6, v7, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 78
+    .line 80
     new-instance v8, Landroid/widget/Button;
 
     invoke-direct {v8, p0}, Landroid/widget/Button;-><init>(Landroid/content/Context;)V
 
     iput-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_inter:Landroid/widget/Button;
 
-    .line 79
+    .line 81
     iget-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_inter:Landroid/widget/Button;
 
     const/16 v10, 0x7a
 
     invoke-virtual {v8, v10}, Landroid/widget/Button;->setId(I)V
 
-    .line 80
+    .line 82
     iget-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_inter:Landroid/widget/Button;
 
     const-string v10, "\u63d2\u5c4fDebug"
 
     invoke-virtual {v8, v10}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 81
+    .line 83
     iget-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_inter:Landroid/widget/Button;
 
     invoke-virtual {v8, v7}, Landroid/widget/Button;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 82
+    .line 84
     iget-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_inter:Landroid/widget/Button;
 
     invoke-virtual {v1, v8}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;)V
 
-    .line 87
+    .line 89
     new-instance v8, Landroid/widget/Button;
 
     invoke-direct {v8, p0}, Landroid/widget/Button;-><init>(Landroid/content/Context;)V
 
     iput-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_banner:Landroid/widget/Button;
 
-    .line 88
+    .line 90
     iget-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_banner:Landroid/widget/Button;
 
     const/16 v10, 0x7b
 
     invoke-virtual {v8, v10}, Landroid/widget/Button;->setId(I)V
 
-    .line 89
+    .line 91
     iget-object v8, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_banner:Landroid/widget/Button;
 
     const-string v10, "Banner Debug"
 
     invoke-virtual {v8, v10}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 92
+    .line 94
     new-instance v8, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 93
+    .line 95
     invoke-static {p0, v3}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->dip2px(Landroid/content/Context;F)I
 
     move-result v3
@@ -608,19 +620,19 @@
 
     move-object v3, v8
 
-    .line 96
+    .line 98
     .local v3, "bannerPara":Landroid/widget/RelativeLayout$LayoutParams;
     invoke-virtual {v3, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 98
+    .line 100
     iput v6, v3, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 99
+    .line 101
     iget-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_banner:Landroid/widget/Button;
 
     invoke-virtual {v1, v4, v3}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 100
+    .line 102
     iget-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_inter:Landroid/widget/Button;
 
     invoke-virtual {v4}, Landroid/widget/Button;->getId()I
@@ -629,10 +641,10 @@
 
     invoke-virtual {v3, v9, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 103
+    .line 105
     invoke-virtual {p0, v1}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->setContentView(Landroid/view/View;)V
 
-    .line 105
+    .line 107
     iget-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_banner:Landroid/widget/Button;
 
     new-instance v5, Lcom/miaotao/mopub_android_demo/actys/-$$Lambda$MTTestGameUnitActivity$9N5oVbWlVvNDm8L0d4gE02udY2I;
@@ -641,7 +653,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 119
+    .line 121
     iget-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_video:Landroid/widget/Button;
 
     new-instance v5, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity$1;
@@ -650,7 +662,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 134
+    .line 136
     iget-object v4, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->btn_inter:Landroid/widget/Button;
 
     new-instance v5, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity$2;
@@ -659,7 +671,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 149
+    .line 151
     return-void
 .end method
 
@@ -667,23 +679,23 @@
     .locals 2
     .param p1, "str"    # Ljava/lang/String;
 
-    .line 257
+    .line 259
     new-instance v0, Landroidx/appcompat/app/AlertDialog$Builder;
 
     invoke-direct {v0, p0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 258
+    .line 260
     .local v0, "builder":Landroidx/appcompat/app/AlertDialog$Builder;
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroidx/appcompat/app/AlertDialog$Builder;
 
-    .line 259
+    .line 261
     invoke-virtual {v0}, Landroidx/appcompat/app/AlertDialog$Builder;->create()Landroidx/appcompat/app/AlertDialog;
 
     move-result-object v1
 
     invoke-virtual {v1}, Landroidx/appcompat/app/AlertDialog;->show()V
 
-    .line 260
+    .line 262
     return-void
 .end method
 
@@ -692,7 +704,7 @@
 .method public synthetic lambda$getAppInfoFromServer$1$MTTestGameUnitActivity()V
     .locals 5
 
-    .line 217
+    .line 219
     invoke-static {p0}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->getPackageName(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
@@ -701,7 +713,7 @@
 
     move-result-object v0
 
-    .line 218
+    .line 220
     .local v0, "info":Ljava/lang/String;
     const-string v1, "DePub"
 
@@ -709,20 +721,20 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 219
+    .line 221
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 220
+    .line 222
     const-string v2, "server data ////////////////////////////\n\n"
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 221
+    .line 223
     invoke-direct {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->getUnitsFromJson(Ljava/lang/String;)Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
     move-result-object v2
 
-    .line 223
+    .line 225
     .local v2, "units":Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
@@ -740,7 +752,7 @@
 
     if-nez v3, :cond_0
 
-    .line 224
+    .line 226
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -769,7 +781,7 @@
 
     invoke-static {v1, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 227
+    .line 229
     :cond_0
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->handler:Landroid/os/Handler;
 
@@ -777,7 +789,7 @@
 
     return-void
 
-    .line 229
+    .line 231
     :cond_1
     if-eqz v2, :cond_2
 
@@ -787,30 +799,30 @@
 
     if-eqz v1, :cond_2
 
-    .line 230
+    .line 232
     new-instance v1, Landroid/os/Message;
 
     invoke-direct {v1}, Landroid/os/Message;-><init>()V
 
-    .line 231
+    .line 233
     .local v1, "message":Landroid/os/Message;
     iput-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->mUnits:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
-    .line 232
+    .line 234
     const/4 v3, 0x1
 
     iput v3, v1, Landroid/os/Message;->what:I
 
-    .line 233
+    .line 235
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->handler:Landroid/os/Handler;
 
     invoke-virtual {v3, v1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 234
+    .line 236
     .end local v1    # "message":Landroid/os/Message;
     goto :goto_0
 
-    .line 235
+    .line 237
     :cond_2
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->handler:Landroid/os/Handler;
 
@@ -818,7 +830,7 @@
 
     invoke-virtual {v1, v3}, Landroid/os/Handler;->sendEmptyMessage(I)Z
 
-    .line 238
+    .line 240
     :goto_0
     return-void
 .end method
@@ -827,7 +839,7 @@
     .locals 3
     .param p1, "v"    # Landroid/view/View;
 
-    .line 106
+    .line 108
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->mUnits:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
     if-eqz v0, :cond_0
@@ -842,14 +854,14 @@
 
     if-lez v0, :cond_0
 
-    .line 107
+    .line 109
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/miaotao/mopub_android_demo/actys/MTAdUnionActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 108
+    .line 110
     .local v0, "intent":Landroid/content/Intent;
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->mUnits:Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
 
@@ -857,27 +869,27 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 109
+    .line 111
     const-string v1, "type"
 
     const-string v2, "banner"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 111
+    .line 113
     invoke-virtual {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 112
+    .line 114
     .end local v0    # "intent":Landroid/content/Intent;
     goto :goto_0
 
-    .line 113
+    .line 115
     :cond_0
     const-string v0, "\u6ca1\u6709banner \u5e7f\u544a\u4f4d"
 
     invoke-direct {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->showDialog(Ljava/lang/String;)V
 
-    .line 116
+    .line 118
     :goto_0
     return-void
 .end method
@@ -886,30 +898,30 @@
     .locals 3
     .param p1, "msg"    # Landroid/os/Message;
 
-    .line 242
+    .line 244
     iget v0, p1, Landroid/os/Message;->what:I
 
     const-string v1, "\u6e38\u620f\u5e7f\u544a\u4f4d\u6d4b\u8bd5"
 
     if-nez v0, :cond_0
 
-    .line 243
+    .line 245
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 245
+    .line 247
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "\u6ca1\u6709\u67e5\u8be2\u5230\u5e7f\u544a\u4f4did\n\u5305\u540d:"
+    const-string v2, "\u6ca1\u6709\u5728MSSDK\u540e\u53f0\u67e5\u8be2\u5230\u5e7f\u544a\u4f4did\uff0c\u8bf7\u8054\u7cfb\u5e7f\u544a\u4f18\u5316\u5e08\n\u5305\u540d:"
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 246
+    .line 248
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->getPackageName()Ljava/lang/String;
 
     move-result-object v2
@@ -920,10 +932,10 @@
 
     move-result-object v0
 
-    .line 245
+    .line 247
     invoke-direct {p0, v0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->showDialog(Ljava/lang/String;)V
 
-    .line 248
+    .line 250
     :cond_0
     iget v0, p1, Landroid/os/Message;->what:I
 
@@ -931,14 +943,14 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 249
+    .line 251
     invoke-virtual {p0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->getSupportActionBar()Landroidx/appcompat/app/ActionBar;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Landroidx/appcompat/app/ActionBar;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 253
+    .line 255
     :cond_1
     const/4 v0, 0x0
 
@@ -957,30 +969,30 @@
         }
     .end annotation
 
-    .line 43
+    .line 45
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 44
+    .line 46
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->initLayout()V
 
-    .line 45
+    .line 47
     invoke-direct {p0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->getAppInfoFromServer()V
 
-    .line 46
+    .line 48
     return-void
 .end method
 
 .method protected onDestroy()V
     .locals 1
 
-    .line 264
+    .line 266
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 265
+    .line 267
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->handler:Landroid/os/Handler;
 
-    .line 266
+    .line 268
     return-void
 .end method

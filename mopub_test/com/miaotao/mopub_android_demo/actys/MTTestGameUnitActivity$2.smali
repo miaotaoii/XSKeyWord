@@ -26,7 +26,7 @@
     .locals 0
     .param p1, "this$0"    # Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
 
-    .line 134
+    .line 136
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +40,7 @@
     .locals 3
     .param p1, "v"    # Landroid/view/View;
 
-    .line 137
+    .line 139
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
 
     invoke-static {v0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->access$000(Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;)Lcom/miaotao/mopub_android_demo/beans/GameAdUnits;
@@ -65,7 +65,7 @@
 
     if-lez v0, :cond_0
 
-    .line 138
+    .line 140
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
@@ -74,7 +74,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 140
+    .line 142
     .local v0, "intent":Landroid/content/Intent;
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
 
@@ -86,23 +86,23 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 141
+    .line 143
     const-string v1, "type"
 
     const-string v2, "inner"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 142
+    .line 144
     iget-object v1, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
 
     invoke-virtual {v1, v0}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 143
+    .line 145
     .end local v0    # "intent":Landroid/content/Intent;
     goto :goto_0
 
-    .line 144
+    .line 146
     :cond_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;
 
@@ -110,7 +110,7 @@
 
     invoke-static {v0, v1}, Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;->access$100(Lcom/miaotao/mopub_android_demo/actys/MTTestGameUnitActivity;Ljava/lang/String;)V
 
-    .line 146
+    .line 148
     :goto_0
     return-void
 .end method

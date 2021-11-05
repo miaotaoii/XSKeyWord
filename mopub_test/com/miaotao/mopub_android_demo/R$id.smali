@@ -1013,464 +1013,476 @@
 
 .field public static final tt_ad_close:I = 0x7f0901f2
 
-.field public static final tt_ad_container:I = 0x7f0901f3
+.field public static final tt_ad_closed_page_logo:I = 0x7f0901f3
 
-.field public static final tt_ad_logo:I = 0x7f0901f4
+.field public static final tt_ad_closed_text:I = 0x7f0901f4
 
-.field public static final tt_ad_logo_layout:I = 0x7f0901f5
+.field public static final tt_ad_container:I = 0x7f0901f5
 
-.field public static final tt_ad_website:I = 0x7f0901f6
+.field public static final tt_ad_logo:I = 0x7f0901f6
 
-.field public static final tt_backup_draw_bg:I = 0x7f0901f7
+.field public static final tt_ad_logo_layout:I = 0x7f0901f7
 
-.field public static final tt_backup_logoLayout:I = 0x7f0901f8
+.field public static final tt_ad_website:I = 0x7f0901f8
 
-.field public static final tt_battery_time_layout:I = 0x7f0901f9
+.field public static final tt_backup_draw_bg:I = 0x7f0901f9
 
-.field public static final tt_browser_download_btn:I = 0x7f0901fa
+.field public static final tt_backup_logoLayout:I = 0x7f0901fa
 
-.field public static final tt_browser_download_btn_stub:I = 0x7f0901fb
+.field public static final tt_battery_time_layout:I = 0x7f0901fb
 
-.field public static final tt_browser_progress:I = 0x7f0901fc
+.field public static final tt_browser_download_btn:I = 0x7f0901fc
 
-.field public static final tt_browser_titlebar_dark_view_stub:I = 0x7f0901fd
+.field public static final tt_browser_download_btn_stub:I = 0x7f0901fd
 
-.field public static final tt_browser_titlebar_view_stub:I = 0x7f0901fe
+.field public static final tt_browser_progress:I = 0x7f0901fe
 
-.field public static final tt_browser_webview:I = 0x7f0901ff
+.field public static final tt_browser_titlebar_dark_view_stub:I = 0x7f0901ff
 
-.field public static final tt_browser_webview_loading:I = 0x7f090200
+.field public static final tt_browser_titlebar_view_stub:I = 0x7f090200
 
-.field public static final tt_bu_close:I = 0x7f090201
+.field public static final tt_browser_webview:I = 0x7f090201
 
-.field public static final tt_bu_desc:I = 0x7f090202
+.field public static final tt_browser_webview_loading:I = 0x7f090202
 
-.field public static final tt_bu_dislike:I = 0x7f090203
+.field public static final tt_bu_close:I = 0x7f090203
 
-.field public static final tt_bu_download:I = 0x7f090204
+.field public static final tt_bu_desc:I = 0x7f090204
 
-.field public static final tt_bu_icon:I = 0x7f090205
+.field public static final tt_bu_dislike:I = 0x7f090205
 
-.field public static final tt_bu_img:I = 0x7f090206
+.field public static final tt_bu_download:I = 0x7f090206
 
-.field public static final tt_bu_img_1:I = 0x7f090207
+.field public static final tt_bu_icon:I = 0x7f090207
 
-.field public static final tt_bu_img_2:I = 0x7f090208
+.field public static final tt_bu_img:I = 0x7f090208
 
-.field public static final tt_bu_img_3:I = 0x7f090209
+.field public static final tt_bu_img_1:I = 0x7f090209
 
-.field public static final tt_bu_img_container:I = 0x7f09020a
+.field public static final tt_bu_img_2:I = 0x7f09020a
 
-.field public static final tt_bu_img_content:I = 0x7f09020b
+.field public static final tt_bu_img_3:I = 0x7f09020b
 
-.field public static final tt_bu_name:I = 0x7f09020c
+.field public static final tt_bu_img_container:I = 0x7f09020c
 
-.field public static final tt_bu_score:I = 0x7f09020d
+.field public static final tt_bu_img_content:I = 0x7f09020d
 
-.field public static final tt_bu_score_bar:I = 0x7f09020e
+.field public static final tt_bu_name:I = 0x7f09020e
 
-.field public static final tt_bu_title:I = 0x7f09020f
+.field public static final tt_bu_score:I = 0x7f09020f
 
-.field public static final tt_bu_total_title:I = 0x7f090210
+.field public static final tt_bu_score_bar:I = 0x7f090210
 
-.field public static final tt_bu_video_container:I = 0x7f090211
+.field public static final tt_bu_title:I = 0x7f090211
 
-.field public static final tt_bu_video_container_inner:I = 0x7f090212
+.field public static final tt_bu_total_title:I = 0x7f090212
 
-.field public static final tt_bu_video_icon:I = 0x7f090213
+.field public static final tt_bu_video_container:I = 0x7f090213
 
-.field public static final tt_bu_video_name1:I = 0x7f090214
+.field public static final tt_bu_video_container_inner:I = 0x7f090214
 
-.field public static final tt_bu_video_name2:I = 0x7f090215
+.field public static final tt_bu_video_icon:I = 0x7f090215
 
-.field public static final tt_bu_video_score:I = 0x7f090216
+.field public static final tt_bu_video_name1:I = 0x7f090216
 
-.field public static final tt_bu_video_score_bar:I = 0x7f090217
+.field public static final tt_bu_video_name2:I = 0x7f090217
 
-.field public static final tt_click_lower_non_content_layout:I = 0x7f090218
+.field public static final tt_bu_video_score:I = 0x7f090218
 
-.field public static final tt_click_upper_non_content_layout:I = 0x7f090219
+.field public static final tt_bu_video_score_bar:I = 0x7f090219
 
-.field public static final tt_column_line:I = 0x7f09021a
+.field public static final tt_click_lower_non_content_layout:I = 0x7f09021a
 
-.field public static final tt_comment_backup:I = 0x7f09021b
+.field public static final tt_click_upper_non_content_layout:I = 0x7f09021b
 
-.field public static final tt_comment_vertical:I = 0x7f09021c
+.field public static final tt_column_line:I = 0x7f09021c
 
-.field public static final tt_dislike_header_back:I = 0x7f09021d
+.field public static final tt_comment_backup:I = 0x7f09021d
 
-.field public static final tt_dislike_header_tv:I = 0x7f09021e
+.field public static final tt_comment_vertical:I = 0x7f09021e
 
-.field public static final tt_dislike_line1:I = 0x7f09021f
+.field public static final tt_dislike_header_back:I = 0x7f09021f
 
-.field public static final tt_dislike_title_content:I = 0x7f090220
+.field public static final tt_dislike_header_tv:I = 0x7f090220
 
-.field public static final tt_filer_words_lv:I = 0x7f090221
+.field public static final tt_dislike_line1:I = 0x7f090221
 
-.field public static final tt_filer_words_lv_second:I = 0x7f090222
+.field public static final tt_dislike_title_content:I = 0x7f090222
 
-.field public static final tt_full_ad_app_name:I = 0x7f090223
+.field public static final tt_filer_words_lv:I = 0x7f090223
 
-.field public static final tt_full_ad_appname:I = 0x7f090224
+.field public static final tt_filer_words_lv_second:I = 0x7f090224
 
-.field public static final tt_full_ad_desc:I = 0x7f090225
+.field public static final tt_full_ad_app_name:I = 0x7f090225
 
-.field public static final tt_full_ad_download:I = 0x7f090226
+.field public static final tt_full_ad_appname:I = 0x7f090226
 
-.field public static final tt_full_ad_icon:I = 0x7f090227
+.field public static final tt_full_ad_desc:I = 0x7f090227
 
-.field public static final tt_full_comment:I = 0x7f090228
+.field public static final tt_full_ad_download:I = 0x7f090228
 
-.field public static final tt_full_desc:I = 0x7f090229
+.field public static final tt_full_ad_icon:I = 0x7f090229
 
-.field public static final tt_full_image_full_bar:I = 0x7f09022a
+.field public static final tt_full_comment:I = 0x7f09022a
 
-.field public static final tt_full_image_layout:I = 0x7f09022b
+.field public static final tt_full_desc:I = 0x7f09022b
 
-.field public static final tt_full_image_reward_bar:I = 0x7f09022c
+.field public static final tt_full_image_full_bar:I = 0x7f09022c
 
-.field public static final tt_full_img:I = 0x7f09022d
+.field public static final tt_full_image_layout:I = 0x7f09022d
 
-.field public static final tt_full_rb_score:I = 0x7f09022e
+.field public static final tt_full_image_reward_bar:I = 0x7f09022e
 
-.field public static final tt_full_root:I = 0x7f09022f
+.field public static final tt_full_img:I = 0x7f09022f
 
-.field public static final tt_group_image1:I = 0x7f090230
+.field public static final tt_full_rb_score:I = 0x7f090230
 
-.field public static final tt_group_image2:I = 0x7f090231
+.field public static final tt_full_root:I = 0x7f090231
 
-.field public static final tt_group_image3:I = 0x7f090232
+.field public static final tt_group_image1:I = 0x7f090232
 
-.field public static final tt_image:I = 0x7f090233
+.field public static final tt_group_image2:I = 0x7f090233
 
-.field public static final tt_image_full_bar:I = 0x7f090234
+.field public static final tt_group_image3:I = 0x7f090234
 
-.field public static final tt_image_layout:I = 0x7f090235
+.field public static final tt_image:I = 0x7f090235
 
-.field public static final tt_info_layout:I = 0x7f090236
+.field public static final tt_image_full_bar:I = 0x7f090236
 
-.field public static final tt_insert_ad_img:I = 0x7f090237
+.field public static final tt_image_layout:I = 0x7f090237
 
-.field public static final tt_insert_ad_logo:I = 0x7f090238
+.field public static final tt_info_layout:I = 0x7f090238
 
-.field public static final tt_insert_ad_text:I = 0x7f090239
+.field public static final tt_insert_ad_img:I = 0x7f090239
 
-.field public static final tt_insert_dislike_icon_img:I = 0x7f09023a
+.field public static final tt_insert_ad_logo:I = 0x7f09023a
 
-.field public static final tt_insert_express_ad_fl:I = 0x7f09023b
+.field public static final tt_insert_ad_text:I = 0x7f09023b
 
-.field public static final tt_install_btn_no:I = 0x7f09023c
+.field public static final tt_insert_dislike_icon_img:I = 0x7f09023c
 
-.field public static final tt_install_btn_yes:I = 0x7f09023d
+.field public static final tt_insert_express_ad_fl:I = 0x7f09023d
 
-.field public static final tt_install_content:I = 0x7f09023e
+.field public static final tt_install_btn_no:I = 0x7f09023e
 
-.field public static final tt_install_title:I = 0x7f09023f
+.field public static final tt_install_btn_yes:I = 0x7f09023f
 
-.field public static final tt_item_arrow:I = 0x7f090240
+.field public static final tt_install_content:I = 0x7f090240
 
-.field public static final tt_item_tv:I = 0x7f090241
+.field public static final tt_install_title:I = 0x7f090241
 
-.field public static final tt_layout_image_group:I = 0x7f090242
+.field public static final tt_item_arrow:I = 0x7f090242
 
-.field public static final tt_main_image:I = 0x7f090243
+.field public static final tt_item_tv:I = 0x7f090243
 
-.field public static final tt_message:I = 0x7f090244
+.field public static final tt_layout_image_group:I = 0x7f090244
 
-.field public static final tt_native_video_container:I = 0x7f090245
+.field public static final tt_main_image:I = 0x7f090245
 
-.field public static final tt_native_video_frame:I = 0x7f090246
+.field public static final tt_message:I = 0x7f090246
 
-.field public static final tt_native_video_img_cover:I = 0x7f090247
+.field public static final tt_native_video_container:I = 0x7f090247
 
-.field public static final tt_native_video_img_cover_viewStub:I = 0x7f090248
+.field public static final tt_native_video_frame:I = 0x7f090248
 
-.field public static final tt_native_video_img_id:I = 0x7f090249
+.field public static final tt_native_video_img_cover:I = 0x7f090249
 
-.field public static final tt_native_video_layout:I = 0x7f09024a
+.field public static final tt_native_video_img_cover_viewStub:I = 0x7f09024a
 
-.field public static final tt_native_video_play:I = 0x7f09024b
+.field public static final tt_native_video_img_id:I = 0x7f09024b
 
-.field public static final tt_native_video_titlebar:I = 0x7f09024c
+.field public static final tt_native_video_layout:I = 0x7f09024c
 
-.field public static final tt_negtive:I = 0x7f09024d
+.field public static final tt_native_video_play:I = 0x7f09024d
 
-.field public static final tt_pangle_ad_btn:I = 0x7f09024e
+.field public static final tt_native_video_titlebar:I = 0x7f09024e
 
-.field public static final tt_pangle_ad_close_layout:I = 0x7f09024f
+.field public static final tt_negtive:I = 0x7f09024f
 
-.field public static final tt_pangle_ad_content:I = 0x7f090250
+.field public static final tt_pangle_ad_btn:I = 0x7f090250
 
-.field public static final tt_pangle_ad_content_layout:I = 0x7f090251
+.field public static final tt_pangle_ad_close_layout:I = 0x7f090251
 
-.field public static final tt_pangle_ad_icon:I = 0x7f090252
+.field public static final tt_pangle_ad_content:I = 0x7f090252
 
-.field public static final tt_pangle_ad_icon_adapter:I = 0x7f090253
+.field public static final tt_pangle_ad_content_layout:I = 0x7f090253
 
-.field public static final tt_pangle_ad_image_layout:I = 0x7f090254
+.field public static final tt_pangle_ad_icon:I = 0x7f090254
 
-.field public static final tt_pangle_ad_logo:I = 0x7f090255
+.field public static final tt_pangle_ad_icon_adapter:I = 0x7f090255
 
-.field public static final tt_pangle_ad_main_img:I = 0x7f090256
+.field public static final tt_pangle_ad_image_layout:I = 0x7f090256
 
-.field public static final tt_pangle_ad_root:I = 0x7f090257
+.field public static final tt_pangle_ad_logo:I = 0x7f090257
 
-.field public static final tt_pangle_ad_score:I = 0x7f090258
+.field public static final tt_pangle_ad_main_img:I = 0x7f090258
 
-.field public static final tt_pangle_ad_score_num:I = 0x7f090259
+.field public static final tt_pangle_ad_root:I = 0x7f090259
 
-.field public static final tt_pangle_ad_title:I = 0x7f09025a
+.field public static final tt_pangle_ad_score:I = 0x7f09025a
 
-.field public static final tt_playable_ad_close:I = 0x7f09025b
+.field public static final tt_pangle_ad_score_num:I = 0x7f09025b
 
-.field public static final tt_playable_ad_close_layout:I = 0x7f09025c
+.field public static final tt_pangle_ad_title:I = 0x7f09025c
 
-.field public static final tt_playable_pb_view:I = 0x7f09025d
+.field public static final tt_playable_ad_close:I = 0x7f09025d
 
-.field public static final tt_playable_play:I = 0x7f09025e
+.field public static final tt_playable_ad_close_layout:I = 0x7f09025e
 
-.field public static final tt_playable_progress_tip:I = 0x7f09025f
+.field public static final tt_playable_ad_dislike:I = 0x7f09025f
 
-.field public static final tt_positive:I = 0x7f090260
+.field public static final tt_playable_ad_mute:I = 0x7f090260
 
-.field public static final tt_privacy_accept_btn:I = 0x7f090261
+.field public static final tt_playable_loading:I = 0x7f090261
 
-.field public static final tt_privacy_back:I = 0x7f090262
+.field public static final tt_playable_pb_view:I = 0x7f090262
 
-.field public static final tt_privacy_back_layout:I = 0x7f090263
+.field public static final tt_playable_play:I = 0x7f090263
 
-.field public static final tt_privacy_introduce_msg:I = 0x7f090264
+.field public static final tt_playable_progress_tip:I = 0x7f090264
 
-.field public static final tt_privacy_reject_btn:I = 0x7f090265
+.field public static final tt_positive:I = 0x7f090265
 
-.field public static final tt_privacy_webview:I = 0x7f090266
+.field public static final tt_privacy_accept_btn:I = 0x7f090266
 
-.field public static final tt_ratio_image_view:I = 0x7f090267
+.field public static final tt_privacy_back:I = 0x7f090267
 
-.field public static final tt_rb_score:I = 0x7f090268
+.field public static final tt_privacy_back_layout:I = 0x7f090268
 
-.field public static final tt_rb_score_backup:I = 0x7f090269
+.field public static final tt_privacy_introduce_msg:I = 0x7f090269
 
-.field public static final tt_reward_ad_appname:I = 0x7f09026a
+.field public static final tt_privacy_reject_btn:I = 0x7f09026a
 
-.field public static final tt_reward_ad_appname_backup:I = 0x7f09026b
+.field public static final tt_privacy_webview:I = 0x7f09026b
 
-.field public static final tt_reward_ad_download:I = 0x7f09026c
+.field public static final tt_ratio_image_view:I = 0x7f09026c
 
-.field public static final tt_reward_ad_download_backup:I = 0x7f09026d
+.field public static final tt_rb_score:I = 0x7f09026d
 
-.field public static final tt_reward_ad_download_layout:I = 0x7f09026e
+.field public static final tt_rb_score_backup:I = 0x7f09026e
 
-.field public static final tt_reward_ad_icon:I = 0x7f09026f
+.field public static final tt_reward_ad_appname:I = 0x7f09026f
 
-.field public static final tt_reward_ad_icon_backup:I = 0x7f090270
+.field public static final tt_reward_ad_appname_backup:I = 0x7f090270
 
-.field public static final tt_reward_browser_webview:I = 0x7f090271
+.field public static final tt_reward_ad_download:I = 0x7f090271
 
-.field public static final tt_reward_full_endcard_backup:I = 0x7f090272
+.field public static final tt_reward_ad_download_backup:I = 0x7f090272
 
-.field public static final tt_reward_playable_loading:I = 0x7f090273
+.field public static final tt_reward_ad_download_layout:I = 0x7f090273
 
-.field public static final tt_reward_root:I = 0x7f090274
+.field public static final tt_reward_ad_icon:I = 0x7f090274
 
-.field public static final tt_rl_download:I = 0x7f090275
+.field public static final tt_reward_ad_icon_backup:I = 0x7f090275
 
-.field public static final tt_root_view:I = 0x7f090276
+.field public static final tt_reward_browser_webview:I = 0x7f090276
 
-.field public static final tt_score_val:I = 0x7f090277
+.field public static final tt_reward_full_endcard_backup:I = 0x7f090277
 
-.field public static final tt_splash_ad_gif:I = 0x7f090278
+.field public static final tt_reward_playable_loading:I = 0x7f090278
 
-.field public static final tt_splash_express_container:I = 0x7f090279
+.field public static final tt_reward_root:I = 0x7f090279
 
-.field public static final tt_splash_skip_btn:I = 0x7f09027a
+.field public static final tt_rl_download:I = 0x7f09027a
 
-.field public static final tt_splash_video_ad_mute:I = 0x7f09027b
+.field public static final tt_root_view:I = 0x7f09027b
 
-.field public static final tt_splash_video_container:I = 0x7f09027c
+.field public static final tt_score_val:I = 0x7f09027c
 
-.field public static final tt_title:I = 0x7f09027d
+.field public static final tt_splash_ad_gif:I = 0x7f09027d
 
-.field public static final tt_titlebar_back:I = 0x7f09027e
+.field public static final tt_splash_express_container:I = 0x7f09027e
 
-.field public static final tt_titlebar_close:I = 0x7f09027f
+.field public static final tt_splash_skip_btn:I = 0x7f09027f
 
-.field public static final tt_titlebar_title:I = 0x7f090280
+.field public static final tt_splash_video_ad_mute:I = 0x7f090280
 
-.field public static final tt_top_countdown:I = 0x7f090281
+.field public static final tt_splash_video_container:I = 0x7f090281
 
-.field public static final tt_top_dislike:I = 0x7f090282
+.field public static final tt_title:I = 0x7f090282
 
-.field public static final tt_top_layout_proxy:I = 0x7f090283
+.field public static final tt_titlebar_back:I = 0x7f090283
 
-.field public static final tt_top_mute:I = 0x7f090284
+.field public static final tt_titlebar_close:I = 0x7f090284
 
-.field public static final tt_top_skip:I = 0x7f090285
+.field public static final tt_titlebar_title:I = 0x7f090285
 
-.field public static final tt_video_ad_bottom_layout:I = 0x7f090286
+.field public static final tt_top_countdown:I = 0x7f090286
 
-.field public static final tt_video_ad_button:I = 0x7f090287
+.field public static final tt_top_dislike:I = 0x7f090287
 
-.field public static final tt_video_ad_button_draw:I = 0x7f090288
+.field public static final tt_top_layout_proxy:I = 0x7f090288
 
-.field public static final tt_video_ad_close:I = 0x7f090289
+.field public static final tt_top_mute:I = 0x7f090289
 
-.field public static final tt_video_ad_close_layout:I = 0x7f09028a
+.field public static final tt_top_skip:I = 0x7f09028a
 
-.field public static final tt_video_ad_cover:I = 0x7f09028b
+.field public static final tt_video_ad_bottom_layout:I = 0x7f09028b
 
-.field public static final tt_video_ad_cover_center_layout:I = 0x7f09028c
+.field public static final tt_video_ad_button:I = 0x7f09028c
 
-.field public static final tt_video_ad_cover_center_layout_draw:I = 0x7f09028d
+.field public static final tt_video_ad_button_draw:I = 0x7f09028d
 
-.field public static final tt_video_ad_covers:I = 0x7f09028e
+.field public static final tt_video_ad_close:I = 0x7f09028e
 
-.field public static final tt_video_ad_finish_cover_image:I = 0x7f09028f
+.field public static final tt_video_ad_close_layout:I = 0x7f09028f
 
-.field public static final tt_video_ad_full_screen:I = 0x7f090290
+.field public static final tt_video_ad_cover:I = 0x7f090290
 
-.field public static final tt_video_ad_logo_image:I = 0x7f090291
+.field public static final tt_video_ad_cover_center_layout:I = 0x7f090291
 
-.field public static final tt_video_ad_name:I = 0x7f090292
+.field public static final tt_video_ad_cover_center_layout_draw:I = 0x7f090292
 
-.field public static final tt_video_ad_replay:I = 0x7f090293
+.field public static final tt_video_ad_covers:I = 0x7f090293
 
-.field public static final tt_video_back:I = 0x7f090294
+.field public static final tt_video_ad_finish_cover_image:I = 0x7f090294
 
-.field public static final tt_video_btn_ad_image_tv:I = 0x7f090295
+.field public static final tt_video_ad_full_screen:I = 0x7f090295
 
-.field public static final tt_video_close:I = 0x7f090296
+.field public static final tt_video_ad_logo_image:I = 0x7f090296
 
-.field public static final tt_video_current_time:I = 0x7f090297
+.field public static final tt_video_ad_name:I = 0x7f090297
 
-.field public static final tt_video_draw_layout_viewStub:I = 0x7f090298
+.field public static final tt_video_ad_replay:I = 0x7f090298
 
-.field public static final tt_video_fullscreen_back:I = 0x7f090299
+.field public static final tt_video_back:I = 0x7f090299
 
-.field public static final tt_video_loading_cover_image:I = 0x7f09029a
+.field public static final tt_video_btn_ad_image_tv:I = 0x7f09029a
 
-.field public static final tt_video_loading_progress:I = 0x7f09029b
+.field public static final tt_video_close:I = 0x7f09029b
 
-.field public static final tt_video_loading_retry:I = 0x7f09029c
+.field public static final tt_video_container_back:I = 0x7f09029c
 
-.field public static final tt_video_loading_retry_layout:I = 0x7f09029d
+.field public static final tt_video_current_time:I = 0x7f09029d
 
-.field public static final tt_video_play:I = 0x7f09029e
+.field public static final tt_video_draw_layout_viewStub:I = 0x7f09029e
 
-.field public static final tt_video_progress:I = 0x7f09029f
+.field public static final tt_video_fullscreen_back:I = 0x7f09029f
 
-.field public static final tt_video_retry:I = 0x7f0902a0
+.field public static final tt_video_loading_cover_image:I = 0x7f0902a0
 
-.field public static final tt_video_retry_des:I = 0x7f0902a1
+.field public static final tt_video_loading_progress:I = 0x7f0902a1
 
-.field public static final tt_video_reward_bar:I = 0x7f0902a2
+.field public static final tt_video_loading_retry:I = 0x7f0902a2
 
-.field public static final tt_video_reward_container:I = 0x7f0902a3
+.field public static final tt_video_loading_retry_layout:I = 0x7f0902a3
 
-.field public static final tt_video_seekbar:I = 0x7f0902a4
+.field public static final tt_video_play:I = 0x7f0902a4
 
-.field public static final tt_video_time_left_time:I = 0x7f0902a5
+.field public static final tt_video_progress:I = 0x7f0902a5
 
-.field public static final tt_video_time_play:I = 0x7f0902a6
+.field public static final tt_video_retry:I = 0x7f0902a6
 
-.field public static final tt_video_title:I = 0x7f0902a7
+.field public static final tt_video_retry_des:I = 0x7f0902a7
 
-.field public static final tt_video_top_layout:I = 0x7f0902a8
+.field public static final tt_video_reward_bar:I = 0x7f0902a8
 
-.field public static final tt_video_top_title:I = 0x7f0902a9
+.field public static final tt_video_reward_container:I = 0x7f0902a9
 
-.field public static final tt_video_traffic_continue_play_btn:I = 0x7f0902aa
+.field public static final tt_video_seekbar:I = 0x7f0902aa
 
-.field public static final tt_video_traffic_continue_play_tv:I = 0x7f0902ab
+.field public static final tt_video_time_left_time:I = 0x7f0902ab
 
-.field public static final tt_video_traffic_tip_layout:I = 0x7f0902ac
+.field public static final tt_video_time_play:I = 0x7f0902ac
 
-.field public static final tt_video_traffic_tip_layout_viewStub:I = 0x7f0902ad
+.field public static final tt_video_title:I = 0x7f0902ad
 
-.field public static final tt_video_traffic_tip_tv:I = 0x7f0902ae
+.field public static final tt_video_top_layout:I = 0x7f0902ae
 
-.field public static final txt_ad_type:I = 0x7f0902af
+.field public static final tt_video_top_title:I = 0x7f0902af
 
-.field public static final unchecked:I = 0x7f0902b0
+.field public static final tt_video_traffic_continue_play_btn:I = 0x7f0902b0
 
-.field public static final uniform:I = 0x7f0902b1
+.field public static final tt_video_traffic_continue_play_tv:I = 0x7f0902b1
 
-.field public static final unlabeled:I = 0x7f0902b2
+.field public static final tt_video_traffic_tip_layout:I = 0x7f0902b2
 
-.field public static final up:I = 0x7f0902b3
+.field public static final tt_video_traffic_tip_layout_viewStub:I = 0x7f0902b3
 
-.field public static final up_ad_debug_rl_loading:I = 0x7f0902b4
+.field public static final tt_video_traffic_tip_tv:I = 0x7f0902b4
 
-.field public static final up_ad_debug_rl_loading_root:I = 0x7f0902b5
+.field public static final txt_ad_type:I = 0x7f0902b5
 
-.field public static final up_ad_debug_success_root:I = 0x7f0902b6
+.field public static final unchecked:I = 0x7f0902b6
 
-.field public static final up_ad_debug_treelist_second_default_root:I = 0x7f0902b7
+.field public static final uniform:I = 0x7f0902b7
 
-.field public static final up_ad_debug_treelist_second_loading_btn:I = 0x7f0902b8
+.field public static final unlabeled:I = 0x7f0902b8
 
-.field public static final up_ad_debug_treelist_second_play_btn:I = 0x7f0902b9
+.field public static final up:I = 0x7f0902b9
 
-.field public static final up_ad_debug_treelist_second_retry_btn:I = 0x7f0902ba
+.field public static final up_ad_debug_rl_loading:I = 0x7f0902ba
 
-.field public static final up_ad_inspect_discription:I = 0x7f0902bb
+.field public static final up_ad_debug_rl_loading_root:I = 0x7f0902bb
 
-.field public static final up_ad_inspect_guide_root:I = 0x7f0902bc
+.field public static final up_ad_debug_success_root:I = 0x7f0902bc
 
-.field public static final up_ad_inspect_image_flag:I = 0x7f0902bd
+.field public static final up_ad_debug_treelist_second_default_root:I = 0x7f0902bd
 
-.field public static final up_ad_inspect_item_bg_status:I = 0x7f0902be
+.field public static final up_ad_debug_treelist_second_loading_btn:I = 0x7f0902be
 
-.field public static final up_ad_inspect_item_sub_layout:I = 0x7f0902bf
+.field public static final up_ad_debug_treelist_second_play_btn:I = 0x7f0902bf
 
-.field public static final up_ad_inspect_item_sub_layout2:I = 0x7f0902c0
+.field public static final up_ad_debug_treelist_second_retry_btn:I = 0x7f0902c0
 
-.field public static final up_ad_inspect_item_sub_root:I = 0x7f0902c1
+.field public static final up_ad_inspect_discription:I = 0x7f0902c1
 
-.field public static final up_ad_inspect_item_title_layout:I = 0x7f0902c2
+.field public static final up_ad_inspect_guide_root:I = 0x7f0902c2
 
-.field public static final up_ad_inspect_listview:I = 0x7f0902c3
+.field public static final up_ad_inspect_image_flag:I = 0x7f0902c3
 
-.field public static final up_ad_inspect_play_layout:I = 0x7f0902c4
+.field public static final up_ad_inspect_item_bg_status:I = 0x7f0902c4
 
-.field public static final up_ad_inspect_progress_loading:I = 0x7f0902c5
+.field public static final up_ad_inspect_item_sub_layout:I = 0x7f0902c5
 
-.field public static final up_ad_inspect_rl_loading_root:I = 0x7f0902c6
+.field public static final up_ad_inspect_item_sub_layout2:I = 0x7f0902c6
 
-.field public static final up_ad_inspect_sub_discription:I = 0x7f0902c7
+.field public static final up_ad_inspect_item_sub_root:I = 0x7f0902c7
 
-.field public static final up_ad_inspect_sub_discription2:I = 0x7f0902c8
+.field public static final up_ad_inspect_item_title_layout:I = 0x7f0902c8
 
-.field public static final up_ad_inspect_sub_line2:I = 0x7f0902c9
+.field public static final up_ad_inspect_listview:I = 0x7f0902c9
 
-.field public static final up_ad_inspect_sub_title:I = 0x7f0902ca
+.field public static final up_ad_inspect_play_layout:I = 0x7f0902ca
 
-.field public static final up_ad_inspect_sub_title2:I = 0x7f0902cb
+.field public static final up_ad_inspect_progress_loading:I = 0x7f0902cb
 
-.field public static final up_ad_inspect_success_root:I = 0x7f0902cc
+.field public static final up_ad_inspect_rl_loading_root:I = 0x7f0902cc
 
-.field public static final up_ad_inspect_title:I = 0x7f0902cd
+.field public static final up_ad_inspect_sub_discription:I = 0x7f0902cd
 
-.field public static final useLogo:I = 0x7f0902ce
+.field public static final up_ad_inspect_sub_discription2:I = 0x7f0902ce
 
-.field public static final view_offset_helper:I = 0x7f0902cf
+.field public static final up_ad_inspect_sub_line2:I = 0x7f0902cf
 
-.field public static final visible:I = 0x7f0902d0
+.field public static final up_ad_inspect_sub_title:I = 0x7f0902d0
 
-.field public static final wide:I = 0x7f0902d1
+.field public static final up_ad_inspect_sub_title2:I = 0x7f0902d1
 
-.field public static final withText:I = 0x7f0902d2
+.field public static final up_ad_inspect_success_root:I = 0x7f0902d2
 
-.field public static final wrap:I = 0x7f0902d3
+.field public static final up_ad_inspect_title:I = 0x7f0902d3
 
-.field public static final wrap_content:I = 0x7f0902d4
+.field public static final useLogo:I = 0x7f0902d4
+
+.field public static final view_offset_helper:I = 0x7f0902d5
+
+.field public static final visible:I = 0x7f0902d6
+
+.field public static final wide:I = 0x7f0902d7
+
+.field public static final withText:I = 0x7f0902d8
+
+.field public static final wrap:I = 0x7f0902d9
+
+.field public static final wrap_content:I = 0x7f0902da
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 0
 
-    .line 7418
+    .line 7426
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

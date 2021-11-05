@@ -26,7 +26,7 @@
     .locals 0
     .param p1, "this$0"    # Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
-    .line 114
+    .line 116
     iput-object p1, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +40,7 @@
     .locals 5
     .param p1, "v"    # Landroid/view/View;
 
-    .line 117
+    .line 119
     sget-object v0, Lcom/miaotao/mopub_android_demo/consts/MTAdsClassNameTable;->MOPUB_BuildConfig_CLASS_NAME:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/miaotao/mopub_android_demo/utils/MTUtils;->hasClass(Ljava/lang/String;)Z
@@ -57,14 +57,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 118
+    .line 120
     invoke-static {}, Lcom/mopub/common/MoPub;->isSdkInitialized()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 119
+    .line 121
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     const/4 v1, 0x1
@@ -77,10 +77,10 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 120
+    .line 122
     return-void
 
-    .line 125
+    .line 127
     :cond_0
     iget-object v0, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
@@ -90,11 +90,11 @@
 
     move-result-object v0
 
-    .line 126
+    .line 128
     .local v0, "originLauncherName":Ljava/lang/String;
     const/4 v1, 0x0
 
-    .line 128
+    .line 130
     .local v1, "cls":Ljava/lang/Class;
     :try_start_0
     const-string v2, "DePub"
@@ -115,7 +115,7 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 129
+    .line 131
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -124,23 +124,23 @@
 
     move-object v1, v2
 
-    .line 133
+    .line 135
     goto :goto_0
 
-    .line 130
+    .line 132
     :catch_0
     move-exception v2
 
-    .line 132
+    .line 134
     .local v2, "e":Ljava/lang/ClassNotFoundException;
     invoke-virtual {v2}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
 
-    .line 134
+    .line 136
     .end local v2    # "e":Ljava/lang/ClassNotFoundException;
     :goto_0
     if-nez v1, :cond_1
 
-    .line 135
+    .line 137
     iget-object v2, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     const/4 v3, 0x0
@@ -153,10 +153,10 @@
 
     invoke-virtual {v2}, Landroid/widget/Toast;->show()V
 
-    .line 136
+    .line 138
     return-void
 
-    .line 138
+    .line 140
     :cond_1
     new-instance v2, Landroid/content/Intent;
 
@@ -164,22 +164,22 @@
 
     invoke-direct {v2, v3, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 139
+    .line 141
     .local v2, "intent":Landroid/content/Intent;
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-virtual {v3, v2}, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 140
+    .line 142
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-static {v3}, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;->access$100(Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;)V
 
-    .line 141
+    .line 143
     iget-object v3, p0, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity$2;->this$0:Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;
 
     invoke-virtual {v3}, Lcom/miaotao/mopub_android_demo/actys/MTDebugActivity;->finish()V
 
-    .line 143
+    .line 145
     return-void
 .end method

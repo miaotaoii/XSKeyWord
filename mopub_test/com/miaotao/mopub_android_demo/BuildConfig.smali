@@ -22,7 +22,7 @@
 
 .field public static final ADS_RELEASE_LOG:Z = true
 
-.field public static final APPLICATION_ID:Ljava/lang/String; = "com.vegasparty.slots.casino.android"
+.field public static final APPLICATION_ID:Ljava/lang/String; = "com.test.m3"
 
 .field public static final BUILD_TYPE:Ljava/lang/String; = "debug"
 
