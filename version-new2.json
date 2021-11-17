@@ -1,7 +1,7 @@
 {
   "androidVesion": 31,
   "iOSVersion": 35,
-  "mainJarVersion": "2.6.5",
+  "mainJarVersion": "2.6.6",
   "skAdVersion":3,
   "mopubTestVersion":"1.7"
 }
